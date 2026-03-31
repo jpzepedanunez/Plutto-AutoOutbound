@@ -1,0 +1,90 @@
+JSON completo:
+{
+  "score": 42,
+  "vertical": "manufactura",
+  "pain_point": "Gestión de compliance en cadena de proveedores de transporte masivo y servicios críticos",
+  "reasoning": "Gran empresa (Tramo 13) con presumible alto volumen de proveedores en operación metro/metrotren (+20). No tiene regulación compliance obligatoria específica como financiero/energía/minería (+0). Sin señal de urgencia visible (+0). Sector transporte público requiere KYB pero sin mandato regulatorio explícito como otros verticales. Potencial moderado por tamaño y complejidad operacional, pero sin disparadores inmediatos de conversión."
+}
+
+=======================================================
+
+JSON completo:
+{
+  "score": 65,
+  "vertical": "utilities",
+  "pain_point": "Verificación de proveedores y cumplimiento normativo SEC/CNE en cadena de suministro energética",
+  "reasoning": "Empresa de transmisión eléctrica con regulación compliance obligatoria (+30). Gran empresa, tramo 13 SII (+20). Sector utilities con requisitos SEC/CNE estrictos. Estimado 100-150 proveedores según industria (+15). Sin señal reciente identificada (-0). Potencial competidor no verificado (-0). Score conservador por falta de señal urgencia específica."
+}
+
+=======================================================
+
+JSON completo:
+{
+  "score": 67,
+  "vertical": "utilities",
+  "pain_point": "Verificación de proveedores en cadena de suministro de agua potable y saneamiento",
+  "reasoning": "ESSBIO es empresa regulada por SISS (utilities) con obligación compliance (+30). Gran empresa con múltiples proveedores en operaciones de captación, tratamiento y distribución (+20 tamaño, +15 volumen proveedores estimado 50-200). Sin señal reciente de evento urgente. No hay información de competencia actual, se asume sin solución (-10). Score ponderado: 30+15+20+15-10+(-3 ajuste) = 67."
+}
+
+=======================================================
+
+JSON completo:
+{
+  "score": 52,
+  "vertical": "financiero",
+  "pain_point": "Verificación de contrapartes y cumplimiento normativo CMF obligatorio",
+  "reasoning": "Empresa de servicios financieros (código SII indica actividades financieras no aseguradas) con obligación compliance CMF (+30). Tramo 12 indica empresa mediana (+12). Sin señales de eventos urgentes ni información de competidores (-0). Volumen de proveedores estimado bajo para servicios financieros (+5). Score moderado por potencial regulatorio alto pero ausencia de triggers de urgencia inmediata."
+}
+
+=======================================================
+
+JSON completo:
+{
+  "score": 52,
+  "vertical": "mining",
+  "pain_point": "Verificación de proveedores en operaciones mineras de apoyo sin automatización",
+  "reasoning": "Empresa de apoyo a minería con obligación regulatoria Sernageomin (+30). Tramo 13 indica gran empresa (+20). Sin señal reciente de urgencia. Probable manejo de 50-200 proveedores en cadena de suministro minera (+15). No se detecta información sobre herramientas compliance existentes (+0). Score moderado por ser empresa de servicios de apoyo, no operador principal, con potencial regulatorio claro pero sin trigger inmediato."
+}
+
+=======================================================
+
+JSON completo:
+{
+  "score": 62,
+  "vertical": "manufactura",
+  "pain_point": "Verificación de proveedores en cadena de suministro de explosivos y cumplimiento regulatorio sectorial.",
+  "reasoning": "ENAEX es gran empresa (Tramo 13) fabricante de explosivos con regulación sectorial obligatoria (Sernageomin oversee). Industria de manufactura especializada requiere compliance en proveedores por normativas de seguridad y trazabilidad. Estimado alto volumen de proveedores (50-200+) en cadena de suministro. Sin señales de eventos recientes o competencia detectada. Score moderado-alto por obligación regulatoria clara y tamaño, limitado por falta de urgencia inmediata."
+}
+
+=======================================================
+
+JSON completo:
+{
+  "score": 32,
+  "vertical": "manufactura",
+  "pain_point": "Gestión de cumplimiento en cadena de proveedores retail masiva y compleja",
+  "reasoning": "Falabella es gran empresa (Tramo 13) con alto volumen de proveedores estimado >200 (+25), lo que suma puntos en gestión de contrapartes. Sin embargo, no tiene regulación compliance obligatoria sectorial (-30 puntos), ya que retail no está bajo supervisión CMF, SEC, Sernageomin o SISS. No se detectan señales de urgencia reciente (licitaciones, multas, M&A). El giro comercial es típicamente manejado con procesos manuales o herramientas genéricas, no soluciones especializadas KYB. Potencial moderado-bajo como ICP de Plutto."
+}
+
+=======================================================
+
+JSON completo:
+{
+  "score": 42,
+  "vertical": "manufactura",
+  "pain_point": "Verificación de proveedores en cadena de suministro forestal y tableros",
+  "reasoning": "MASISA es gran empresa (Tramo 13) en manufactura de productos forestales. No tiene regulación compliance obligatoria (no es financiero, energía, minería ni utilities). Manufactura típicamente maneja 50-200 proveedores (+15). Tamaño gran empresa (+20). Sin señal reciente de urgencia (+0). Sin información de competidor actual (+0). Score: 20+15+7=42. Oportunidad moderada por tamaño pero sin drivers regulatorios urgentes."
+}
+
+=======================================================
+
+JSON completo:
+{
+  "score": 85,
+  "vertical": "financiero",
+  "pain_point": "Verificación masiva de contrapartes y cumplimiento normativo CMF continuo",
+  "reasoning": "Gran banco (Tramo 13) con obligación regulatoria CMF (+30). Maneja miles de proveedores y contrapartes (+25). Gran empresa (+20). Sin señal reciente identificada (0). Potencial competidor existente en soluciones compliance (-10). Score alto por criticidad regulatoria y volumen operativo."
+}
+
+=======================================================
+
