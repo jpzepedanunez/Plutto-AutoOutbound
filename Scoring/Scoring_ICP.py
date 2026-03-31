@@ -9,7 +9,6 @@ client = OpenAI(
     api_key=LITELLM_API_KEY,
 )
 
-
 def score_lead(
     company_name: str,
     rut: str,
@@ -65,7 +64,7 @@ def _clasificar_tamaño(tramo) -> tuple[str, int]:
     if t >= 10: return "gran empresa", 20
     if t >= 8:  return "mediana",      12
     if t >= 5:  return "pequeña",       5
-    if t >= 2:  return "micro",          2
+    if t >= 2:  return "micro",         2
     return "sin información", 0
 
 
@@ -83,6 +82,7 @@ def score_lead_adj1(
         "mining":      95,   # reg(30) + prov(30) + tamaño(20) + señal(15)
         "utilities":   90,   # reg(30) + prov(25) + tamaño(20) + señal(15)
         "manufactura": 90,   # reg(20) + prov(35) + tamaño(20) + señal(15)
+        "otro":        90    # reg(30) + prov(25) + tamaño(20) + señal(15)
     }
 
     # Tamaño calculado en Python según escala SII — no lo decide la IA
@@ -99,28 +99,42 @@ Tamaño empresa: {tamaño_label} (tramo SII {tramo}) → ya asignado {tamaño_pt
 Región: {region}
 Señal (si aplica): {signal}
 
-TAREA: Clasifica la empresa en un segmento y asigna los puntos de los criterios restantes.
-NO calcules tamaño (ya está calculado), el score total.
+TAREA: Clasifica la empresa en un segmento y asigna los puntos de los criterios restantes. 
+Si el segmento ya viene NO lo calcules, si el segmento no es Financiero, Mining/Energía, Utilities/Infraestructura, Manofactura Retail. Dejalo como otro. 
+NO calcules tamaño (ya está calculado) No calcules el score total.
 
 CRITERIOS POR SEGMENTO:
 
 Financiero → reg(0-40), proveedores(0-20), señal(0-15), competencia(0 o -10)
   - reg: 40 si regulada por CMF con obligación de verificar contrapartes, si no 0
-  - proveedores: >200=+20, 50-200=+7, <50=+3
+  - proveedores: >200=+20, 50-200=+12, <50=+5
   - señal: licitación/multa=+15, M&A=+12, nueva regulación=+10, ninguna=0
   - competencia: usa Regcheq/LexisNexis/KPMG/manual=-10, desconocido=0
 
 Mining/Energía → reg(0-30), proveedores(0-30), señal(0-15), competencia(0 o -10)
   - reg: 30 si regulada por Sernageomin/SEC/CNE, si no 0
   - proveedores: >200=+30, 50-200=+15, <50=+5
+  - señal: licitación/multa=+15, M&A=+12, nueva regulación=+10, ninguna=0
+  - competencia: usa Regcheq/LexisNexis/KPMG/manual=-10, desconocido=0
 
 Utilities/Infraestructura → reg(0-30), proveedores(0-25), señal(0-15), competencia(0 o -10)
   - reg: 30 si regulada por SISS/SEC, si no 0
   - proveedores: >200=+25, 50-200=+15, <50=+5
+  - señal: licitación/multa=+15, M&A=+12, nueva regulación=+10, ninguna=0
+  - competencia: usa Regcheq/LexisNexis/KPMG/manual=-10, desconocido=0
 
 Manufactura/Retail → reg(0-20), proveedores(0-35), señal(0-15), competencia(0 o -10)
   - reg: 20 si regulada, si no 0
   - proveedores: >200=+35, 50-200=+20, <50=+5
+  - señal: licitación/multa=+15, M&A=+12, nueva regulación=+10, ninguna=0
+  - competencia: usa Regcheq/LexisNexis/KPMG/manual=-10, desconocido=0
+
+ Otro → reg(0-30), proveedores(0-25), señal(0-15), competencia(0 o -10)
+  - reg: 30 si regulada por SISS/SEC, si no 0
+  - proveedores: >200=+25, 50-200=+15, <50=+5
+  - señal: licitación/multa=+15, M&A=+12, nueva regulación=+10, ninguna=0
+  - competencia: usa Regcheq/LexisNexis/KPMG/manual=-10, desconocido=0
+
 
 Responde SOLO con este JSON:
 {{
@@ -131,13 +145,13 @@ Responde SOLO con este JSON:
     "señal": <número>,
     "competencia": <número>
   }},
-  "pain_point": "<dolor principal en español, max 20 palabras>",
+  "pain_point": "<dolor potencial de la empresa principal en español que pluto puede resolver>",
   "reasoning": "<explicación breve de los puntos asignados>"
 }}"""
 
     response = client.chat.completions.create(
         model="claude-haiku-4-5-20251001",
-        max_tokens=300,
+        max_tokens = 300,
         messages=[{"role": "user", "content": prompt}],
     )
 
@@ -213,14 +227,16 @@ Escala tramo SII: 1=sin info, 2-4=micro (<UF 800/año), 5-7=pequeña (UF 800-25.
     )
 
 
+
+
 # ── Ejemplo de uso ────────────────────────────────────────────────────────────
 if __name__ == "__main__":
-    empresa = "DNB GROUP AGENCIA EN CHILE"
+    empresa = "CAMARA DE COMERCIO DE SANTIAGO A G"
     params = dict(
         company_name=empresa,
-        rut="59141000",
-        giro="OTRAS ACTIVIDADES AUXILIARES DE LAS ACTIVIDADES DE SERVICIOS FINANCIEROS N.C.P.",
-        tramo="10",
+        rut="70017820-K",
+        giro="ACTIVIDADES DE ASOCIACIONES EMPRESARIALES Y DE",
+        tramo="12",
         region="XIII REGION METROPOLITANA",
         signal="",
     )
@@ -235,4 +251,4 @@ if __name__ == "__main__":
     print_score(score_lead_lookup("59141000"), "DNB GROUP AGENCIA EN CHILE")
 
     print("── score_lead_lookup (solo nombre) ─────────────────")
-    print_score(score_lead_lookup("Codelco"), "Esbbio")
+    print_score(score_lead_lookup("Esbbio"), "Esbbio")
