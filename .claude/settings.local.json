@@ -1,8 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(/usr/local/bin/python3 -c \":*)",
-      "Bash(/Users/juanpablozepeda/Library/Python/3.12/bin/jupyter kernelspec:*)"
-    ]
-  }
-}
