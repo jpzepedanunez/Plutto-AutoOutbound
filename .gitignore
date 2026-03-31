@@ -1,0 +1,20 @@
+# Datos crudos y archivos grandes
+Sii folder/PUB_EMPRESAS_PJ_2024.txt
+Sii folder/PUB_NOM_ACTECOS.txt
+Sii folder/df_empresas.csv
+Sii folder/df_final.csv
+Sii folder/df_segmentado.csv
+Sii folder/scoring_clientes.txt
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Entorno
+.env
+*.env
