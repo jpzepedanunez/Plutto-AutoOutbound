@@ -1,4 +1,5 @@
 import json
+import requests
 from openai import OpenAI
 
 LITELLM_BASE_URL = "https://hydra-portal-dev.fly.dev"
@@ -138,7 +139,7 @@ Manufactura/Retail → reg(0-20), proveedores(0-35), señal(0-15), competencia(0
 
 Responde SOLO con este JSON:
 {{
-  "vertical": "<financiero|mining|utilities|manufactura>",
+  "vertical": "<financiero|mining|utilities|manufactura|otro>",
   "puntos": {{
     "regulacion": <número>,
     "proveedores": <número>,
@@ -146,7 +147,7 @@ Responde SOLO con este JSON:
     "competencia": <número>
   }},
   "pain_point": "<dolor potencial de la empresa principal en español que pluto puede resolver>",
-  "reasoning": "<explicación breve de los puntos asignados>"
+  "reasoning": "<explicación breve de los puntos asignados, >"
 }}"""
 
     response = client.chat.completions.create(
@@ -189,54 +190,43 @@ def print_score(resultado: dict, company_name: str = "") -> None:
     print(f"Resumen:     {resultado.get('reasoning', '?')}\n")
 
 
-def score_lead_lookup(rut_or_name: str, signal: str = "N/A") -> dict:
-    """Busca info de la empresa con IA y corre el scoring automáticamente."""
-    lookup_prompt = f"""Eres un experto en empresas chilenas con acceso a información pública del SII y fuentes abiertas.
+def score_lead_lookup(rut: str, signal: str = "N/A") -> dict:
+    url = f"https://charon-staging.herokuapp.com/api/businesses/{rut}"
+    try:
+        resp = requests.get(url, timeout=10)
+        data = resp.json()
+    except Exception:
+        raise ValueError(f"No se pudo conectar a la API para el RUT '{rut}'.")
 
-Dado este RUT o nombre de empresa, infiere o investiga la siguiente información:
+    if not data:
+        raise ValueError(f"RUT '{rut}' no encontrado. Verifica que sea válido.")
 
-RUT o nombre: {rut_or_name}
+    biz = data[0]
 
-Devuelve SOLO este JSON con la mejor información que puedas inferir:
-{{
-  "company_name": "<razón social completa>",
-  "rut": "<RUT sin dígito verificador>",
-  "giro": "<actividad económica principal según SII>",
-  "tramo": <número entero 1-13 según escala SII de ventas>,
-  "region": "<región en Chile, ej: XIII REGION METROPOLITANA>"
-}}
-
-Escala tramo SII: 1=sin info, 2-4=micro (<UF 800/año), 5-7=pequeña (UF 800-25.000), 8-9=mediana (UF 25.000-100.000), 10-13=gran empresa (>UF 100.000)"""
-
-    response = client.chat.completions.create(
-        model="claude-haiku-4-5-20251001",
-        max_tokens=256,
-        messages=[{"role": "user", "content": lookup_prompt}],
-    )
-
-    text = response.choices[0].message.content.strip()
-    info = json.loads(text[text.find("{") : text.rfind("}") + 1])
+    nombre = biz["name"]
+    giro   = biz["economic_activity"]
+    tramo  = str(biz["sales_segment"])
+    region = biz["region"]
 
     return score_lead_adj1(
-        company_name=info["company_name"],
-        rut=info["rut"],
-        giro=info["giro"],
-        tramo=str(info["tramo"]),
-        region=info["region"],
-        signal=signal,
+        company_name = nombre,
+        rut          = rut,
+        giro         = giro,
+        tramo        = tramo,
+        region       = region,
+        signal       = signal,
     )
-
 
 
 
 # ── Ejemplo de uso ────────────────────────────────────────────────────────────
 if __name__ == "__main__":
-    empresa = "CAMARA DE COMERCIO DE SANTIAGO A G"
+    empresa = "Tecnofast"
     params = dict(
         company_name=empresa,
-        rut="70017820-K",
-        giro="ACTIVIDADES DE ASOCIACIONES EMPRESARIALES Y DE",
-        tramo="12",
+        rut="76320186-4",
+        giro="TERMINACION Y ACABADO DE EDIFICIOS",
+        tramo="13",
         region="XIII REGION METROPOLITANA",
         signal="",
     )
@@ -247,8 +237,8 @@ if __name__ == "__main__":
     print("── score_lead_adj1 ─────────────────────────────────")
     print_score(score_lead_adj1(**params), empresa)
 
-    print("── score_lead_lookup (solo RUT) ────────────────────")
-    print_score(score_lead_lookup("59141000"), "DNB GROUP AGENCIA EN CHILE")
+    # print("── score_lead_lookup (solo RUT) ────────────────────")
+    # print_score(score_lead_lookup("59141000"), "DNB GROUP AGENCIA EN CHILE")
 
-    print("── score_lead_lookup (solo nombre) ─────────────────")
-    print_score(score_lead_lookup("Esbbio"), "Esbbio")
+    # print("── score_lead_lookup (solo nombre) ─────────────────")
+    # print_score(score_lead_lookup("Esbbio"), "Esbbio")
