@@ -1,257 +1,268 @@
 Empresa,Estado actual,Estado a cambiar
-Coca Cola Andina,50005795,opportunity
-Toyota Chile,evangelist,customer
-Inversiones Almasur,evangelist,opportunity
-Invexxo,50005795,other (churned)
-Empresas Coipsa,50005795,opportunity
-Sacyr,evangelist,customer
-Medipass,50005795,other (churned)
-SumUp,50005795,other (churned)
-Redbanc,evangelist,customer
-Constructora Asfalcura SpA,49991712,customer
-Polpaico Soluciones,evangelist,opportunity
-STI,50005795,opportunity
-cduc.cl,evangelist,opportunity
-KidZania Santiago,evangelist,opportunity
-Scotiabank,evangelist,customer
-Turisviña,evangelist,opportunity
-Fivana,49991712,customer
-Datamart,50020179,customer
-Boetsch,50020179,other (churned)
-Transbank,50005795,opportunity
-CIAL Alimentos S.A.,52560399,customer
-MercadoLibre,50005795,opportunity
-VIK Chile - Winery & Luxury Hotel,evangelist,opportunity
-Sonda,49991712,customer
+Coca Cola Andina,opportunity,sin cambio
+Toyota Chile,52560399,sin cambio
+Inversiones Almasur,opportunity,sin cambio
+Tecno Fast,52560399,sin cambio
+Invexxo,50020179,sin cambio
+Empresas Coipsa,opportunity,sin cambio
+Sacyr,52560399,sin cambio
+Medipass,50020179,sin cambio
+SumUp,50020179,sin cambio
+Redbanc,52560399,sin cambio
+Constructora Asfalcura SpA,52560399,sin cambio
+Fivana,52560399,sin cambio
+STI,opportunity,sin cambio
+cduc.cl,opportunity,sin cambio
+KidZania Santiago,opportunity,sin cambio
+TUCAPEL,opportunity,sin cambio
+AFP Modelo,opportunity,sin cambio
+Turisviña,opportunity,sin cambio
+Scotiabank,52560399,sin cambio
+Polpaico Soluciones,52560399,sin cambio
+Datamart,52560399,sin cambio
+Transbank,opportunity,sin cambio
+Boetsch,50020179,sin cambio
+CIAL Alimentos S.A.,52560399,sin cambio
+MercadoLibre,opportunity,sin cambio
+VIK Chile - Winery & Luxury Hotel,opportunity,sin cambio
+Sonda,52560399,sin cambio
 Master Martini USA,opportunity,sin cambio
-ACHS ,evangelist,customer
-Smart Fit,evangelist,customer
-Aspor,50020179,other (churned)
-Global Payments Inc.,evangelist,opportunity
-Primus Capital Chile,50005795,opportunity
-Inchcape,evangelist,opportunity
-Paragon Private Advisors,52560399,customer
-Yumari,50005795,opportunity
-"Depósito Central de Valores, Chile",50005795,opportunity
-Vitafoods,50005795,opportunity
-NS Agro,evangelist,customer
-Leasing San Cristóbal,50020179,other (churned)
-Grenergy Renovables,50005795,opportunity
-Nova Austral,50005795,opportunity
-"CBRE Group, Inc.",50005795,other (churned)
-Andes Salud,evangelist,opportunity
-Arrimaq,evangelist,customer
-Puerto Ventanas S.A.,evangelist,customer
-Kamaleont,50020179,other (churned)
-Instituto Profesional AIEP,evangelist,opportunity
+ACHS ,52560399,sin cambio
+Smart Fit,52560399,sin cambio
+Aspor,50020179,sin cambio
+Global Payments Inc.,opportunity,sin cambio
+Primus Capital Chile,opportunity,sin cambio
+Inchcape,opportunity,sin cambio
+Paragon Private Advisors,52560399,sin cambio
+Yumari,opportunity,sin cambio
+"Depósito Central de Valores, Chile",opportunity,sin cambio
+Vitafoods,opportunity,sin cambio
+NS Agro,52560399,sin cambio
+Leasing San Cristóbal,50020179,sin cambio
+Grenergy Renovables,opportunity,sin cambio
+Nova Austral,opportunity,sin cambio
+"CBRE Group, Inc.",50020179,sin cambio
+Andes Salud,opportunity,sin cambio
+Arrimaq,52560399,sin cambio
+Puerto Ventanas S.A.,52560399,sin cambio
+Kamaleont,50020179,sin cambio
+Instituto Profesional AIEP,opportunity,sin cambio
 Inmobiliaria Ecomac,opportunity,sin cambio
-Skretting Chile,52560399,customer
+Skretting Chile,52560399,sin cambio
 Serviphar Chile,opportunity,sin cambio
-Blumar,evangelist,customer
-Larrain Vial,50020179,other (churned)
-GLOBAL PHARMA,evangelist,opportunity
-AFP Capital,50005795,opportunity
-Grupo Enovus,evangelist,opportunity
-Teck Resources Limited,50020180,opportunity
-Globe S.A.,evangelist,opportunity
-Conecta Mobility,evangelist,opportunity
+Blumar,52560399,sin cambio
+Larrain Vial,50020179,sin cambio
+GLOBAL PHARMA,opportunity,sin cambio
+AFP Capital,opportunity,sin cambio
+Grupo Enovus,opportunity,sin cambio
+Globe S.A.,opportunity,sin cambio
+Conecta Mobility,opportunity,sin cambio
+Isapre Fundación,opportunity,sin cambio
 Netafim Ltd,opportunity,sin cambio
-Isapre Fundación,evangelist,opportunity
-GasAndes ,evangelist,opportunity
 Pool Inmobiliario,opportunity,sin cambio
-CMPC,50005795,opportunity
-CChC (cámara chilena de la construcción) ,50005795,customer
-Viña Santa Rita,evangelist,customer
-Küpfer Chile,evangelist,opportunity
-Masisa,evangelist,customer
-AbastibleTec,50005795,opportunity
-Kinross Gold Corporation,evangelist,opportunity
-Innergex,evangelist,opportunity
-Nuevo Pudahuel,50005795,opportunity
-Mundo tour,lead,opportunity
-Salfa,50005795,opportunity
-Buda,evangelist,customer
-Suzuval,52560399,customer
-Clinica Alemana de Santiago,evangelist,customer
-Omnicom,evangelist,opportunity
+CMPC,opportunity,sin cambio
+Teck Resources Limited,52531545,sin cambio
+GasAndes ,52531545,sin cambio
+CChC (cámara chilena de la construcción) ,52560399,sin cambio
+Viña Santa Rita,52560399,sin cambio
+Küpfer Chile,opportunity,sin cambio
+Masisa,52560399,sin cambio
+AbastibleTec,opportunity,sin cambio
+Kinross Gold Corporation,opportunity,sin cambio
+Innergex,opportunity,sin cambio
+Salfa,opportunity,sin cambio
+Mundo tour,opportunity,sin cambio
+Nuevo Pudahuel,52531545,sin cambio
+Buda,52560399,sin cambio
+Suzuval,52560399,sin cambio
+Clinica Alemana de Santiago,52560399,sin cambio
+Omnicom,opportunity,sin cambio
 flrosas.cl,opportunity,sin cambio
-Inmobiliaria Fundamenta,evangelist,opportunity
-abc S.A.,evangelist,opportunity
-Puga,evangelist,opportunity
-Albemarle ,evangelist,opportunity
-Contempora Seguros Generales,evangelist,opportunity
-FamilyShop,evangelist,opportunity
-Fluor ,evangelist,opportunity
-Axinntus,50005795,opportunity
+Inmobiliaria Fundamenta,opportunity,sin cambio
+abc S.A.,opportunity,sin cambio
+Puga,opportunity,sin cambio
+Albemarle ,opportunity,sin cambio
+Contempora Seguros Generales,opportunity,sin cambio
+FamilyShop,opportunity,sin cambio
+Fluor ,opportunity,sin cambio
+Axinntus,opportunity,sin cambio
+Fondo Autónomo de Protección Previsional,opportunity,sin cambio
 Teletón,opportunity,sin cambio
-Xepelin,evangelist,opportunity
-Empresas Dimacofi,lead,opportunity
-SICEP,evangelist,customer
-Orica,50005795,opportunity
-Minera Salar Blanco,evangelist,customer
-Mudango,50020179,customer
-Haulmer Inc,opportunity,other (churned)
-Banco Bci,evangelist,customer
-Cartama,evangelist,opportunity
-Grupo Falabella,50020179,other (churned)
-Red Bull,evangelist,opportunity
-SERVICIOS FINANCIEROS PROGRESO S.A.,50020179,other (churned)
-Ambipar Response Ltd,50005795,opportunity
-Grupo Costanera S.A.,evangelist,opportunity
-Mainstream Renewable Power,50005795,opportunity
-ABASTIBLE S.A.,50005795,customer
-Fundación Pro Bono,50005795,other (churned)
+Empresas Dimacofi,opportunity,sin cambio
+Xepelin,52531545,sin cambio
+Orica,opportunity,sin cambio
+SK Godelius S.A.,52560399,sin cambio
+SICEP,52560399,sin cambio
+Mudango,52560399,sin cambio
+Minera Salar Blanco,52560399,sin cambio
+Haulmer Inc,50020179,sin cambio
+Banco Bci,52560399,sin cambio
+Cartama,opportunity,sin cambio
+Grupo Falabella,50020179,sin cambio
+Red Bull,opportunity,sin cambio
+SERVICIOS FINANCIEROS PROGRESO S.A.,50020179,sin cambio
+Ambipar Response Ltd,opportunity,sin cambio
+Grupo Costanera S.A.,opportunity,sin cambio
+SAVAL,opportunity,sin cambio
+ABASTIBLE S.A.,52560399,sin cambio
+Fundación Pro Bono,50020179,sin cambio
 Agencia de Aduana Rodrigo Zulueta,opportunity,sin cambio
-Prosud S.A.,evangelist,opportunity
-Acciona,evangelist,opportunity
-MAF Chile,evangelist,opportunity
-Entel,customer,opportunity
-Comaco Grúas,evangelist,opportunity
-Toku,50005795,opportunity
-Contenedores San Fernando S.A.,evangelist,opportunity
-Chita Factoring Online,evangelist,customer
-Puerto Angamos,50005795,opportunity
-Enaex,evangelist,customer
-Achs Salud,50005795,opportunity
-ON*NETFIBRA,evangelist,opportunity
-Ingenieria Civil Vicente,50005795,opportunity
-Latam Trade Capital,50005795,customer
-Gasco,evangelist,customer
-Xinergy,evangelist,opportunity
-Flow,evangelist,opportunity
-Duoc UC,50005795,opportunity
-Matrix ,evangelist,opportunity
-Conexión Kimal-Lo Aguirre,evangelist,customer
-ARAUCO,evangelist,customer
-Avis Budget Chile,50020179,other (churned)
-Lokal,evangelist,customer
+Otis Elevator Co.,opportunity,sin cambio
+Prosud S.A.,opportunity,sin cambio
+Acciona,opportunity,sin cambio
+MAF Chile,opportunity,sin cambio
+Buses JM,opportunity,sin cambio
+Entel,52560399,sin cambio
+Comaco Grúas,opportunity,sin cambio
+Contenedores San Fernando S.A.,opportunity,sin cambio
+Puerto Angamos,opportunity,sin cambio
+Chita Factoring Online,52560399,sin cambio
+Achs Salud,52531545,sin cambio
+ON*NETFIBRA,52531545,sin cambio
+Ingenieria Civil Vicente,opportunity,sin cambio
+Toku,52560399,sin cambio
+Latam Trade Capital,52560399,sin cambio
+Xinergy,opportunity,sin cambio
+Flow,opportunity,sin cambio
+Duoc UC,opportunity,sin cambio
+Matrix ,opportunity,sin cambio
+Gasco,52560399,sin cambio
+Conexión Kimal-Lo Aguirre,52560399,sin cambio
+ARAUCO,52560399,sin cambio
+Avis Budget Chile,50020179,sin cambio
+Ferrocarril del Pacífico S.A. FEPASA,52560399,sin cambio
+Lokal,52560399,sin cambio
 Pucobre,opportunity,sin cambio
-Maihue®,50005795,opportunity
-Cristalerías de Chile,1151001700,opportunity
-OTIC - Cámara Chilena de la Construcción,50005795,opportunity
-Holding Servilinares,evangelist,opportunity
-Camanchaca,50005795,opportunity
-Universidad de Las Américas (CL),evangelist,customer
-Bakels Chile,evangelist,opportunity
-Marley Coffee Chile,evangelist,customer
-Banco Consorcio,evangelist,other (churned)
-Falabella,50020179,opportunity
-Universidad Mayor,50020179,customer
-Awto,50020179,other (churned)
-GSK,evangelist,opportunity
-EnfraGen,lead,opportunity
-CEMIN Holding Minero,evangelist,opportunity
-Report,evangelist,opportunity
-Knauf,lead,opportunity
-Espol S.A.,lead,opportunity
-Terminal Puerto Coquimbo ,evangelist,opportunity
-Leasing San Cristóbal,50020179,other (churned)
-Santander,50020179,other (churned)
-Fingo,50020179,other (churned)
-Interacid Chile,lead,opportunity
+Maihue®,opportunity,sin cambio
+OTIC - Cámara Chilena de la Construcción,opportunity,sin cambio
+Cristalerías de Chile,52531545,sin cambio
+Universidad de Las Américas (CL),52560399,sin cambio
+Camanchaca,opportunity,sin cambio
+Bakels Chile,opportunity,sin cambio
+Marley Coffee Chile,52560399,sin cambio
+Banco Consorcio,50020179,sin cambio
+Falabella,52531545,sin cambio
+Universidad Mayor,52560399,sin cambio
+Awto,50020179,sin cambio
+GSK,opportunity,sin cambio
+EnfraGen,opportunity,sin cambio
+CEMIN Holding Minero,opportunity,sin cambio
+Report,opportunity,sin cambio
+Knauf,opportunity,sin cambio
+Espol S.A.,opportunity,sin cambio
+Cermaq,opportunity,sin cambio
+Terminal Puerto Coquimbo ,opportunity,sin cambio
+Santander,50020179,sin cambio
+Leasing San Cristóbal,50020179,sin cambio
+Interacid Chile,opportunity,sin cambio
 Epysa Implementos Chile,opportunity,sin cambio
-ESVAL S.A.,evangelist,customer
-Pluxee,evangelist,customer
-MallPlaza,50005795,other (churned)
-SURA Investments,evangelist,opportunity
+ESVAL S.A.,52560399,sin cambio
+Pluxee,52560399,sin cambio
+MallPlaza,50020179,sin cambio
+SURA Investments,opportunity,sin cambio
 Quelen Fruit,opportunity,sin cambio
-ReSimple,evangelist,opportunity
-Mindugar,evangelist,opportunity
-Financia Capital,evangelist,customer
-GNL Quintero S.A.,50005795,opportunity
-Universidad de Valparaíso,evangelist,opportunity
-Celeo Chile,lead,opportunity
-financiatumaquina.com,50005795,customer
-Coordinador Eléctrico Nacional,evangelist,customer
-Agroberries,evangelist,opportunity
-Chilquinta Energía S.A.,50005795,opportunity
-Cooke Aquaculture Scotland,50020180,customer
-Grupo Simma,evangelist,opportunity
-Telefonica,50005795,other (churned)
-Bravo Izquierdo,50005795,other (churned)
-Parque del Recuerdo,evangelist,opportunity
-Detacoop Cooperativa de Ahorro y Crédito,evangelist,opportunity
+Mindugar,opportunity,sin cambio
+ReSimple,52531545,sin cambio
+Financia Capital,52560399,sin cambio
+GNL Quintero S.A.,opportunity,sin cambio
+Universidad de Valparaíso,opportunity,sin cambio
+Celeo Chile,opportunity,sin cambio
+financiatumaquina.com,52560399,sin cambio
+Coordinador Eléctrico Nacional,52560399,sin cambio
+Agroberries,opportunity,sin cambio
+Chilquinta Energía S.A.,opportunity,sin cambio
+Cooke Aquaculture Scotland,52560399,sin cambio
+Grupo Simma,52531545,sin cambio
+Telefonica,50020179,sin cambio
+Bravo Izquierdo,50020179,sin cambio
+Detacoop Cooperativa de Ahorro y Crédito,opportunity,sin cambio
+Parque del Recuerdo,opportunity,sin cambio
 Empresas Copec,opportunity,sin cambio
-Inchcape Digital,50020179,customer
-Sigdo Koppers,evangelist,customer
-Adquim,50005795,opportunity
-Volcán,50020179,customer
-Elecmetal,customer,opportunity
-Inmobiliaria FG,evangelist,customer
-Femsa Salud,evangelist,opportunity
-Universidad Católica del Norte,evangelist,opportunity
-Sociedad Comercial Grandleasing Chile limitada,52560399,customer
-Koff & Guerrero Consultants S.A.,customer,opportunity
-Itf-Labomed Farmacéutica ,50005795,opportunity
-Puerto Coronel,evangelist,customer
-GASMAR,evangelist,customer
-Hitachi CM,evangelist,opportunity
-Factoring Security,lead,opportunity
-Johnson & Johnson,evangelist,opportunity
-Soprole,evangelist,customer
-Worley,evangelist,customer
-paycompany.com,evangelist,customer
-Locales Conectados,50020179,other (churned)
-ISS Chile,lead,opportunity
-Samen Chile,50020179,other (churned)
-Promet,50005795,opportunity
-AURUS JOYERIA,evangelist,customer
-Isapre Esencial,evangelist,opportunity
-Kapin Capital,customer,opportunity
-Echeverría Izquierdo,50020179,opportunity
-Ambipar Enviroment,50005795,opportunity
-Mutual de Seguridad,50005795,opportunity
-finz.cl,50020179,other (churned)
-Minuto Verde,evangelist,opportunity
-ISA INTERCHILE S.A.,evangelist,customer
-ClinicalMarket S.A.,lead,opportunity
-Aliservice,evangelist,opportunity
-Empresas Carozzi ,50005795,opportunity
-Pontificia Universidad Católica de Chile,lead,opportunity
-Sonacol - Sociedad Nacional de Oleoductos S.A.,evangelist,customer
-DP World,evangelist,opportunity
-Coexca,50005795,opportunity
-MoonK,evangelist,customer
-Essbio,50005795,opportunity
-Scania Chile,50005795,opportunity
-Softys,50005795,opportunity
-Soho ,50005795,other (churned)
-Sonda,evangelist,other (churned)
-Universidad Católica Silva Henríquez ,evangelist,opportunity
-Tenpo,50005795,other (churned)
-Siete Cumbres Servicios Financieros,50020179,other (churned)
-Fintoc,50005795,other (churned)
-Grupo Belator,52560399,customer
-DEMOCORP,evangelist,opportunity
-Papa John's Chile,50020179,other (churned)
-Maryun Seguridad Industrial Limitada,50020179,other (churned)
-Tecno Fast,evangelist,customer
-Gofirmex,50005795,other (churned)
-Tanner,50005795,opportunity
-COPEC,50005795,opportunity
-David Del Curto ,evangelist,opportunity
-Metro de Santiago S.A.,50005795,opportunity
+Inchcape Digital,52560399,sin cambio
+Sigdo Koppers,52560399,sin cambio
+Adquim,opportunity,sin cambio
+Volcán,52560399,sin cambio
+TECNOGLOBAL,opportunity,sin cambio
+Elecmetal,52560399,sin cambio
+Inmobiliaria FG,52560399,sin cambio
+Femsa Salud,opportunity,sin cambio
+SAAM,opportunity,sin cambio
+Universidad Católica del Norte,opportunity,sin cambio
+Sociedad Comercial Grandleasing Chile limitada,52560399,sin cambio
+Itf-Labomed Farmacéutica ,opportunity,sin cambio
+Koff & Guerrero Consultants S.A.,52560399,sin cambio
+Puerto Coronel,52560399,sin cambio
+GASMAR,52560399,sin cambio
+Hitachi CM,opportunity,sin cambio
+Tecnored,opportunity,sin cambio
+Factoring Security,opportunity,sin cambio
+Johnson & Johnson,opportunity,sin cambio
+Soprole,52560399,sin cambio
+Worley,52560399,sin cambio
+paycompany.com,52560399,sin cambio
+Locales Conectados,50020179,sin cambio
+ISS Chile,opportunity,sin cambio
+Samen Chile,50020179,sin cambio
+Promet,opportunity,sin cambio
+AURUS JOYERIA,52560399,sin cambio
+Ambipar Enviroment,opportunity,sin cambio
+Isapre Esencial,52531545,sin cambio
+Echeverría Izquierdo,opportunity,sin cambio
+Mutual de Seguridad,opportunity,sin cambio
+Kapin Capital,52560399,sin cambio
+finz.cl,50020179,sin cambio
+Minuto Verde,opportunity,sin cambio
+ISA INTERCHILE S.A.,52560399,sin cambio
+ClinicalMarket S.A.,opportunity,sin cambio
+Aliservice,52531545,sin cambio
+Empresas Carozzi ,opportunity,sin cambio
+Pontificia Universidad Católica de Chile,52531545,sin cambio
+Sonacol - Sociedad Nacional de Oleoductos S.A.,52560399,sin cambio
+Coexca,opportunity,sin cambio
+DP World,52531545,sin cambio
+MoonK,52560399,sin cambio
+Essbio,52531545,sin cambio
+Scania Chile,opportunity,sin cambio
+Softys,opportunity,sin cambio
+Soho ,50020179,sin cambio
+Sonda,50020179,sin cambio
+Universidad Católica Silva Henríquez ,opportunity,sin cambio
+Tenpo,50020179,sin cambio
+Siete Cumbres Servicios Financieros,50020179,sin cambio
+Fintoc,50020179,sin cambio
+Grupo Belator,52560399,sin cambio
+DEMOCORP,opportunity,sin cambio
+Papa John's Chile,50020179,sin cambio
+Maryun Seguridad Industrial Limitada,50020179,sin cambio
+Tecno Fast,52560399,sin cambio
+Gofirmex,50020179,sin cambio
+Tanner,opportunity,sin cambio
+COPEC,opportunity,sin cambio
+David Del Curto ,opportunity,sin cambio
+Metro de Santiago S.A.,opportunity,sin cambio
 VOLTA Chile,opportunity,sin cambio
-Nutrisco,evangelist,opportunity
-Magotteaux,evangelist,customer
-arriendatumaquina.com,50005795,other (churned)
-Lavel Ingeniería SpA.,evangelist,opportunity
-Entel,50005795,customer
-Klap,evangelist,customer
-Jetti Resources,evangelist,customer
+Nutrisco,opportunity,sin cambio
+Magotteaux,52560399,sin cambio
+arriendatumaquina.com,50020179,sin cambio
+Lavel Ingeniería SpA.,opportunity,sin cambio
+Entel,52560399,sin cambio
+Klap,52560399,sin cambio
+Frutícola Olmué,opportunity,sin cambio
 Quimetal Industrial S.A.,opportunity,sin cambio
-Aiprise,50020179,other (churned)
+Jetti Resources,52560399,sin cambio
+Aiprise,50020179,sin cambio
 SANVEST,opportunity,sin cambio
-Club Universidad de Chile,evangelist,opportunity
-Megalogística,52560399,customer
-Temba,50005795,other (churned)
-Golden Omega,evangelist,opportunity
-Universidad Andrés Bello,50005795,opportunity
-Syncore,evangelist,opportunity
-EDF Renewables Chile,evangelist,customer
-EMIN,50005795,other (churned)
-Cassis Café,lead,opportunity
-Finning International,evangelist,opportunity
-Museo Interactivo Mirador,evangelist,opportunity
-Rendalomaq,50005795,other (churned)
-Conectados,50020179,other (churned)
+Club Universidad de Chile,opportunity,sin cambio
+Enaex,52560399,sin cambio
+Megalogística,52560399,sin cambio
+Temba,50020179,sin cambio
+Golden Omega,opportunity,sin cambio
+Universidad Andrés Bello,opportunity,sin cambio
+Syncore,52531545,Live Customer
+EDF Renewables Chile,52560399,sin cambio
+EMIN,50020179,sin cambio
+Finning International,opportunity,sin cambio
+Museo Interactivo Mirador,opportunity,sin cambio
+Rendalomaq,50020179,sin cambio
+Fingo,50020179,sin cambio
+Conectados,50020179,sin cambio

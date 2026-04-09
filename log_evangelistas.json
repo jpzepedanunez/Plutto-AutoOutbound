@@ -1,0 +1,7392 @@
+{
+  "fecha": "2026-04-09T18:38:58.385165",
+  "eliminadas": [
+    {
+      "id": 49653917827,
+      "nombre": "RBC Bank",
+      "pais": "United States"
+    },
+    {
+      "id": 49653917832,
+      "nombre": "Greater Kansas City Chapter of the ACFE",
+      "pais": "United States"
+    },
+    {
+      "id": 49653917836,
+      "nombre": "Aurex",
+      "pais": "United States"
+    },
+    {
+      "id": 49601837347,
+      "nombre": "Symcor",
+      "pais": "Canada"
+    },
+    {
+      "id": 49601837349,
+      "nombre": "BlueLinx Corporation",
+      "pais": "United States"
+    },
+    {
+      "id": 49601837350,
+      "nombre": "DESAFIA",
+      "pais": ""
+    },
+    {
+      "id": 49601837353,
+      "nombre": "GTA Group Chile",
+      "pais": ""
+    },
+    {
+      "id": 49601837354,
+      "nombre": "NORMA Group",
+      "pais": "Germany"
+    },
+    {
+      "id": 49589893926,
+      "nombre": "IDB Bank",
+      "pais": "United States"
+    },
+    {
+      "id": 49589893927,
+      "nombre": "Gantrex",
+      "pais": "Belgium"
+    },
+    {
+      "id": 49589893928,
+      "nombre": "CSN Cimentos S.A",
+      "pais": "Brazil"
+    },
+    {
+      "id": 49589893929,
+      "nombre": "SMT ENERJİ",
+      "pais": "Turkey"
+    },
+    {
+      "id": 49638786123,
+      "nombre": "ICM Construction",
+      "pais": "Australia"
+    },
+    {
+      "id": 49638786126,
+      "nombre": "RSM US-El Salvador",
+      "pais": "El Salvador"
+    },
+    {
+      "id": 49638786128,
+      "nombre": "Aeglea BioTherapeutics",
+      "pais": "United States"
+    },
+    {
+      "id": 49638786132,
+      "nombre": "Constructora Sudamericana SAS",
+      "pais": "Colombia"
+    },
+    {
+      "id": 49638786131,
+      "nombre": "Grupo Mastercam",
+      "pais": "Brazil"
+    },
+    {
+      "id": 49584125776,
+      "nombre": "Matson Logistics",
+      "pais": "United States"
+    },
+    {
+      "id": 49584125777,
+      "nombre": "Emais Urbanismo",
+      "pais": "Brazil"
+    },
+    {
+      "id": 49584125778,
+      "nombre": "Instituto Profesional Los Lagos",
+      "pais": ""
+    },
+    {
+      "id": 49584125779,
+      "nombre": "KPMG Lower Gulf",
+      "pais": "United Arab Emirates"
+    },
+    {
+      "id": 49584125782,
+      "nombre": "Arabian Glory Factory for Plastic Material",
+      "pais": "Saudi Arabia"
+    },
+    {
+      "id": 49564352550,
+      "nombre": "Grupo Pinho Serviços e Locações",
+      "pais": "Brazil"
+    },
+    {
+      "id": 49564352552,
+      "nombre": "نادي العلا - AlUla Club",
+      "pais": "Saudi Arabia"
+    },
+    {
+      "id": 49564352554,
+      "nombre": "Caplin Steriles USA Inc",
+      "pais": "United States"
+    },
+    {
+      "id": 49564352556,
+      "nombre": "IDV -  Instituto para Desenvolvimento do Varejo",
+      "pais": "Brazil"
+    },
+    {
+      "id": 49564352557,
+      "nombre": "Genesis Minerals Limited",
+      "pais": "Australia"
+    },
+    {
+      "id": 49566210205,
+      "nombre": "envnt.",
+      "pais": "Saudi Arabia"
+    },
+    {
+      "id": 49566210206,
+      "nombre": "Whittens",
+      "pais": "Australia"
+    },
+    {
+      "id": 49566210207,
+      "nombre": "Criterion Hospitality",
+      "pais": "United Kingdom"
+    },
+    {
+      "id": 49566210210,
+      "nombre": "Compras +",
+      "pais": ""
+    },
+    {
+      "id": 49568804666,
+      "nombre": "AMG Brasil",
+      "pais": "Brazil"
+    },
+    {
+      "id": 49568804669,
+      "nombre": "SGC E&C Co., Ltd.",
+      "pais": "South Korea"
+    },
+    {
+      "id": 49568804671,
+      "nombre": "Entrust",
+      "pais": "United States"
+    },
+    {
+      "id": 49568804662,
+      "nombre": "Archel Construções e Participações S. A. - ACEPAR",
+      "pais": "Brazil"
+    },
+    {
+      "id": 49568804665,
+      "nombre": "Akumen, Inc.",
+      "pais": "United States"
+    },
+    {
+      "id": 49577139986,
+      "nombre": "One Development",
+      "pais": "United Arab Emirates"
+    },
+    {
+      "id": 49577139988,
+      "nombre": "Evans Case, LLP",
+      "pais": "United States"
+    },
+    {
+      "id": 49577139994,
+      "nombre": "Betty Hardwick Center",
+      "pais": "United States"
+    },
+    {
+      "id": 49577139995,
+      "nombre": "National Unified Procurement Company \"NUPCO\"",
+      "pais": "Saudi Arabia"
+    },
+    {
+      "id": 49564974405,
+      "nombre": "GeneDx",
+      "pais": "United States"
+    },
+    {
+      "id": 49564974408,
+      "nombre": "Workana",
+      "pais": "United States"
+    },
+    {
+      "id": 49564974411,
+      "nombre": "Telix Pharmaceuticals Limited",
+      "pais": "Australia"
+    },
+    {
+      "id": 49586450520,
+      "nombre": "Cartwheel",
+      "pais": "United States"
+    },
+    {
+      "id": 49586450523,
+      "nombre": "Madison Square Garden Entertainment Corp.",
+      "pais": "United States"
+    },
+    {
+      "id": 49586450525,
+      "nombre": "Vectem",
+      "pais": "Spain"
+    },
+    {
+      "id": 49586450526,
+      "nombre": "Volcafe",
+      "pais": "Switzerland"
+    },
+    {
+      "id": 49586450527,
+      "nombre": "4BD",
+      "pais": "Brazil"
+    },
+    {
+      "id": 49564197187,
+      "nombre": "CargoNet",
+      "pais": "Uruguay"
+    },
+    {
+      "id": 49564197188,
+      "nombre": "Radware",
+      "pais": "Israel"
+    },
+    {
+      "id": 49564197193,
+      "nombre": "GF Piping Systems",
+      "pais": "Switzerland"
+    },
+    {
+      "id": 49564197194,
+      "nombre": "Cámara Chilena de Inteligencia Artificial",
+      "pais": ""
+    },
+    {
+      "id": 49582115639,
+      "nombre": "Aligned Data Centers",
+      "pais": "United States"
+    },
+    {
+      "id": 49582115641,
+      "nombre": "Creative Time 360",
+      "pais": "Colombia"
+    },
+    {
+      "id": 49582115645,
+      "nombre": "IGC Gaming Systems and Solutions",
+      "pais": "Dominican Republic"
+    },
+    {
+      "id": 49582115646,
+      "nombre": "Profitto",
+      "pais": "Brazil"
+    },
+    {
+      "id": 49595925655,
+      "nombre": "Sharif Konect Group",
+      "pais": "Iran"
+    },
+    {
+      "id": 49595925656,
+      "nombre": "Bluevine",
+      "pais": "United States"
+    },
+    {
+      "id": 49595925658,
+      "nombre": "AA Exchange Company (Pvt.) Ltd.",
+      "pais": "Pakistan"
+    },
+    {
+      "id": 49595925662,
+      "nombre": "Tel Aviv Yafo Municipality",
+      "pais": "Israel"
+    },
+    {
+      "id": 49568495019,
+      "nombre": "CBF- Confederação Brasileira de Futebol - Brazil SOCCER",
+      "pais": "Brazil"
+    },
+    {
+      "id": 49568495020,
+      "nombre": "PERSES Group",
+      "pais": "United Kingdom"
+    },
+    {
+      "id": 49568495021,
+      "nombre": "Akkök Holding",
+      "pais": "Turkey"
+    },
+    {
+      "id": 49568495023,
+      "nombre": "Ipsen",
+      "pais": "France"
+    },
+    {
+      "id": 49568495026,
+      "nombre": "Bio Ritmo",
+      "pais": "United States"
+    },
+    {
+      "id": 49568495028,
+      "nombre": "Indosol Solar Private Limited",
+      "pais": "India"
+    },
+    {
+      "id": 49572057478,
+      "nombre": "Green Oasis Contracting",
+      "pais": "United Arab Emirates"
+    },
+    {
+      "id": 49572057481,
+      "nombre": "Mars Logistics",
+      "pais": "Turkey"
+    },
+    {
+      "id": 49572057482,
+      "nombre": "Simpliwork",
+      "pais": "India"
+    },
+    {
+      "id": 49572057483,
+      "nombre": "Casa Tempero",
+      "pais": "Brazil"
+    },
+    {
+      "id": 49572057484,
+      "nombre": "Oak & Noble Developments",
+      "pais": "United States"
+    },
+    {
+      "id": 49599018617,
+      "nombre": "Global MBA",
+      "pais": "Paraguay"
+    },
+    {
+      "id": 49599018618,
+      "nombre": "Facet Life Sciences",
+      "pais": "United States"
+    },
+    {
+      "id": 49599018619,
+      "nombre": "PotisEdge",
+      "pais": "Canada"
+    },
+    {
+      "id": 49599018621,
+      "nombre": "Zimba Empreendimentos",
+      "pais": "Brazil"
+    },
+    {
+      "id": 49599018624,
+      "nombre": "Lean Six Search | Supply Chain Recruitment",
+      "pais": "Canada"
+    },
+    {
+      "id": 49582115649,
+      "nombre": "Atmos Renewables",
+      "pais": "Australia"
+    },
+    {
+      "id": 49582115652,
+      "nombre": "GOOD BAR",
+      "pais": ""
+    },
+    {
+      "id": 49582115654,
+      "nombre": "Fawaz Abdul Aziz Al Hokair Real Estate Co.",
+      "pais": "Saudi Arabia"
+    },
+    {
+      "id": 49582115655,
+      "nombre": "Fontaine Founders",
+      "pais": "United States"
+    },
+    {
+      "id": 49591906438,
+      "nombre": "Chorus NZ Limited",
+      "pais": "New Zealand"
+    },
+    {
+      "id": 49591906439,
+      "nombre": "ناشر | Nasher",
+      "pais": "Saudi Arabia"
+    },
+    {
+      "id": 49591906441,
+      "nombre": "Tokio Marine Canada Ltd.",
+      "pais": "Canada"
+    },
+    {
+      "id": 49591906442,
+      "nombre": "Western Digital",
+      "pais": "United States"
+    },
+    {
+      "id": 49591906444,
+      "nombre": "SCHUNCK GROUP EARTH WORKING INFRASTRUCTURE AND SERVICES",
+      "pais": "Brazil"
+    },
+    {
+      "id": 49591906447,
+      "nombre": "City of Toronto",
+      "pais": ""
+    },
+    {
+      "id": 49577914546,
+      "nombre": "Biotech",
+      "pais": "United States"
+    },
+    {
+      "id": 49560946041,
+      "nombre": "Bradesco Bank",
+      "pais": "United States"
+    },
+    {
+      "id": 49717724455,
+      "nombre": "Alsea",
+      "pais": ""
+    },
+    {
+      "id": 49745439288,
+      "nombre": "Inversiones Como Siempre",
+      "pais": ""
+    },
+    {
+      "id": 49958152873,
+      "nombre": "Cytoperu",
+      "pais": ""
+    },
+    {
+      "id": 50199996508,
+      "nombre": "Grupo Empresas Cardoen",
+      "pais": ""
+    },
+    {
+      "id": 50406845703,
+      "nombre": "Gysling & Cia",
+      "pais": ""
+    },
+    {
+      "id": 50534603778,
+      "nombre": "Asirep",
+      "pais": ""
+    },
+    {
+      "id": 50558624438,
+      "nombre": "Esturion",
+      "pais": ""
+    },
+    {
+      "id": 50605628420,
+      "nombre": "CENCOSUD SHOPPING SA",
+      "pais": "Colombia"
+    },
+    {
+      "id": 50608626570,
+      "nombre": "Kaizen Gaming",
+      "pais": ""
+    },
+    {
+      "id": 50795562679,
+      "nombre": "Minería Activa",
+      "pais": ""
+    },
+    {
+      "id": 50943004235,
+      "nombre": "Hoteles Ferrat Portal",
+      "pais": ""
+    },
+    {
+      "id": 50974791040,
+      "nombre": "Tinc CMMS",
+      "pais": ""
+    },
+    {
+      "id": 50929018031,
+      "nombre": "Corpora Consultores",
+      "pais": ""
+    },
+    {
+      "id": 51027082030,
+      "nombre": "Neutral Farming",
+      "pais": "United States"
+    },
+    {
+      "id": 51245646435,
+      "nombre": "Tanner Banco Digital",
+      "pais": ""
+    },
+    {
+      "id": 51117686117,
+      "nombre": "Sunsweet Growers Inc.",
+      "pais": "United States"
+    },
+    {
+      "id": 51228528801,
+      "nombre": "Le Creuset",
+      "pais": "Argentina"
+    },
+    {
+      "id": 51356937246,
+      "nombre": "Datasur",
+      "pais": ""
+    },
+    {
+      "id": 51342958085,
+      "nombre": "Keyper",
+      "pais": ""
+    },
+    {
+      "id": 51343432988,
+      "nombre": "BTC Chile",
+      "pais": ""
+    },
+    {
+      "id": 51681901962,
+      "nombre": "Mega Archivos HQB",
+      "pais": ""
+    },
+    {
+      "id": 51561291073,
+      "nombre": "Búsqueda Orgánica",
+      "pais": ""
+    },
+    {
+      "id": 51934149970,
+      "nombre": "Cámara de Comercio Chileno Colombiana",
+      "pais": ""
+    },
+    {
+      "id": 52027545945,
+      "nombre": "Santiago Paperchase Club",
+      "pais": ""
+    },
+    {
+      "id": 52068965218,
+      "nombre": "Bix",
+      "pais": ""
+    },
+    {
+      "id": 52145188508,
+      "nombre": "Aspire Software",
+      "pais": ""
+    },
+    {
+      "id": 52409954672,
+      "nombre": "Bahia Caldera",
+      "pais": ""
+    },
+    {
+      "id": 52395089269,
+      "nombre": "Rentas FG",
+      "pais": ""
+    },
+    {
+      "id": 52522525450,
+      "nombre": "Ihosting Chile",
+      "pais": ""
+    },
+    {
+      "id": 52591319380,
+      "nombre": "Arquiambiente",
+      "pais": ""
+    },
+    {
+      "id": 52579979438,
+      "nombre": "Smart-Tec",
+      "pais": ""
+    },
+    {
+      "id": 52727902128,
+      "nombre": "Σ Solutoria",
+      "pais": ""
+    },
+    {
+      "id": 52726392133,
+      "nombre": "CUX",
+      "pais": ""
+    },
+    {
+      "id": 52736891228,
+      "nombre": "delmas.cl",
+      "pais": ""
+    },
+    {
+      "id": 52744753773,
+      "nombre": "GO Business Consulting",
+      "pais": ""
+    },
+    {
+      "id": 52853519712,
+      "nombre": "Nekiori",
+      "pais": ""
+    },
+    {
+      "id": 52835236694,
+      "nombre": "Ars Recovery & Backup",
+      "pais": ""
+    },
+    {
+      "id": 52892146568,
+      "nombre": "Full Stack",
+      "pais": ""
+    },
+    {
+      "id": 52917315870,
+      "nombre": "BHB NEXT",
+      "pais": ""
+    },
+    {
+      "id": 53015820345,
+      "nombre": "Instituto de Tecnologías Limpias",
+      "pais": ""
+    },
+    {
+      "id": 53006887967,
+      "nombre": "MacroSens - IoT Industrial",
+      "pais": ""
+    },
+    {
+      "id": 53013361984,
+      "nombre": "Galeria Artespacio",
+      "pais": ""
+    },
+    {
+      "id": 53087994797,
+      "nombre": "MACTEC",
+      "pais": ""
+    },
+    {
+      "id": 53077233743,
+      "nombre": "Clínica Adventista de Los Ángeles",
+      "pais": ""
+    },
+    {
+      "id": 53244293442,
+      "nombre": "Zolvo",
+      "pais": ""
+    },
+    {
+      "id": 53238726224,
+      "nombre": "Moro",
+      "pais": ""
+    },
+    {
+      "id": 53360612361,
+      "nombre": "Las Casas de Lo Arcaya",
+      "pais": ""
+    },
+    {
+      "id": 53462450305,
+      "nombre": "Constructora del Mar",
+      "pais": ""
+    },
+    {
+      "id": 53466167607,
+      "nombre": "Comatel",
+      "pais": ""
+    },
+    {
+      "id": 53557038088,
+      "nombre": "Niva",
+      "pais": ""
+    },
+    {
+      "id": 53551869822,
+      "nombre": "Altitude Thérapie",
+      "pais": ""
+    }
+  ],
+  "lead": [
+    {
+      "id": 9034600293,
+      "nombre": "Agrocomercial Quillota S A",
+      "pais": "Chile"
+    },
+    {
+      "id": 9034645661,
+      "nombre": "Líder",
+      "pais": "Chile"
+    },
+    {
+      "id": 9034645902,
+      "nombre": "Transvip Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 9034660956,
+      "nombre": "Grupo Mok",
+      "pais": "Chile"
+    },
+    {
+      "id": 9159860300,
+      "nombre": "FORUM Servicios Financieros",
+      "pais": "Chile"
+    },
+    {
+      "id": 9166191741,
+      "nombre": "VTR",
+      "pais": "Chile"
+    },
+    {
+      "id": 9166296440,
+      "nombre": "CONSERVADOR DE BIENES RAICES SANTIAGO",
+      "pais": "Chile"
+    },
+    {
+      "id": 9166272595,
+      "nombre": "University of Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 9166161748,
+      "nombre": "Pontificia Universidad Católica de Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 9232350516,
+      "nombre": "Start-Up Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 9251228210,
+      "nombre": "Camara de Comercio de Santiago",
+      "pais": "Chile"
+    },
+    {
+      "id": 9324890034,
+      "nombre": "Grupo INEXOOS",
+      "pais": "Chile"
+    },
+    {
+      "id": 9329109269,
+      "nombre": "UAI",
+      "pais": "Chile"
+    },
+    {
+      "id": 9348792450,
+      "nombre": "Universidad del Desarrollo",
+      "pais": "Chile"
+    },
+    {
+      "id": 9349215257,
+      "nombre": "Lo Barnechea",
+      "pais": "Chile"
+    },
+    {
+      "id": 9430935959,
+      "nombre": "Arca Continental",
+      "pais": "Mexico"
+    },
+    {
+      "id": 9445234252,
+      "nombre": "Mendel",
+      "pais": "Mexico"
+    },
+    {
+      "id": 9505626248,
+      "nombre": "Latam Airlines",
+      "pais": "Peru"
+    },
+    {
+      "id": 9827101830,
+      "nombre": "comsa.cl",
+      "pais": "Chile"
+    },
+    {
+      "id": 9826729642,
+      "nombre": "TECNOLOGIAS COBRA",
+      "pais": "Chile"
+    },
+    {
+      "id": 10105802312,
+      "nombre": "AGUNSA",
+      "pais": "Chile"
+    },
+    {
+      "id": 9827265811,
+      "nombre": "Viña Concha y Toro",
+      "pais": "Chile"
+    },
+    {
+      "id": 9826788919,
+      "nombre": "Empresas Virutex Ilko",
+      "pais": "Chile"
+    },
+    {
+      "id": 9826919328,
+      "nombre": "Videocorp S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 9827165497,
+      "nombre": "lub",
+      "pais": "Chile"
+    },
+    {
+      "id": 9827072684,
+      "nombre": "ATM S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 9826788923,
+      "nombre": "Iansa Cero K",
+      "pais": "Chile"
+    },
+    {
+      "id": 9826756456,
+      "nombre": "ANASAC",
+      "pais": "Chile"
+    },
+    {
+      "id": 9827092368,
+      "nombre": "Salmones Antartica",
+      "pais": "Chile"
+    },
+    {
+      "id": 9826923792,
+      "nombre": "Claro Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 10948859561,
+      "nombre": "Ripley",
+      "pais": "Chile"
+    },
+    {
+      "id": 9827140149,
+      "nombre": "Sergio Escobar Automotriz",
+      "pais": "Chile"
+    },
+    {
+      "id": 9827148570,
+      "nombre": "EDYCE",
+      "pais": "Chile"
+    },
+    {
+      "id": 9827101841,
+      "nombre": "Empresas Conpax",
+      "pais": "Chile"
+    },
+    {
+      "id": 9826729729,
+      "nombre": "Transportes Casablanca",
+      "pais": "Chile"
+    },
+    {
+      "id": 9827204886,
+      "nombre": "Comercial y Distribuidora Bertonati S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 9826923795,
+      "nombre": "Agricola Montolin Ltda.",
+      "pais": "Chile"
+    },
+    {
+      "id": 9827243315,
+      "nombre": "Natura",
+      "pais": "Mexico"
+    },
+    {
+      "id": 9826667783,
+      "nombre": "Gemco General Machinery",
+      "pais": "Chile"
+    },
+    {
+      "id": 9827204890,
+      "nombre": "Echeverria, Izquiedo Montajes Industriales S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 9826729733,
+      "nombre": "Frusan S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 9827072770,
+      "nombre": "Pucará S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 9826685972,
+      "nombre": "Universidad Técnica Federico Santa María",
+      "pais": "Chile"
+    },
+    {
+      "id": 9827148581,
+      "nombre": "Salcobrand",
+      "pais": "Chile"
+    },
+    {
+      "id": 9826957687,
+      "nombre": "Ian Taylor",
+      "pais": "Chile"
+    },
+    {
+      "id": 9827263287,
+      "nombre": "SOMACOR",
+      "pais": "Chile"
+    },
+    {
+      "id": 9826921744,
+      "nombre": "SAAM",
+      "pais": "Chile"
+    },
+    {
+      "id": 9827243318,
+      "nombre": "TerraMater",
+      "pais": "Chile"
+    },
+    {
+      "id": 9827260788,
+      "nombre": "Corrupac",
+      "pais": "Chile"
+    },
+    {
+      "id": 9827174029,
+      "nombre": "Empresas IEG",
+      "pais": "Chile"
+    },
+    {
+      "id": 9827204894,
+      "nombre": "PPU",
+      "pais": "Peru"
+    },
+    {
+      "id": 9826921746,
+      "nombre": "WENCO S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 9826923804,
+      "nombre": "Enjoy SA",
+      "pais": "Chile"
+    },
+    {
+      "id": 9827216567,
+      "nombre": "DARTEL",
+      "pais": "Chile"
+    },
+    {
+      "id": 9827197321,
+      "nombre": "Alfachilena",
+      "pais": "Chile"
+    },
+    {
+      "id": 9826729742,
+      "nombre": "vitapro.cl",
+      "pais": "Chile"
+    },
+    {
+      "id": 9826756442,
+      "nombre": "Dimerc",
+      "pais": "Chile"
+    },
+    {
+      "id": 9826713402,
+      "nombre": "Pasmar S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 9827122207,
+      "nombre": "Salazar Israel",
+      "pais": "Chile"
+    },
+    {
+      "id": 9826756447,
+      "nombre": "Grupo Security",
+      "pais": "Chile"
+    },
+    {
+      "id": 9826919318,
+      "nombre": "OFTOMED S.A",
+      "pais": "Chile"
+    },
+    {
+      "id": 9827148589,
+      "nombre": "dragpharma.cl",
+      "pais": "Chile"
+    },
+    {
+      "id": 9826815668,
+      "nombre": "Espacio Riesco",
+      "pais": "Chile"
+    },
+    {
+      "id": 9827113348,
+      "nombre": "Comercial Copelec S",
+      "pais": "Chile"
+    },
+    {
+      "id": 9826738944,
+      "nombre": "Pedro de Valdivia",
+      "pais": "Chile"
+    },
+    {
+      "id": 9827165520,
+      "nombre": "Laboratorios SAVAL S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 9827127911,
+      "nombre": "colliers.cl",
+      "pais": "Chile"
+    },
+    {
+      "id": 9827165524,
+      "nombre": "Turbo Plus",
+      "pais": "Chile"
+    },
+    {
+      "id": 9827258178,
+      "nombre": "VTR",
+      "pais": "Chile"
+    },
+    {
+      "id": 9826957700,
+      "nombre": "Mindugar ®",
+      "pais": "Chile"
+    },
+    {
+      "id": 9826756457,
+      "nombre": "Oxiquim S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 9827127915,
+      "nombre": "EMPRESA CONSTRUCTORA DLP LIMITADA",
+      "pais": "Chile"
+    },
+    {
+      "id": 9826815747,
+      "nombre": "PUC",
+      "pais": "Chile"
+    },
+    {
+      "id": 9827122220,
+      "nombre": "GRUPOBIOS",
+      "pais": "Chile"
+    },
+    {
+      "id": 9827245202,
+      "nombre": "Mimet",
+      "pais": "Chile"
+    },
+    {
+      "id": 9827243329,
+      "nombre": "Universidad de Los Lagos",
+      "pais": "Chile"
+    },
+    {
+      "id": 9827258182,
+      "nombre": "Compañía Chilena de Fósforos",
+      "pais": "Chile"
+    },
+    {
+      "id": 9826815751,
+      "nombre": "cintac",
+      "pais": "Chile"
+    },
+    {
+      "id": 9826756462,
+      "nombre": "Cerro Dominador",
+      "pais": "Chile"
+    },
+    {
+      "id": 9826921761,
+      "nombre": "Constructora Gardilcic S.A",
+      "pais": "Chile"
+    },
+    {
+      "id": 9827165528,
+      "nombre": "FIBRO",
+      "pais": "Chile"
+    },
+    {
+      "id": 9826738953,
+      "nombre": "Pinto Piga Seeds",
+      "pais": "Chile"
+    },
+    {
+      "id": 9827101860,
+      "nombre": "Universidad de Concepción",
+      "pais": "Chile"
+    },
+    {
+      "id": 9826630540,
+      "nombre": "Inmobiliaria Aconcagua",
+      "pais": "Chile"
+    },
+    {
+      "id": 9827204915,
+      "nombre": "CHC",
+      "pais": "Chile"
+    },
+    {
+      "id": 9827204916,
+      "nombre": "Solmex",
+      "pais": "Chile"
+    },
+    {
+      "id": 9827174044,
+      "nombre": "ENAP",
+      "pais": "Chile"
+    },
+    {
+      "id": 9827216644,
+      "nombre": "NB",
+      "pais": "Chile"
+    },
+    {
+      "id": 9826788963,
+      "nombre": "Agricovial S A",
+      "pais": "Chile"
+    },
+    {
+      "id": 9827265852,
+      "nombre": "Clínica Santa María",
+      "pais": "Chile"
+    },
+    {
+      "id": 9827080533,
+      "nombre": "TENSACON S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 9827265854,
+      "nombre": "Contach",
+      "pais": "Chile"
+    },
+    {
+      "id": 9827258185,
+      "nombre": "Dream S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 9826788967,
+      "nombre": "Icare",
+      "pais": "Chile"
+    },
+    {
+      "id": 9826923827,
+      "nombre": "Insprotel Ltda.",
+      "pais": "Chile"
+    },
+    {
+      "id": 9827127928,
+      "nombre": "SOLTEX CHILE S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 9827113357,
+      "nombre": "Universidad de Santiago de Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 9826630553,
+      "nombre": "Supermercado del....",
+      "pais": "Chile"
+    },
+    {
+      "id": 9827197345,
+      "nombre": "PRODUCTOS TANAX",
+      "pais": "Chile"
+    },
+    {
+      "id": 9826729769,
+      "nombre": "FRUTEXSA",
+      "pais": "Chile"
+    },
+    {
+      "id": 9827204923,
+      "nombre": "Fleischmann",
+      "pais": "Chile"
+    },
+    {
+      "id": 9826713414,
+      "nombre": "Marienberg",
+      "pais": "Chile"
+    },
+    {
+      "id": 9826713415,
+      "nombre": "Pompeyo Carrasco",
+      "pais": "Chile"
+    },
+    {
+      "id": 9827101874,
+      "nombre": "Municipalidad Padre las Casas",
+      "pais": "Chile"
+    },
+    {
+      "id": 9826926353,
+      "nombre": "Santa Ema",
+      "pais": "Chile"
+    },
+    {
+      "id": 9826756475,
+      "nombre": "SIGA Ingeniería",
+      "pais": "Chile"
+    },
+    {
+      "id": 9826788979,
+      "nombre": "Constructora INARCO S.A",
+      "pais": "Chile"
+    },
+    {
+      "id": 9827247189,
+      "nombre": "IMICAR S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 9827165546,
+      "nombre": "Nómade Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 9827101875,
+      "nombre": "ft.cl",
+      "pais": "Chile"
+    },
+    {
+      "id": 9826957722,
+      "nombre": "Logistica S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 9827265864,
+      "nombre": "UMCE",
+      "pais": "Chile"
+    },
+    {
+      "id": 9826923840,
+      "nombre": "WILLIAMSON INDUSTRIAL S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 9826686006,
+      "nombre": "Coagra",
+      "pais": "Chile"
+    },
+    {
+      "id": 9826788980,
+      "nombre": "Alifrut S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 9826706192,
+      "nombre": "Exequiel Berrios Y Cia Limitada",
+      "pais": "Chile"
+    },
+    {
+      "id": 9827113366,
+      "nombre": "Mannheim Spa",
+      "pais": "Chile"
+    },
+    {
+      "id": 9826713425,
+      "nombre": "Fundacion Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 9827174061,
+      "nombre": "Moller & Pérez-Cotapos",
+      "pais": "Chile"
+    },
+    {
+      "id": 9826919349,
+      "nombre": "Prodalam",
+      "pais": "Chile"
+    },
+    {
+      "id": 9826928743,
+      "nombre": "ICB",
+      "pais": "Chile"
+    },
+    {
+      "id": 9827148615,
+      "nombre": "Laboratorio Dukay",
+      "pais": "Chile"
+    },
+    {
+      "id": 9827122252,
+      "nombre": "Bailac SAN Ltda",
+      "pais": "Chile"
+    },
+    {
+      "id": 9826919352,
+      "nombre": "MVC",
+      "pais": "Chile"
+    },
+    {
+      "id": 9826686009,
+      "nombre": "Guiñez Ingenieria Ltda",
+      "pais": "Chile"
+    },
+    {
+      "id": 9827080558,
+      "nombre": "Minera Los Pelambres",
+      "pais": "Chile"
+    },
+    {
+      "id": 9827174064,
+      "nombre": "TecProMin S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 9826926366,
+      "nombre": "Cecinas Pacel S.A",
+      "pais": "Chile"
+    },
+    {
+      "id": 9826686012,
+      "nombre": "Aviasur",
+      "pais": "Chile"
+    },
+    {
+      "id": 9826738981,
+      "nombre": "Geofrut",
+      "pais": "Chile"
+    },
+    {
+      "id": 9826923847,
+      "nombre": "REVESOL",
+      "pais": "Chile"
+    },
+    {
+      "id": 9827247200,
+      "nombre": "TTM CHILE S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 9826928747,
+      "nombre": "Ultramar",
+      "pais": "Chile"
+    },
+    {
+      "id": 9827243354,
+      "nombre": "DVC",
+      "pais": "Chile"
+    },
+    {
+      "id": 9827174069,
+      "nombre": "Río King",
+      "pais": "Chile"
+    },
+    {
+      "id": 9826667833,
+      "nombre": "FABRIMETAL S.A - Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 9826921796,
+      "nombre": "Empresas RFA",
+      "pais": "Chile"
+    },
+    {
+      "id": 9884740524,
+      "nombre": "ECRGROUP®",
+      "pais": "Chile"
+    },
+    {
+      "id": 9898409821,
+      "nombre": "Universidad Diego Portales",
+      "pais": "Chile"
+    },
+    {
+      "id": 10092135334,
+      "nombre": "HRA Ingenieros LTDA",
+      "pais": "Chile"
+    },
+    {
+      "id": 10095110530,
+      "nombre": "Tánica",
+      "pais": "Chile"
+    },
+    {
+      "id": 10105264055,
+      "nombre": "Agrícola Randu",
+      "pais": "Chile"
+    },
+    {
+      "id": 10105567755,
+      "nombre": "AHK",
+      "pais": "Chile"
+    },
+    {
+      "id": 10201504944,
+      "nombre": "Grupo Nutresa",
+      "pais": "Chile"
+    },
+    {
+      "id": 10228618340,
+      "nombre": "TW Logistica",
+      "pais": "Chile"
+    },
+    {
+      "id": 10247770923,
+      "nombre": "ABCDIN",
+      "pais": "Chile"
+    },
+    {
+      "id": 10247785352,
+      "nombre": "Coca-Cola Andina",
+      "pais": "Chile"
+    },
+    {
+      "id": 10272597883,
+      "nombre": "SMU S.A. (Unimarc, M10, Alvi, y Super10)",
+      "pais": "Chile"
+    },
+    {
+      "id": 10330201930,
+      "nombre": "Prisa Depot Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 10574856521,
+      "nombre": "TEKNICA CHILE",
+      "pais": "Chile"
+    },
+    {
+      "id": 10626085556,
+      "nombre": "Registrocivil",
+      "pais": "Chile"
+    },
+    {
+      "id": 11454864132,
+      "nombre": "Municipalidad de Providencia",
+      "pais": "Chile"
+    },
+    {
+      "id": 11579601541,
+      "nombre": "Southbridge Insurance",
+      "pais": "Chile"
+    },
+    {
+      "id": 12007723579,
+      "nombre": "Hackmetrix",
+      "pais": "Chile"
+    },
+    {
+      "id": 13370338404,
+      "nombre": "FID Seguros",
+      "pais": "Chile"
+    },
+    {
+      "id": 13374585123,
+      "nombre": "Aon",
+      "pais": "Chile"
+    },
+    {
+      "id": 13502785576,
+      "nombre": "Howden",
+      "pais": "Chile"
+    },
+    {
+      "id": 13529512076,
+      "nombre": "Unnio Seguros Generales",
+      "pais": "Chile"
+    },
+    {
+      "id": 15517494302,
+      "nombre": "Capital Express",
+      "pais": "Chile"
+    },
+    {
+      "id": 13530145674,
+      "nombre": "Logros Servicios Financieros",
+      "pais": "Chile"
+    },
+    {
+      "id": 13536149906,
+      "nombre": "Tresmontes Lucchetti S.A - Grupo Empresarial Nutresa",
+      "pais": "Chile"
+    },
+    {
+      "id": 13800798593,
+      "nombre": "Seguros Konsegur",
+      "pais": "Chile"
+    },
+    {
+      "id": 13801303650,
+      "nombre": "Hites",
+      "pais": "Chile"
+    },
+    {
+      "id": 14793166655,
+      "nombre": "Finfast",
+      "pais": "Chile"
+    },
+    {
+      "id": 14794071959,
+      "nombre": "Oriencoop",
+      "pais": "Chile"
+    },
+    {
+      "id": 14795117136,
+      "nombre": "ACF Capital S.A:",
+      "pais": "Chile"
+    },
+    {
+      "id": 15611258416,
+      "nombre": "Go Factoring SA",
+      "pais": "Chile"
+    },
+    {
+      "id": 14880263233,
+      "nombre": "SKY Airline",
+      "pais": "Chile"
+    },
+    {
+      "id": 14908710317,
+      "nombre": "Cantabria spa",
+      "pais": "Chile"
+    },
+    {
+      "id": 14908728098,
+      "nombre": "Empresas Iansa",
+      "pais": "Chile"
+    },
+    {
+      "id": 14917170734,
+      "nombre": "Caja de Compensación 18 de Septiembre",
+      "pais": "Chile"
+    },
+    {
+      "id": 14989879172,
+      "nombre": "Icafal Gestión SA",
+      "pais": "Chile"
+    },
+    {
+      "id": 14992615254,
+      "nombre": "Strabag",
+      "pais": "Chile"
+    },
+    {
+      "id": 14999179914,
+      "nombre": "Bitumix",
+      "pais": "Chile"
+    },
+    {
+      "id": 15001536595,
+      "nombre": "plutto.cl",
+      "pais": "Chile"
+    },
+    {
+      "id": 15023966561,
+      "nombre": "Co-Work Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 15147055391,
+      "nombre": "Gasvalpo",
+      "pais": "Chile"
+    },
+    {
+      "id": 15172925496,
+      "nombre": "Mosaico S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 15173085471,
+      "nombre": "Multiaceros Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 15259645771,
+      "nombre": "DERCOMAQ S.A",
+      "pais": "Chile"
+    },
+    {
+      "id": 15318199573,
+      "nombre": "khipu",
+      "pais": "Chile"
+    },
+    {
+      "id": 15518256420,
+      "nombre": "EMPRENDE CAPITAL FACTORING",
+      "pais": "Chile"
+    },
+    {
+      "id": 15762003824,
+      "nombre": "Penta Financiero",
+      "pais": "Chile"
+    },
+    {
+      "id": 15790855510,
+      "nombre": "IDIEM",
+      "pais": "Chile"
+    },
+    {
+      "id": 15800224013,
+      "nombre": "paperless.cl",
+      "pais": "Chile"
+    },
+    {
+      "id": 16056240772,
+      "nombre": "Universidad de Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 16249602485,
+      "nombre": "Piamonte S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 16262850114,
+      "nombre": "Inmobiliaria E Inversiones Socoepa S A",
+      "pais": "Chile"
+    },
+    {
+      "id": 16724148586,
+      "nombre": "Automotora Bilbao",
+      "pais": "Chile"
+    },
+    {
+      "id": 16949464686,
+      "nombre": "Inmobiliaria Numancia",
+      "pais": "Chile"
+    },
+    {
+      "id": 16984323513,
+      "nombre": "NIC Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 17081453634,
+      "nombre": "Provida AFP",
+      "pais": "Chile"
+    },
+    {
+      "id": 17081478949,
+      "nombre": "AFP Habitat",
+      "pais": "Chile"
+    },
+    {
+      "id": 17081488303,
+      "nombre": "AFP Cuprum",
+      "pais": "Chile"
+    },
+    {
+      "id": 17235991093,
+      "nombre": "ikea.cl",
+      "pais": "Chile"
+    },
+    {
+      "id": 17250294182,
+      "nombre": "Grass & Arueste",
+      "pais": "Chile"
+    },
+    {
+      "id": 17328931128,
+      "nombre": "Simma Grupo Empresas",
+      "pais": "Chile"
+    },
+    {
+      "id": 17328694957,
+      "nombre": "Constructora Oval -",
+      "pais": "Chile"
+    },
+    {
+      "id": 17485853718,
+      "nombre": "Citigroup Inc.",
+      "pais": "Mexico"
+    },
+    {
+      "id": 17511133558,
+      "nombre": "antucoya.cl",
+      "pais": "Chile"
+    },
+    {
+      "id": 17655563172,
+      "nombre": "Lotus",
+      "pais": "Chile"
+    },
+    {
+      "id": 17655478704,
+      "nombre": "Invermar S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 17655438761,
+      "nombre": "reliper.cl",
+      "pais": "Chile"
+    },
+    {
+      "id": 17689041664,
+      "nombre": "Eurofarma",
+      "pais": "Chile"
+    },
+    {
+      "id": 17700163692,
+      "nombre": "Casa de Moneda de Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 17699989864,
+      "nombre": "mies.cl",
+      "pais": "Chile"
+    },
+    {
+      "id": 17700108068,
+      "nombre": "Empresas Demaria S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 17700138018,
+      "nombre": "Saville Row",
+      "pais": "Chile"
+    },
+    {
+      "id": 17700024238,
+      "nombre": "Bata Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 17821994500,
+      "nombre": "Estec",
+      "pais": "Chile"
+    },
+    {
+      "id": 17820437117,
+      "nombre": "MacOnline Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 17823435693,
+      "nombre": "J.E.J. INGENIERÍA S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 17823312785,
+      "nombre": "Skic",
+      "pais": "Chile"
+    },
+    {
+      "id": 17823265590,
+      "nombre": "Cosmoplas",
+      "pais": "Chile"
+    },
+    {
+      "id": 17823254093,
+      "nombre": "mK",
+      "pais": "Chile"
+    },
+    {
+      "id": 17823206481,
+      "nombre": "Grupo K",
+      "pais": "Chile"
+    },
+    {
+      "id": 17955910434,
+      "nombre": "Multicaja S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 17955753775,
+      "nombre": "Puerto Mejillones",
+      "pais": "Chile"
+    },
+    {
+      "id": 17955966542,
+      "nombre": "grupocyg.cl",
+      "pais": "Chile"
+    },
+    {
+      "id": 18019669379,
+      "nombre": "Salfa Rent",
+      "pais": "Chile"
+    },
+    {
+      "id": 18030518335,
+      "nombre": "Euro Rent a Car",
+      "pais": "Chile"
+    },
+    {
+      "id": 18128652589,
+      "nombre": "OXZO S.A",
+      "pais": "Chile"
+    },
+    {
+      "id": 18128508724,
+      "nombre": "Grupo Komatsu Cummins",
+      "pais": "Chile"
+    },
+    {
+      "id": 18128581004,
+      "nombre": "XCMG Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 18128682148,
+      "nombre": "ALO Group",
+      "pais": "Chile"
+    },
+    {
+      "id": 18128601695,
+      "nombre": "Janssen",
+      "pais": "Chile"
+    },
+    {
+      "id": 18128737028,
+      "nombre": "Komatsu Latinoamérica",
+      "pais": "Chile"
+    },
+    {
+      "id": 18128527908,
+      "nombre": "Petricio Industrial",
+      "pais": "Chile"
+    },
+    {
+      "id": 18128656312,
+      "nombre": "SKC_Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 18128532030,
+      "nombre": "Finning South America",
+      "pais": "Chile"
+    },
+    {
+      "id": 18193438387,
+      "nombre": "University of Bio-Bio",
+      "pais": "Chile"
+    },
+    {
+      "id": 18194581779,
+      "nombre": "Su ksa",
+      "pais": "Chile"
+    },
+    {
+      "id": 18194995285,
+      "nombre": "Grupo Nuestros Parques",
+      "pais": "Chile"
+    },
+    {
+      "id": 18195038565,
+      "nombre": "Socovesa S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 18194509947,
+      "nombre": "espacioriesco.com",
+      "pais": "Chile"
+    },
+    {
+      "id": 18195032886,
+      "nombre": "GRUPO COLOSO",
+      "pais": "Chile"
+    },
+    {
+      "id": 18322468687,
+      "nombre": "Tecnofarma S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 18386100247,
+      "nombre": "Enea Ciudad Aeropuerto",
+      "pais": "Chile"
+    },
+    {
+      "id": 18467499695,
+      "nombre": "Guacolda Energía",
+      "pais": "Chile"
+    },
+    {
+      "id": 18467645602,
+      "nombre": "Prime Energía Chile",
+      "pais": "Peru"
+    },
+    {
+      "id": 18472149044,
+      "nombre": "Imperial",
+      "pais": "Chile"
+    },
+    {
+      "id": 18531596209,
+      "nombre": "GUX",
+      "pais": "Chile"
+    },
+    {
+      "id": 18726926730,
+      "nombre": "Armada de Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 18727005244,
+      "nombre": "Coca-Cola Embonor",
+      "pais": "Chile"
+    },
+    {
+      "id": 18726758227,
+      "nombre": "Universidad de La Serena",
+      "pais": "Chile"
+    },
+    {
+      "id": 18763303809,
+      "nombre": "Klar",
+      "pais": "Mexico"
+    },
+    {
+      "id": 18771471141,
+      "nombre": "Central Bank of Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 18814683656,
+      "nombre": "CAP S.A. Principal Grupo Minero Siderúrgico de Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 18820270380,
+      "nombre": "Entel",
+      "pais": "Chile"
+    },
+    {
+      "id": 18839908407,
+      "nombre": "ENGIE México",
+      "pais": "Mexico"
+    },
+    {
+      "id": 18841238122,
+      "nombre": "Ultranav",
+      "pais": "Chile"
+    },
+    {
+      "id": 18841205397,
+      "nombre": "Viña Concha y Toro",
+      "pais": "Chile"
+    },
+    {
+      "id": 18841208326,
+      "nombre": "Compañía Minera del Pacífico",
+      "pais": "Chile"
+    },
+    {
+      "id": 18841161062,
+      "nombre": "Caserones-SCM Minera Lumina Copper Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 18841272463,
+      "nombre": "ENAMI Empresa Nacional de Minería",
+      "pais": "Chile"
+    },
+    {
+      "id": 18844275047,
+      "nombre": "SAAM Towage",
+      "pais": "Chile"
+    },
+    {
+      "id": 18844155707,
+      "nombre": "Minera Candelaria",
+      "pais": "Chile"
+    },
+    {
+      "id": 18844091547,
+      "nombre": "Schwager",
+      "pais": "Chile"
+    },
+    {
+      "id": 18844171639,
+      "nombre": "D.G.A.C. (Dirección General de Aeronáutica Civil) Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 18844104311,
+      "nombre": "Ejército de Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 18844087834,
+      "nombre": "Compañía Minera Lomas Bayas",
+      "pais": "Chile"
+    },
+    {
+      "id": 18992653630,
+      "nombre": "Comisión para el Mercado Financiero (CMF)",
+      "pais": "Chile"
+    },
+    {
+      "id": 18992630695,
+      "nombre": "GrupoExpro",
+      "pais": "Chile"
+    },
+    {
+      "id": 18992765112,
+      "nombre": "Ventisqueros",
+      "pais": "Chile"
+    },
+    {
+      "id": 18992291383,
+      "nombre": "Arcoprime",
+      "pais": "Chile"
+    },
+    {
+      "id": 18992224023,
+      "nombre": "Enlace Inmobiliario",
+      "pais": "Chile"
+    },
+    {
+      "id": 18992743551,
+      "nombre": "GRUPO TX",
+      "pais": "Chile"
+    },
+    {
+      "id": 18992171925,
+      "nombre": "Laboratorio Milab",
+      "pais": "Chile"
+    },
+    {
+      "id": 18992697430,
+      "nombre": "Laboratorio Clínico Blanco",
+      "pais": "Chile"
+    },
+    {
+      "id": 18992720174,
+      "nombre": "Puerto Ventanas S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 18992765194,
+      "nombre": "Ilustre Municipalidad de Puerto Montt",
+      "pais": "Chile"
+    },
+    {
+      "id": 18997725026,
+      "nombre": "Cooke Aquaculture Chile S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 18997720927,
+      "nombre": "Armacero",
+      "pais": "Chile"
+    },
+    {
+      "id": 18997761863,
+      "nombre": "Tierra Hotels",
+      "pais": "Chile"
+    },
+    {
+      "id": 18997805905,
+      "nombre": "Sopraval",
+      "pais": "Chile"
+    },
+    {
+      "id": 18997770366,
+      "nombre": "Vina Errazuriz",
+      "pais": "Chile"
+    },
+    {
+      "id": 18997577227,
+      "nombre": "errazuriz.cl",
+      "pais": "Chile"
+    },
+    {
+      "id": 18997591602,
+      "nombre": "Gesex S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 18997591617,
+      "nombre": "Martinez y Valdivieso",
+      "pais": "Chile"
+    },
+    {
+      "id": 18997642121,
+      "nombre": "Desert King",
+      "pais": "Chile"
+    },
+    {
+      "id": 18998198646,
+      "nombre": "The Palace Company",
+      "pais": "Mexico"
+    },
+    {
+      "id": 18998149714,
+      "nombre": "Grupo Sesajal®",
+      "pais": "Mexico"
+    },
+    {
+      "id": 19069175203,
+      "nombre": "Gador Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 19069276265,
+      "nombre": "Farmacias Ahumada",
+      "pais": "Chile"
+    },
+    {
+      "id": 19069170331,
+      "nombre": "CFL Inmobiliaria",
+      "pais": "Chile"
+    },
+    {
+      "id": 19069155505,
+      "nombre": "Constructora e Inmobiliaria Independencia",
+      "pais": "Chile"
+    },
+    {
+      "id": 19069218951,
+      "nombre": "OXXO Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 19069257904,
+      "nombre": "Forus S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 19069205392,
+      "nombre": "Biosano",
+      "pais": "Chile"
+    },
+    {
+      "id": 19069157983,
+      "nombre": "Ferrostaal Chile S.A.C.",
+      "pais": "Chile"
+    },
+    {
+      "id": 19069129322,
+      "nombre": "OXXO",
+      "pais": "Mexico"
+    },
+    {
+      "id": 19069186157,
+      "nombre": "ahumada.cl",
+      "pais": "Chile"
+    },
+    {
+      "id": 19069210751,
+      "nombre": "Constructora Fapisa S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 19074224211,
+      "nombre": "Corporación Simón de Cirene",
+      "pais": "Chile"
+    },
+    {
+      "id": 19074233370,
+      "nombre": "ISA INTERVIAL",
+      "pais": "Chile"
+    },
+    {
+      "id": 19073781387,
+      "nombre": "Empresas Redfarma",
+      "pais": "Chile"
+    },
+    {
+      "id": 19074247529,
+      "nombre": "Servicio de Evaluación Ambiental",
+      "pais": "Chile"
+    },
+    {
+      "id": 19074239270,
+      "nombre": "Hospital La Florida-Servicio de Salud Metropolitano Sur Oriente",
+      "pais": "Chile"
+    },
+    {
+      "id": 19074226439,
+      "nombre": "Navimag Ferries",
+      "pais": "Chile"
+    },
+    {
+      "id": 19073730120,
+      "nombre": "SUPPLYNET.cl",
+      "pais": "Chile"
+    },
+    {
+      "id": 19074250424,
+      "nombre": "XinerLink",
+      "pais": "Chile"
+    },
+    {
+      "id": 19073675871,
+      "nombre": "SUPPLYNET.cl",
+      "pais": "Chile"
+    },
+    {
+      "id": 19073707339,
+      "nombre": "NúcleoSalud",
+      "pais": "Chile"
+    },
+    {
+      "id": 19073709937,
+      "nombre": "Ministerio de Economía, Fomento y Turismo",
+      "pais": "Chile"
+    },
+    {
+      "id": 19073678682,
+      "nombre": "Empresas Banmédica",
+      "pais": "Chile"
+    },
+    {
+      "id": 19073712711,
+      "nombre": "CorreosChile",
+      "pais": "Chile"
+    },
+    {
+      "id": 19073705353,
+      "nombre": "Adelco",
+      "pais": "Chile"
+    },
+    {
+      "id": 19073686313,
+      "nombre": "Isapre Colmena",
+      "pais": "Chile"
+    },
+    {
+      "id": 19074253316,
+      "nombre": "TRECK S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 19073733007,
+      "nombre": "Terminal Pacifico Sur Valparaíso",
+      "pais": "Chile"
+    },
+    {
+      "id": 19234484505,
+      "nombre": "Puerto Valparaíso",
+      "pais": "Chile"
+    },
+    {
+      "id": 19252180075,
+      "nombre": "SERFONAC",
+      "pais": "Chile"
+    },
+    {
+      "id": 19253461134,
+      "nombre": "Contempora Servicios Financieros Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 19253434258,
+      "nombre": "D&C Group",
+      "pais": "Chile"
+    },
+    {
+      "id": 19252242985,
+      "nombre": "Veltis Latam",
+      "pais": "Chile"
+    },
+    {
+      "id": 19253459751,
+      "nombre": "Exploraciones Mineras Andinas S.A. - Filial Codelco",
+      "pais": "Chile"
+    },
+    {
+      "id": 19253581481,
+      "nombre": "RVC",
+      "pais": "Chile"
+    },
+    {
+      "id": 19253551924,
+      "nombre": "IMOPAC",
+      "pais": "Chile"
+    },
+    {
+      "id": 19253418255,
+      "nombre": "iSiete Constructora",
+      "pais": "Chile"
+    },
+    {
+      "id": 19253522347,
+      "nombre": "Ecasa Inmobiliaria y Constructora",
+      "pais": "Chile"
+    },
+    {
+      "id": 19253432950,
+      "nombre": "ME Elecmetal",
+      "pais": "Chile"
+    },
+    {
+      "id": 19253496069,
+      "nombre": "Mineral Drilling",
+      "pais": "Chile"
+    },
+    {
+      "id": 19254293310,
+      "nombre": "Ingesat Ingeniería y Servicios en Alta Tensión SpA",
+      "pais": "Chile"
+    },
+    {
+      "id": 19273646925,
+      "nombre": "Rockpoint",
+      "pais": "Chile"
+    },
+    {
+      "id": 19274366588,
+      "nombre": "Grupo ICL",
+      "pais": "Chile"
+    },
+    {
+      "id": 19275215898,
+      "nombre": "OSERVIM",
+      "pais": "Chile"
+    },
+    {
+      "id": 19274387117,
+      "nombre": "Fenix Gold",
+      "pais": "Chile"
+    },
+    {
+      "id": 19273759543,
+      "nombre": "Omega Servicios",
+      "pais": "Chile"
+    },
+    {
+      "id": 19273661877,
+      "nombre": "Climbers",
+      "pais": "Chile"
+    },
+    {
+      "id": 19274440268,
+      "nombre": "Austin Ingenieros Chile Limitada",
+      "pais": "Chile"
+    },
+    {
+      "id": 19274156089,
+      "nombre": "Mintral",
+      "pais": "Chile"
+    },
+    {
+      "id": 19273876372,
+      "nombre": "Cía. Minera Cordillera Chile SCM",
+      "pais": "Chile"
+    },
+    {
+      "id": 19273950483,
+      "nombre": "KGHM Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 19397616226,
+      "nombre": "Quintec",
+      "pais": "Chile"
+    },
+    {
+      "id": 19468309365,
+      "nombre": "CONSTRUCTORA E INGENIERIA INGESEP LTDA",
+      "pais": "Chile"
+    },
+    {
+      "id": 19467747969,
+      "nombre": "Inmobiliaria Galilea Centro spa",
+      "pais": "Chile"
+    },
+    {
+      "id": 19467771683,
+      "nombre": "Ingeniería y Construcción MST SpA",
+      "pais": "Chile"
+    },
+    {
+      "id": 19467819682,
+      "nombre": "haustek s.a.",
+      "pais": "Chile"
+    },
+    {
+      "id": 19467863969,
+      "nombre": "E2E",
+      "pais": "Chile"
+    },
+    {
+      "id": 19467709201,
+      "nombre": "Constructora Bio Bio S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 19468194325,
+      "nombre": "ASAP group",
+      "pais": "Chile"
+    },
+    {
+      "id": 19468177168,
+      "nombre": "MINVU - Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 19468326978,
+      "nombre": "Hormisur-Inein S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 19467819798,
+      "nombre": "RGM Mallas de Alambre",
+      "pais": "Chile"
+    },
+    {
+      "id": 19467835052,
+      "nombre": "Katemu S.A",
+      "pais": "Chile"
+    },
+    {
+      "id": 19468332559,
+      "nombre": "Constructora Excon",
+      "pais": "Chile"
+    },
+    {
+      "id": 19467891103,
+      "nombre": "Empresa Constructora BELFI S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 19468218725,
+      "nombre": "Intexa Ingeniería",
+      "pais": "Chile"
+    },
+    {
+      "id": 19467810082,
+      "nombre": "Constructora Tecton SpA",
+      "pais": "Chile"
+    },
+    {
+      "id": 19469278483,
+      "nombre": "Indumotora",
+      "pais": "Chile"
+    },
+    {
+      "id": 19470123859,
+      "nombre": "Emasa",
+      "pais": "Chile"
+    },
+    {
+      "id": 19470135938,
+      "nombre": "CAREN - REPUESTOS FLOTACENTRO",
+      "pais": "Chile"
+    },
+    {
+      "id": 19527614839,
+      "nombre": "GMT Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 19527373671,
+      "nombre": "COMAGRO LATAM",
+      "pais": "Chile"
+    },
+    {
+      "id": 19527633696,
+      "nombre": "Grupo Portland",
+      "pais": "Chile"
+    },
+    {
+      "id": 19526350404,
+      "nombre": "Summit Agro Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 19527621399,
+      "nombre": "Ministerio Secretaría General de Gobierno",
+      "pais": "Chile"
+    },
+    {
+      "id": 19527751802,
+      "nombre": "Arquimed",
+      "pais": "Chile"
+    },
+    {
+      "id": 19527525048,
+      "nombre": "Servicio Nacional de Aduanas",
+      "pais": "Chile"
+    },
+    {
+      "id": 19527407673,
+      "nombre": "Fluitekmarco",
+      "pais": "Chile"
+    },
+    {
+      "id": 19599829851,
+      "nombre": "AGROVET CHILE",
+      "pais": "Chile"
+    },
+    {
+      "id": 19601405089,
+      "nombre": "Terminal Maritimo Patache",
+      "pais": "Chile"
+    },
+    {
+      "id": 19604084250,
+      "nombre": "Randstad Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 19603853635,
+      "nombre": "Tarragona",
+      "pais": "Chile"
+    },
+    {
+      "id": 19603816313,
+      "nombre": "Santiago 2023",
+      "pais": "Chile"
+    },
+    {
+      "id": 19604217516,
+      "nombre": "Sonepar Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 19603998208,
+      "nombre": "TRITEC-Intervento",
+      "pais": "Chile"
+    },
+    {
+      "id": 19604119382,
+      "nombre": "Reutter S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 19604162827,
+      "nombre": "Decathlon Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 19604078678,
+      "nombre": "Rheem Chilena SpA",
+      "pais": "Chile"
+    },
+    {
+      "id": 19603816590,
+      "nombre": "Consejo Nacional de la Cultura y las Artes",
+      "pais": "Chile"
+    },
+    {
+      "id": 19603131550,
+      "nombre": "Ministerio Secretaría General de la Presidencia  | SEGPRES",
+      "pais": "Chile"
+    },
+    {
+      "id": 19603052047,
+      "nombre": "Quillayes Surlat",
+      "pais": "Chile"
+    },
+    {
+      "id": 19604027226,
+      "nombre": "PGIC",
+      "pais": "Chile"
+    },
+    {
+      "id": 19603771542,
+      "nombre": "Restaurantes SCHOPDOG",
+      "pais": "Chile"
+    },
+    {
+      "id": 19604152226,
+      "nombre": "Phage Technologies",
+      "pais": "Chile"
+    },
+    {
+      "id": 19603132416,
+      "nombre": "Pibamour Ltda.",
+      "pais": "Chile"
+    },
+    {
+      "id": 19634062109,
+      "nombre": "Fondo Esperanza",
+      "pais": "Chile"
+    },
+    {
+      "id": 19633804656,
+      "nombre": "FEMSA Salud",
+      "pais": "Chile"
+    },
+    {
+      "id": 19634071970,
+      "nombre": "ManpowerGroup Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 19633797758,
+      "nombre": "Cencosud Scotiabank",
+      "pais": "Chile"
+    },
+    {
+      "id": 19633810792,
+      "nombre": "Serfocol",
+      "pais": "Chile"
+    },
+    {
+      "id": 19634011052,
+      "nombre": "WSP en Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 19633784582,
+      "nombre": "Buffer",
+      "pais": "Chile"
+    },
+    {
+      "id": 19633966973,
+      "nombre": "Grupo NSG Pilkington",
+      "pais": "Chile"
+    },
+    {
+      "id": 19633961539,
+      "nombre": "安多弗医疗联盟 SA",
+      "pais": "Chile"
+    },
+    {
+      "id": 19633966980,
+      "nombre": "AFC Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 19633837835,
+      "nombre": "Cencosud Scotiabank",
+      "pais": "Chile"
+    },
+    {
+      "id": 19633539587,
+      "nombre": "LATAM Airlines",
+      "pais": "Chile"
+    },
+    {
+      "id": 19633925379,
+      "nombre": "DRS: Gestión Integral Proyectos de Construcción",
+      "pais": "Chile"
+    },
+    {
+      "id": 19633957741,
+      "nombre": "IntegraMédica, parte de Bupa",
+      "pais": "Chile"
+    },
+    {
+      "id": 19634028313,
+      "nombre": "Poder Judicial Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 19634086055,
+      "nombre": "Ministerio de Obras Públicas",
+      "pais": "Chile"
+    },
+    {
+      "id": 19633926833,
+      "nombre": "Ministerio de Justicia y Derechos Humanos de Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 19634049792,
+      "nombre": "RFP LOGISTICA",
+      "pais": "Chile"
+    },
+    {
+      "id": 19634800958,
+      "nombre": "novaverde.cl",
+      "pais": "Chile"
+    },
+    {
+      "id": 19728413224,
+      "nombre": "Hospital Clínico FUSAT",
+      "pais": "Chile"
+    },
+    {
+      "id": 19728313238,
+      "nombre": "TeamWork Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 19728529839,
+      "nombre": "Vitamina - Salas Cuna y Jardines Infantiles",
+      "pais": "Chile"
+    },
+    {
+      "id": 19728439116,
+      "nombre": "Espex",
+      "pais": "Chile"
+    },
+    {
+      "id": 19728348811,
+      "nombre": "TYPACK",
+      "pais": "Chile"
+    },
+    {
+      "id": 19727008918,
+      "nombre": "Ñuble Alimentos",
+      "pais": "Chile"
+    },
+    {
+      "id": 19728439120,
+      "nombre": "TECNOLOGIA EN TRANSPORTE DE MINERALES",
+      "pais": "Chile"
+    },
+    {
+      "id": 19728360022,
+      "nombre": "Gobierno de Santiago",
+      "pais": "Chile"
+    },
+    {
+      "id": 19728462741,
+      "nombre": "Servicio de salud de Reloncavi",
+      "pais": "Chile"
+    },
+    {
+      "id": 19728279460,
+      "nombre": "Andes Logistics Group",
+      "pais": "Chile"
+    },
+    {
+      "id": 19728535642,
+      "nombre": "Empresas Virutex Ilko",
+      "pais": "Chile"
+    },
+    {
+      "id": 19728458756,
+      "nombre": "Würth Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 19728327461,
+      "nombre": "Servicio de Salud Coquimbo",
+      "pais": "Chile"
+    },
+    {
+      "id": 19728454978,
+      "nombre": "Transportes Nazar",
+      "pais": "Chile"
+    },
+    {
+      "id": 19728543500,
+      "nombre": "DIPRES (Dirección de Presupuestos)",
+      "pais": "Chile"
+    },
+    {
+      "id": 19728556562,
+      "nombre": "ReliX Water",
+      "pais": "Chile"
+    },
+    {
+      "id": 19793402161,
+      "nombre": "Hidronor",
+      "pais": "Chile"
+    },
+    {
+      "id": 20135873061,
+      "nombre": "Arcoalimentos",
+      "pais": "Chile"
+    },
+    {
+      "id": 20135892360,
+      "nombre": "CASBRO Infraestructura Corporativa",
+      "pais": "Chile"
+    },
+    {
+      "id": 20135946317,
+      "nombre": "Midea Carrier Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 20135192478,
+      "nombre": "farmaceutica medcell limitada",
+      "pais": "Chile"
+    },
+    {
+      "id": 20135924897,
+      "nombre": "LBF Insumos Médicos",
+      "pais": "Chile"
+    },
+    {
+      "id": 20135882887,
+      "nombre": "AMA Time",
+      "pais": "Chile"
+    },
+    {
+      "id": 20135966052,
+      "nombre": "Grupo Premier Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 20135847346,
+      "nombre": "Nutraline Ltda",
+      "pais": "Chile"
+    },
+    {
+      "id": 20135183401,
+      "nombre": "Tecnika SA",
+      "pais": "Chile"
+    },
+    {
+      "id": 20135183404,
+      "nombre": "RG Principal",
+      "pais": "Chile"
+    },
+    {
+      "id": 20135943185,
+      "nombre": "Subsecretaría de Educación I SUBEDUC",
+      "pais": "Chile"
+    },
+    {
+      "id": 20135924916,
+      "nombre": "Territoria",
+      "pais": "Chile"
+    },
+    {
+      "id": 20135959945,
+      "nombre": "Macro Food",
+      "pais": "Chile"
+    },
+    {
+      "id": 20135892858,
+      "nombre": "Culligan Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 20135180361,
+      "nombre": "Comisión Nacional de Energía",
+      "pais": "Chile"
+    },
+    {
+      "id": 20135899785,
+      "nombre": "SurMedical",
+      "pais": "Chile"
+    },
+    {
+      "id": 20135183941,
+      "nombre": "Comercial Torino",
+      "pais": "Chile"
+    },
+    {
+      "id": 20175732782,
+      "nombre": "Automóvil Club de Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 20174796590,
+      "nombre": "Corporación Municipal de Desarrollo Social Ñuñoa",
+      "pais": "Chile"
+    },
+    {
+      "id": 20175911323,
+      "nombre": "SerCor",
+      "pais": "Chile"
+    },
+    {
+      "id": 20201633711,
+      "nombre": "Instituto Nacional de Propiedad Industrial",
+      "pais": "Chile"
+    },
+    {
+      "id": 20200410881,
+      "nombre": "Servel Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 20201635881,
+      "nombre": "Fundación Minera Escondida",
+      "pais": "Chile"
+    },
+    {
+      "id": 20201652104,
+      "nombre": "Servicio Nacional de Turismo",
+      "pais": "Chile"
+    },
+    {
+      "id": 20201509468,
+      "nombre": "Corporación Municipal de Rancagua",
+      "pais": "Chile"
+    },
+    {
+      "id": 20201456272,
+      "nombre": "KOSPO Power Services",
+      "pais": "Chile"
+    },
+    {
+      "id": 20200166282,
+      "nombre": "Senior Suites",
+      "pais": "Chile"
+    },
+    {
+      "id": 20201585823,
+      "nombre": "KEYPRO Ingeniería S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 20201542661,
+      "nombre": "STP Santiago S.A",
+      "pais": "Chile"
+    },
+    {
+      "id": 20201594148,
+      "nombre": "SurtiVentas.cl",
+      "pais": "Chile"
+    },
+    {
+      "id": 20200227118,
+      "nombre": "DPS CHILE",
+      "pais": "Chile"
+    },
+    {
+      "id": 20201681060,
+      "nombre": "Laboratorio Petrizzio",
+      "pais": "Chile"
+    },
+    {
+      "id": 20201466178,
+      "nombre": "Buenos Vientos Obras Electricas SpA",
+      "pais": "Chile"
+    },
+    {
+      "id": 20201548201,
+      "nombre": "Sourcing",
+      "pais": "Chile"
+    },
+    {
+      "id": 20200253808,
+      "nombre": "Minera Zaldívar",
+      "pais": "Chile"
+    },
+    {
+      "id": 20201512542,
+      "nombre": "Bayas del Sur",
+      "pais": "Chile"
+    },
+    {
+      "id": 20201652645,
+      "nombre": "Empresas Eltit",
+      "pais": "Chile"
+    },
+    {
+      "id": 20201681074,
+      "nombre": "MUNDO DULCE",
+      "pais": "Chile"
+    },
+    {
+      "id": 20201495316,
+      "nombre": "Compañía Minera Cerro Negro",
+      "pais": "Chile"
+    },
+    {
+      "id": 20201376110,
+      "nombre": "I. Municipalidad de Padre Hurtado",
+      "pais": "Chile"
+    },
+    {
+      "id": 20201500825,
+      "nombre": "microgeo",
+      "pais": "Chile"
+    },
+    {
+      "id": 20200242716,
+      "nombre": "Farmacias del Dr. Simi Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 20200330365,
+      "nombre": "Equipos de Riego SpA",
+      "pais": "Chile"
+    },
+    {
+      "id": 20201715209,
+      "nombre": "Laboratorio Instituto Sanitas®",
+      "pais": "Chile"
+    },
+    {
+      "id": 20201533500,
+      "nombre": "Ministerio de Ciencia, Tecnología, Conocimiento e Innovación",
+      "pais": "Chile"
+    },
+    {
+      "id": 20201634184,
+      "nombre": "Servicio Local de Educación Pública Gabriela Mistral",
+      "pais": "Chile"
+    },
+    {
+      "id": 20201645404,
+      "nombre": "EMOAC - Optimizamos tu energía",
+      "pais": "Chile"
+    },
+    {
+      "id": 20201542720,
+      "nombre": "imo.cl",
+      "pais": "Chile"
+    },
+    {
+      "id": 20201405296,
+      "nombre": "Bomberos de Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 20201405298,
+      "nombre": "Achs Servicios",
+      "pais": "Chile"
+    },
+    {
+      "id": 20201485164,
+      "nombre": "San Pedro Ingeniería",
+      "pais": "Chile"
+    },
+    {
+      "id": 20200314775,
+      "nombre": "Servicio de Salud O'Higgins",
+      "pais": "Chile"
+    },
+    {
+      "id": 20200323892,
+      "nombre": "Desafío Levantemos Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 20201393277,
+      "nombre": "Mediplex S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 20200387241,
+      "nombre": "Quiborax S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 20201495366,
+      "nombre": "Empresa Kersting S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 20200269418,
+      "nombre": "Clínica Isamédica",
+      "pais": "Chile"
+    },
+    {
+      "id": 20201548356,
+      "nombre": "Pochteca Sudamérica",
+      "pais": "Chile"
+    },
+    {
+      "id": 20201537092,
+      "nombre": "Orbit Garant Chile S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 20201537094,
+      "nombre": "Eisesa",
+      "pais": "Chile"
+    },
+    {
+      "id": 20201451615,
+      "nombre": "SOFOFA",
+      "pais": "Chile"
+    },
+    {
+      "id": 20201600049,
+      "nombre": "San Rafael Ingeniería S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 20201773625,
+      "nombre": "Aguas del Altiplano",
+      "pais": "Chile"
+    },
+    {
+      "id": 20201489549,
+      "nombre": "Santillana Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 20201628183,
+      "nombre": "AgenciaSE",
+      "pais": "Chile"
+    },
+    {
+      "id": 20201533575,
+      "nombre": "Ministerio del Interior y Seguridad Pública de Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 20200323946,
+      "nombre": "EMPRESA NACIONAL DE AERONÁUTICA DE CHILE",
+      "pais": "Chile"
+    },
+    {
+      "id": 20201615228,
+      "nombre": "Rentokil Initial Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 20201456475,
+      "nombre": "Grupo Cetep",
+      "pais": "Chile"
+    },
+    {
+      "id": 20201645469,
+      "nombre": "Instituto Nacional del Tórax",
+      "pais": "Chile"
+    },
+    {
+      "id": 20200242799,
+      "nombre": "Comisión Nacional de Acreditación",
+      "pais": "Chile"
+    },
+    {
+      "id": 20201586028,
+      "nombre": "FERROSTAAL GRAPHICS",
+      "pais": "Chile"
+    },
+    {
+      "id": 20201405354,
+      "nombre": "Fibra ingenieria y construccion S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 20201546115,
+      "nombre": "Proteknica",
+      "pais": "Chile"
+    },
+    {
+      "id": 20271328590,
+      "nombre": "Trimma",
+      "pais": "Chile"
+    },
+    {
+      "id": 20274320776,
+      "nombre": "Red de Alimentos",
+      "pais": "Chile"
+    },
+    {
+      "id": 20274298471,
+      "nombre": "Cristalerías Toro Spa",
+      "pais": "Chile"
+    },
+    {
+      "id": 20336060962,
+      "nombre": "Superintendencia de Pensiones",
+      "pais": "Chile"
+    },
+    {
+      "id": 20336038668,
+      "nombre": "Grupo Transporte Pasajeros (GTP)",
+      "pais": "Chile"
+    },
+    {
+      "id": 20335773301,
+      "nombre": "Codelpa Chile S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 20461660600,
+      "nombre": "Grupo Defensa",
+      "pais": "Chile"
+    },
+    {
+      "id": 20461537800,
+      "nombre": "RSM CHILE",
+      "pais": "Chile"
+    },
+    {
+      "id": 20460140107,
+      "nombre": "Empresas FG",
+      "pais": "Chile"
+    },
+    {
+      "id": 20461519417,
+      "nombre": "GRUPO CABAL",
+      "pais": "Chile"
+    },
+    {
+      "id": 20461386605,
+      "nombre": "Fábricas y Maestranzas del Ejército",
+      "pais": "Chile"
+    },
+    {
+      "id": 20468208667,
+      "nombre": "Constructora Altius",
+      "pais": "Chile"
+    },
+    {
+      "id": 20468095004,
+      "nombre": "H-E Parts",
+      "pais": "Chile"
+    },
+    {
+      "id": 20683880195,
+      "nombre": "Telmex",
+      "pais": "Mexico"
+    },
+    {
+      "id": 20683639220,
+      "nombre": "Fundación Integra, Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 20825242925,
+      "nombre": "Municipalidad de Zapallar",
+      "pais": "Chile"
+    },
+    {
+      "id": 20825229662,
+      "nombre": "Tessi Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 20825281138,
+      "nombre": "Aura Ingeniería S.A",
+      "pais": "Chile"
+    },
+    {
+      "id": 20848750418,
+      "nombre": "Hanna Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 20910389584,
+      "nombre": "FITFLOW",
+      "pais": "Peru"
+    },
+    {
+      "id": 20910113416,
+      "nombre": "Promarco",
+      "pais": "Chile"
+    },
+    {
+      "id": 20909795971,
+      "nombre": "FPC TISSUE S.P.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 20957479090,
+      "nombre": "Mediterránea Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 20972692912,
+      "nombre": "Corporación de Desarrollo Social de Providencia",
+      "pais": "Chile"
+    },
+    {
+      "id": 20971592981,
+      "nombre": "Plusmedical SPA",
+      "pais": "Chile"
+    },
+    {
+      "id": 21044812086,
+      "nombre": "Styropek",
+      "pais": "Mexico"
+    },
+    {
+      "id": 21045027174,
+      "nombre": "SERVICIO DE SALUD ARAUCO",
+      "pais": "Chile"
+    },
+    {
+      "id": 21044895118,
+      "nombre": "Dreams S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 21044760327,
+      "nombre": "Municipalidad de Conchalí",
+      "pais": "Chile"
+    },
+    {
+      "id": 21044926587,
+      "nombre": "Emaresa",
+      "pais": "Chile"
+    },
+    {
+      "id": 21204719788,
+      "nombre": "Ilustre Municipalidad de Macul",
+      "pais": "Chile"
+    },
+    {
+      "id": 21203772327,
+      "nombre": "GLOBAL ICE (Ingeniería y consultoria especializada)",
+      "pais": "Chile"
+    },
+    {
+      "id": 21204600888,
+      "nombre": "Andromaco",
+      "pais": "Chile"
+    },
+    {
+      "id": 21541099906,
+      "nombre": "Zubale",
+      "pais": "Mexico"
+    },
+    {
+      "id": 21541939074,
+      "nombre": "Ministerio de Salud Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 21541947165,
+      "nombre": "empresa constructora precon sa",
+      "pais": "Chile"
+    },
+    {
+      "id": 21541113641,
+      "nombre": "Globaltec Servicios y construcción",
+      "pais": "Chile"
+    },
+    {
+      "id": 21541106781,
+      "nombre": "I. Municipalidad de Recoleta",
+      "pais": "Chile"
+    },
+    {
+      "id": 21541114888,
+      "nombre": "Empresas Vital",
+      "pais": "Chile"
+    },
+    {
+      "id": 21541956437,
+      "nombre": "Agrospec S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 21541991465,
+      "nombre": "Ministerio del Medio Ambiente",
+      "pais": "Chile"
+    },
+    {
+      "id": 21542025617,
+      "nombre": "cvital.cl",
+      "pais": "Chile"
+    },
+    {
+      "id": 21542044440,
+      "nombre": "Ilustre Municipalidad de La Serena",
+      "pais": "Chile"
+    },
+    {
+      "id": 21542081923,
+      "nombre": "Instituto Nacional de Deportes",
+      "pais": "Chile"
+    },
+    {
+      "id": 21542634277,
+      "nombre": "Empresas SOCOVESA",
+      "pais": "Chile"
+    },
+    {
+      "id": 21542709875,
+      "nombre": "Tormetal SPA",
+      "pais": "Chile"
+    },
+    {
+      "id": 21543223737,
+      "nombre": "Metropol Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 21544936507,
+      "nombre": "Metropol Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 21545147418,
+      "nombre": "Intercarry Logística Limitada",
+      "pais": "Chile"
+    },
+    {
+      "id": 21545392419,
+      "nombre": "Superintendencia de Salud",
+      "pais": "Chile"
+    },
+    {
+      "id": 21576645777,
+      "nombre": "Ranco Cherries",
+      "pais": "Chile"
+    },
+    {
+      "id": 21576949108,
+      "nombre": "Fork Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 21577393563,
+      "nombre": "CCHEN",
+      "pais": "Chile"
+    },
+    {
+      "id": 21580370179,
+      "nombre": "ARARAT SpA",
+      "pais": "Chile"
+    },
+    {
+      "id": 21579582775,
+      "nombre": "Dictuc",
+      "pais": "Chile"
+    },
+    {
+      "id": 21580842069,
+      "nombre": "Universidad UNIACC",
+      "pais": "Chile"
+    },
+    {
+      "id": 21591691677,
+      "nombre": "Marcobre",
+      "pais": "Peru"
+    },
+    {
+      "id": 21597215099,
+      "nombre": "Utilitas",
+      "pais": "Chile"
+    },
+    {
+      "id": 21601935750,
+      "nombre": "Grupo Gloria",
+      "pais": "Peru"
+    },
+    {
+      "id": 21615255969,
+      "nombre": "Leche Gloria",
+      "pais": "Peru"
+    },
+    {
+      "id": 21617771926,
+      "nombre": "ST Computación",
+      "pais": "Chile"
+    },
+    {
+      "id": 21619267429,
+      "nombre": "Auditron Chile S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 21635713556,
+      "nombre": "Hospital Exequiel Gonzalez Cortes",
+      "pais": "Chile"
+    },
+    {
+      "id": 21635125174,
+      "nombre": "National Institute of Statistics of Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 21687157003,
+      "nombre": "Hospital Calvo Mackenna",
+      "pais": "Chile"
+    },
+    {
+      "id": 21685783181,
+      "nombre": "BlueMedical Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 21693528323,
+      "nombre": "Equipo FCAB",
+      "pais": "Chile"
+    },
+    {
+      "id": 21703999843,
+      "nombre": "I. Municipalidad de Independencia",
+      "pais": "Chile"
+    },
+    {
+      "id": 21705546574,
+      "nombre": "Genomma Lab",
+      "pais": "Mexico"
+    },
+    {
+      "id": 21705408878,
+      "nombre": "Mundo Pacífico",
+      "pais": "Chile"
+    },
+    {
+      "id": 21705332076,
+      "nombre": "Universidad de los Andes (CL)",
+      "pais": "Chile"
+    },
+    {
+      "id": 21705567356,
+      "nombre": "Universidad Adolfo Ibáñez",
+      "pais": "Chile"
+    },
+    {
+      "id": 21705523868,
+      "nombre": "Universidad de Talca",
+      "pais": "Chile"
+    },
+    {
+      "id": 21705485643,
+      "nombre": "Equans Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 21705675375,
+      "nombre": "Mundo Pacífico",
+      "pais": "Chile"
+    },
+    {
+      "id": 21706009670,
+      "nombre": "xpd global",
+      "pais": "Mexico"
+    },
+    {
+      "id": 21729735438,
+      "nombre": "Servicio de Impuestos Internos (SII)",
+      "pais": "Chile"
+    },
+    {
+      "id": 21729183861,
+      "nombre": "Banchile Inversiones",
+      "pais": "Chile"
+    },
+    {
+      "id": 21729816175,
+      "nombre": "Instituto de Seguridad del Trabajo - IST",
+      "pais": "Chile"
+    },
+    {
+      "id": 21729163800,
+      "nombre": "Servicio Nacional de Protección Especializada a la Niñez y Adolescencia",
+      "pais": "Chile"
+    },
+    {
+      "id": 21729227582,
+      "nombre": "banchile asesoria financiera s a",
+      "pais": "Chile"
+    },
+    {
+      "id": 21733069313,
+      "nombre": "Universidad Católica del Maule",
+      "pais": "Chile"
+    },
+    {
+      "id": 21759386122,
+      "nombre": "Hospital del Salvador",
+      "pais": "Chile"
+    },
+    {
+      "id": 21799629897,
+      "nombre": "Inmobiliaria Armas",
+      "pais": "Chile"
+    },
+    {
+      "id": 21823639351,
+      "nombre": "Clínica Dávila",
+      "pais": "Chile"
+    },
+    {
+      "id": 21823780472,
+      "nombre": "Universidad Alberto Hurtado",
+      "pais": "Chile"
+    },
+    {
+      "id": 21834030855,
+      "nombre": "Universidad de O'Higgins",
+      "pais": "Chile"
+    },
+    {
+      "id": 21834920514,
+      "nombre": "Pontificia Universidad Católica de Valparaíso",
+      "pais": "Chile"
+    },
+    {
+      "id": 21836204453,
+      "nombre": "Hospital Clínico Universidad de Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 21836881408,
+      "nombre": "Junaeb",
+      "pais": "Chile"
+    },
+    {
+      "id": 21851585283,
+      "nombre": "Contraloría General de la República",
+      "pais": "Chile"
+    },
+    {
+      "id": 21855792215,
+      "nombre": "Defensoría Penal Pública",
+      "pais": "Chile"
+    },
+    {
+      "id": 21857047680,
+      "nombre": "Municipality of Santiago, Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 21872909986,
+      "nombre": "Universidad de La Frontera",
+      "pais": "Chile"
+    },
+    {
+      "id": 21872897166,
+      "nombre": "HD",
+      "pais": "Chile"
+    },
+    {
+      "id": 21873090130,
+      "nombre": "Autofin Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 21873268303,
+      "nombre": "Espacio Urbano",
+      "pais": "Chile"
+    },
+    {
+      "id": 21873413504,
+      "nombre": "Grant Thornton Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 21873172496,
+      "nombre": "sbpay",
+      "pais": "Chile"
+    },
+    {
+      "id": 21924671356,
+      "nombre": "Moneda Patria Investments",
+      "pais": "Chile"
+    },
+    {
+      "id": 21924979033,
+      "nombre": "Corporación Nacional Forestal",
+      "pais": "Chile"
+    },
+    {
+      "id": 21963539068,
+      "nombre": "Credicorp Capital",
+      "pais": "Peru"
+    },
+    {
+      "id": 21963659313,
+      "nombre": "Grupo Medical",
+      "pais": "Chile"
+    },
+    {
+      "id": 21963524109,
+      "nombre": "Bofill Mir Abogados",
+      "pais": "Chile"
+    },
+    {
+      "id": 21963632806,
+      "nombre": "PwC Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 21963363655,
+      "nombre": "DTS",
+      "pais": "Chile"
+    },
+    {
+      "id": 21963499663,
+      "nombre": "ECOS CHILE",
+      "pais": "Chile"
+    },
+    {
+      "id": 21963499678,
+      "nombre": "Universidad Tecnológica Metropolitana",
+      "pais": "Chile"
+    },
+    {
+      "id": 21963363671,
+      "nombre": "STRACON",
+      "pais": "Peru"
+    },
+    {
+      "id": 21963952132,
+      "nombre": "uta.cl",
+      "pais": "Chile"
+    },
+    {
+      "id": 21964349829,
+      "nombre": "VGC Abogados",
+      "pais": "Chile"
+    },
+    {
+      "id": 21966107493,
+      "nombre": "SKC_Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 21966483826,
+      "nombre": "Forvis Mazars en Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 21979900679,
+      "nombre": "Ohio National Seguros de Vida – Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 22012361139,
+      "nombre": "Dirección del Trabajo",
+      "pais": "Chile"
+    },
+    {
+      "id": 22012431536,
+      "nombre": "Municipalidad de Temuco",
+      "pais": "Chile"
+    },
+    {
+      "id": 22013972378,
+      "nombre": "Astara Retail",
+      "pais": "Peru"
+    },
+    {
+      "id": 22033137547,
+      "nombre": "Municipalidad de Peñalolén",
+      "pais": "Chile"
+    },
+    {
+      "id": 22049528075,
+      "nombre": "Gendarmería de Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 22054407306,
+      "nombre": "Grupo Saesa",
+      "pais": "Chile"
+    },
+    {
+      "id": 22064909654,
+      "nombre": "Tesoreria General de la Republica",
+      "pais": "Chile"
+    },
+    {
+      "id": 22066247338,
+      "nombre": "Tesoreria General de la Republica",
+      "pais": "Chile"
+    },
+    {
+      "id": 22071878752,
+      "nombre": "Municipalidad de Cerro Navia",
+      "pais": "Chile"
+    },
+    {
+      "id": 22073489536,
+      "nombre": "Ilustre Municipalidad de San Bernardo",
+      "pais": "Chile"
+    },
+    {
+      "id": 22086077292,
+      "nombre": "Lider Bci Servicios Financieros",
+      "pais": "Chile"
+    },
+    {
+      "id": 22108503616,
+      "nombre": "Accenture Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 22108356420,
+      "nombre": "FarosChile",
+      "pais": "Chile"
+    },
+    {
+      "id": 22108279344,
+      "nombre": "Cumplo",
+      "pais": "Chile"
+    },
+    {
+      "id": 22107440737,
+      "nombre": "Komatsu Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 22108521759,
+      "nombre": "Greenex",
+      "pais": "Chile"
+    },
+    {
+      "id": 22108425400,
+      "nombre": "Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 22108484653,
+      "nombre": "Ministerio Público",
+      "pais": "Chile"
+    },
+    {
+      "id": 22108392706,
+      "nombre": "PREGO-GROUP",
+      "pais": "Chile"
+    },
+    {
+      "id": 22108882006,
+      "nombre": "MauiandSons",
+      "pais": "Chile"
+    },
+    {
+      "id": 22108912941,
+      "nombre": "Cygnus",
+      "pais": "Chile"
+    },
+    {
+      "id": 22126983285,
+      "nombre": "HLB SURLATINA CHILE",
+      "pais": "Chile"
+    },
+    {
+      "id": 22127629735,
+      "nombre": "Transportes Nazar",
+      "pais": "Chile"
+    },
+    {
+      "id": 22127662098,
+      "nombre": "Ultramar Agencia Marítima",
+      "pais": "Chile"
+    },
+    {
+      "id": 22127860866,
+      "nombre": "Ex BBVA Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 22164854816,
+      "nombre": "Ministerio de Educación",
+      "pais": "Chile"
+    },
+    {
+      "id": 22164964705,
+      "nombre": "JUNJI - Junta Nacional de Jardines Infantiles",
+      "pais": "Chile"
+    },
+    {
+      "id": 22184212301,
+      "nombre": "bciseguros.com",
+      "pais": "Chile"
+    },
+    {
+      "id": 22193932922,
+      "nombre": "uyc.cl",
+      "pais": "Chile"
+    },
+    {
+      "id": 22205088149,
+      "nombre": "CHEIL CHILE",
+      "pais": "Chile"
+    },
+    {
+      "id": 22206567530,
+      "nombre": "Corporación Municipal Gabriel González Videla",
+      "pais": "Chile"
+    },
+    {
+      "id": 22283279650,
+      "nombre": "Corporacion Municipal de Desarrollo Social de Macul",
+      "pais": "Chile"
+    },
+    {
+      "id": 22312569359,
+      "nombre": "ProntoPaga",
+      "pais": "Chile"
+    },
+    {
+      "id": 22331042312,
+      "nombre": "Hospital Padre Hurtado",
+      "pais": "Chile"
+    },
+    {
+      "id": 22332539294,
+      "nombre": "Cibergestión",
+      "pais": "Chile"
+    },
+    {
+      "id": 22378610958,
+      "nombre": "Global Soluciones Financieras",
+      "pais": "Chile"
+    },
+    {
+      "id": 22446853712,
+      "nombre": "University of Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 22456436001,
+      "nombre": "Michael Page",
+      "pais": "Chile"
+    },
+    {
+      "id": 22456493728,
+      "nombre": "Yapo.cl SpA",
+      "pais": "Chile"
+    },
+    {
+      "id": 22458370578,
+      "nombre": "Capitalizarme",
+      "pais": "Chile"
+    },
+    {
+      "id": 22458223729,
+      "nombre": "CCL AC Auditores Consultores",
+      "pais": "Chile"
+    },
+    {
+      "id": 22457206311,
+      "nombre": "Banco Multiva",
+      "pais": "Mexico"
+    },
+    {
+      "id": 22479422578,
+      "nombre": "SETOP S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 22479905601,
+      "nombre": "Linkes Chile S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 22479355793,
+      "nombre": "COMTEC",
+      "pais": "Chile"
+    },
+    {
+      "id": 22479848334,
+      "nombre": "Grupo Grafton",
+      "pais": "Chile"
+    },
+    {
+      "id": 22479835271,
+      "nombre": "TheLine Group",
+      "pais": "Chile"
+    },
+    {
+      "id": 22479822242,
+      "nombre": "NetProvider",
+      "pais": "Chile"
+    },
+    {
+      "id": 22479798045,
+      "nombre": "Energy Fitness Clubs",
+      "pais": "Chile"
+    },
+    {
+      "id": 22485891382,
+      "nombre": "ferradanehme",
+      "pais": "Chile"
+    },
+    {
+      "id": 22485905253,
+      "nombre": "Araya & Cia. Abogados",
+      "pais": "Chile"
+    },
+    {
+      "id": 22485926921,
+      "nombre": "GRUPO PROGESTION",
+      "pais": "Chile"
+    },
+    {
+      "id": 22488849925,
+      "nombre": "Instituto Profesional San Sebastián",
+      "pais": "Chile"
+    },
+    {
+      "id": 22528709925,
+      "nombre": "Scotiabank",
+      "pais": "Peru"
+    },
+    {
+      "id": 22530368857,
+      "nombre": "Holding Incosec",
+      "pais": "Chile"
+    },
+    {
+      "id": 22530449181,
+      "nombre": "BauMax Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 22558164347,
+      "nombre": "BRINKS CHILE SPA",
+      "pais": "Chile"
+    },
+    {
+      "id": 22556024226,
+      "nombre": "Puerto San Antonio",
+      "pais": "Chile"
+    },
+    {
+      "id": 22577454192,
+      "nombre": "GRAHAM MILLER Liquidadores de Seguros",
+      "pais": "Chile"
+    },
+    {
+      "id": 22599051275,
+      "nombre": "Instituto de Previsión Social, IPS",
+      "pais": "Chile"
+    },
+    {
+      "id": 22598928917,
+      "nombre": "ECR SERVICIOS FINANCIEROS S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 22599015859,
+      "nombre": "GeoVictoria",
+      "pais": "Chile"
+    },
+    {
+      "id": 22598969179,
+      "nombre": "Colektia",
+      "pais": "Chile"
+    },
+    {
+      "id": 22598896257,
+      "nombre": "Gestión Ecológica de Residuos S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 22599043690,
+      "nombre": "Emuchile S.A",
+      "pais": "Chile"
+    },
+    {
+      "id": 22639123206,
+      "nombre": "WSS World Survey Services S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 22639065613,
+      "nombre": "Isapre Nueva Masvida",
+      "pais": "Chile"
+    },
+    {
+      "id": 22639119453,
+      "nombre": "Universidad Católica de la Santísima Concepción",
+      "pais": "Chile"
+    },
+    {
+      "id": 22637837068,
+      "nombre": "Habekost",
+      "pais": "Chile"
+    },
+    {
+      "id": 22637789367,
+      "nombre": "OLAZO HNOS",
+      "pais": "Chile"
+    },
+    {
+      "id": 22654315909,
+      "nombre": "Universidad Bernardo O'Higgins",
+      "pais": "Chile"
+    },
+    {
+      "id": 22676676659,
+      "nombre": "Bocar Group",
+      "pais": "Mexico"
+    },
+    {
+      "id": 22679148883,
+      "nombre": "El Puerto de Liverpool",
+      "pais": "Mexico"
+    },
+    {
+      "id": 22692979239,
+      "nombre": "Walmart de México y Centroamérica",
+      "pais": "Mexico"
+    },
+    {
+      "id": 22725465171,
+      "nombre": "Ilustre Municipalidad de Rancagua",
+      "pais": "Chile"
+    },
+    {
+      "id": 22726043429,
+      "nombre": "Mutualidad de Carabineros (MUTUCAR)",
+      "pais": "Chile"
+    },
+    {
+      "id": 22726153103,
+      "nombre": "BanCrece",
+      "pais": "Chile"
+    },
+    {
+      "id": 22726750072,
+      "nombre": "Addval",
+      "pais": "Chile"
+    },
+    {
+      "id": 22740942703,
+      "nombre": "MOBO México",
+      "pais": "Mexico"
+    },
+    {
+      "id": 22747202894,
+      "nombre": "Tiendas 3B",
+      "pais": "Mexico"
+    },
+    {
+      "id": 22748077636,
+      "nombre": "Refaccionaria California",
+      "pais": "Mexico"
+    },
+    {
+      "id": 22811855497,
+      "nombre": "Clínicas Achs Salud",
+      "pais": "Chile"
+    },
+    {
+      "id": 22873167416,
+      "nombre": "Parks Hospitality Holdings",
+      "pais": "Mexico"
+    },
+    {
+      "id": 23127958916,
+      "nombre": "Grupo Hycsa",
+      "pais": "Mexico"
+    },
+    {
+      "id": 23139905540,
+      "nombre": "ICA Ingenieros Civiles Asociados",
+      "pais": "Mexico"
+    },
+    {
+      "id": 23222290310,
+      "nombre": "Institución de Educación Superior",
+      "pais": "Chile"
+    },
+    {
+      "id": 23212368416,
+      "nombre": "Jara Del Favero abogados",
+      "pais": "Chile"
+    },
+    {
+      "id": 23218762787,
+      "nombre": "Ludipek",
+      "pais": "Chile"
+    },
+    {
+      "id": 23220901778,
+      "nombre": "Plantae Labs",
+      "pais": "Chile"
+    },
+    {
+      "id": 23254519822,
+      "nombre": "Instituto del Medio Ambiente - IDMA",
+      "pais": "Chile"
+    },
+    {
+      "id": 23417176732,
+      "nombre": "OpenBeauchef, U. de Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 23417176736,
+      "nombre": "Minera Salar Blanco",
+      "pais": "Chile"
+    },
+    {
+      "id": 23409439864,
+      "nombre": "Universidad Autónoma de Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 23396887352,
+      "nombre": "Negocio Financiero",
+      "pais": "Chile"
+    },
+    {
+      "id": 23415326584,
+      "nombre": "Cariola Díez Pérez-Cotapos",
+      "pais": "Chile"
+    },
+    {
+      "id": 23435007325,
+      "nombre": "Municipalidad de La Florida",
+      "pais": "Chile"
+    },
+    {
+      "id": 23492968117,
+      "nombre": "Remex",
+      "pais": "Chile"
+    },
+    {
+      "id": 23492968118,
+      "nombre": "Farmacias Benavides",
+      "pais": "Mexico"
+    },
+    {
+      "id": 23734581652,
+      "nombre": "Bemis de México",
+      "pais": "Mexico"
+    },
+    {
+      "id": 23757644903,
+      "nombre": "Ministerio de Transportes y Telecomunicaciones",
+      "pais": "Chile"
+    },
+    {
+      "id": 23761205820,
+      "nombre": "ULOG",
+      "pais": "Chile"
+    },
+    {
+      "id": 23819784986,
+      "nombre": "Alianza Seguridad Ltda.",
+      "pais": "Chile"
+    },
+    {
+      "id": 23895094827,
+      "nombre": "Deutsche Securities",
+      "pais": "Mexico"
+    },
+    {
+      "id": 23932329837,
+      "nombre": "Transformadores Tusan",
+      "pais": "Chile"
+    },
+    {
+      "id": 23932963691,
+      "nombre": "vinicola patacon spa",
+      "pais": "Chile"
+    },
+    {
+      "id": 25154418526,
+      "nombre": "Red Megacentro",
+      "pais": "Chile"
+    },
+    {
+      "id": 25134949196,
+      "nombre": "Grupo San Gabriel",
+      "pais": "Chile"
+    },
+    {
+      "id": 25135097420,
+      "nombre": "Drimo",
+      "pais": "Chile"
+    },
+    {
+      "id": 25149628975,
+      "nombre": "Agencia de Aduanas Espinosa Y Cía. Ltda.",
+      "pais": "Chile"
+    },
+    {
+      "id": 25151619338,
+      "nombre": "Grupo UNACEM",
+      "pais": "Peru"
+    },
+    {
+      "id": 25183551387,
+      "nombre": "Grupo de Empresas Pullman",
+      "pais": "Chile"
+    },
+    {
+      "id": 25166936140,
+      "nombre": "Newscience",
+      "pais": "Chile"
+    },
+    {
+      "id": 25182382211,
+      "nombre": "Epysa",
+      "pais": "Chile"
+    },
+    {
+      "id": 25187989617,
+      "nombre": "davis.cl",
+      "pais": "Chile"
+    },
+    {
+      "id": 25182901797,
+      "nombre": "cial.cl",
+      "pais": "Chile"
+    },
+    {
+      "id": 25221380783,
+      "nombre": "CEMEX",
+      "pais": "Mexico"
+    },
+    {
+      "id": 25200215612,
+      "nombre": "Codelco",
+      "pais": "Chile"
+    },
+    {
+      "id": 25436504845,
+      "nombre": "RepairCo SpA.",
+      "pais": "Chile"
+    },
+    {
+      "id": 25436504848,
+      "nombre": "Centro de Formación Técnica ICEL",
+      "pais": "Chile"
+    },
+    {
+      "id": 25442672283,
+      "nombre": "RestoMarket Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 25450658709,
+      "nombre": "AmCham Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 25517639463,
+      "nombre": "GL events Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 25813133492,
+      "nombre": "AFIN Suministros",
+      "pais": "Chile"
+    },
+    {
+      "id": 25975299091,
+      "nombre": "Verdecorp",
+      "pais": "Chile"
+    },
+    {
+      "id": 25955435191,
+      "nombre": "MINISTERIO DEL INTERIOR",
+      "pais": "Chile"
+    },
+    {
+      "id": 26173995932,
+      "nombre": "Fraccional",
+      "pais": "Chile"
+    },
+    {
+      "id": 26252265017,
+      "nombre": "Subsecretaría de Relaciones Económicas Internacionales Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 26261179564,
+      "nombre": "Sercoing",
+      "pais": "Chile"
+    },
+    {
+      "id": 26249218685,
+      "nombre": "Ecopsa SpA",
+      "pais": "Chile"
+    },
+    {
+      "id": 26324773228,
+      "nombre": "haug.cl",
+      "pais": "Chile"
+    },
+    {
+      "id": 26309366806,
+      "nombre": "Mercado Mayorista Lo Valledor",
+      "pais": "Chile"
+    },
+    {
+      "id": 26309366807,
+      "nombre": "Ariztía",
+      "pais": "Chile"
+    },
+    {
+      "id": 26334693784,
+      "nombre": "BANCO ACTINVER",
+      "pais": "Mexico"
+    },
+    {
+      "id": 26357025850,
+      "nombre": "Grupo JCS",
+      "pais": "Chile"
+    },
+    {
+      "id": 26375661417,
+      "nombre": "Interandinos Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 26371197299,
+      "nombre": "Facultad de Economía y Administración UC",
+      "pais": "Chile"
+    },
+    {
+      "id": 26380701458,
+      "nombre": "Grupo Javer",
+      "pais": "Mexico"
+    },
+    {
+      "id": 26421081785,
+      "nombre": "Abarrotera del Duero S.A. de C.V.",
+      "pais": "Mexico"
+    },
+    {
+      "id": 26488879650,
+      "nombre": "Instituto de Seguridad Laboral",
+      "pais": "Chile"
+    },
+    {
+      "id": 26488702558,
+      "nombre": "Inmobiliaria Paz",
+      "pais": "Chile"
+    },
+    {
+      "id": 26491212835,
+      "nombre": "Universidad Viña del Mar",
+      "pais": "Chile"
+    },
+    {
+      "id": 26487069831,
+      "nombre": "MAS Analytics",
+      "pais": "Chile"
+    },
+    {
+      "id": 26484314631,
+      "nombre": "Hernández Motores S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 26491210269,
+      "nombre": "University of Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 26488705184,
+      "nombre": "Ministerio de Defensa Nacional",
+      "pais": "Chile"
+    },
+    {
+      "id": 26614243968,
+      "nombre": "Aerotech Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 26605783412,
+      "nombre": "Dominó",
+      "pais": "Chile"
+    },
+    {
+      "id": 26605474075,
+      "nombre": "University of Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 26603763536,
+      "nombre": "ITI S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 26974916406,
+      "nombre": "Allgaier de Puebla",
+      "pais": "Mexico"
+    },
+    {
+      "id": 27223128841,
+      "nombre": "St. Andrews Mussels",
+      "pais": "Chile"
+    },
+    {
+      "id": 27208792759,
+      "nombre": "Grupo DK Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 27613884683,
+      "nombre": "Repreind Spa",
+      "pais": "Chile"
+    },
+    {
+      "id": 27664218419,
+      "nombre": "Globalcont",
+      "pais": "Chile"
+    },
+    {
+      "id": 27757785725,
+      "nombre": "CIBANCO",
+      "pais": "Mexico"
+    },
+    {
+      "id": 27714645910,
+      "nombre": "Comercial Cerrillos S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 27757261928,
+      "nombre": "Salfa Mantenciones",
+      "pais": "Chile"
+    },
+    {
+      "id": 27762594358,
+      "nombre": "Ministry of Finance - Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 27762594359,
+      "nombre": "C360",
+      "pais": "Chile"
+    },
+    {
+      "id": 27762594361,
+      "nombre": "Genau Green",
+      "pais": "Chile"
+    },
+    {
+      "id": 27913475488,
+      "nombre": "Unidad Créditos",
+      "pais": "Chile"
+    },
+    {
+      "id": 27969297463,
+      "nombre": "BK Servicios Financieros",
+      "pais": "Chile"
+    },
+    {
+      "id": 28156747653,
+      "nombre": "Protego Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 28152899238,
+      "nombre": "Vorwerk - Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 28152899240,
+      "nombre": "Comercial Agustín SPA",
+      "pais": "Chile"
+    },
+    {
+      "id": 28184151958,
+      "nombre": "K LOGISTICS CHILE S.A",
+      "pais": "Chile"
+    },
+    {
+      "id": 28184462907,
+      "nombre": "Barros & Errázuriz",
+      "pais": "Chile"
+    },
+    {
+      "id": 28184462909,
+      "nombre": "Fastech",
+      "pais": "Chile"
+    },
+    {
+      "id": 28284875366,
+      "nombre": "Servicios y Consultorías Hendaya S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 28370516920,
+      "nombre": "GRUPOSUD",
+      "pais": "Chile"
+    },
+    {
+      "id": 28593961227,
+      "nombre": "Ariane Ingeniería",
+      "pais": "Chile"
+    },
+    {
+      "id": 28631989809,
+      "nombre": "Dirección General de Relaciones Económicas Internacionales de Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 28677916203,
+      "nombre": "Baker Tilly Chile Auditores Consultores",
+      "pais": "Chile"
+    },
+    {
+      "id": 28677916205,
+      "nombre": "PKF Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 28793825940,
+      "nombre": "Fundación Portas",
+      "pais": "Chile"
+    },
+    {
+      "id": 28839749689,
+      "nombre": "Constructora Nuevos Aires",
+      "pais": "Chile"
+    },
+    {
+      "id": 28852160397,
+      "nombre": "Marca Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 28849439792,
+      "nombre": "BeeProject",
+      "pais": "Chile"
+    },
+    {
+      "id": 28914545169,
+      "nombre": "Falcom Asset Management",
+      "pais": "Chile"
+    },
+    {
+      "id": 28916822390,
+      "nombre": "COMPAS Marine",
+      "pais": "Chile"
+    },
+    {
+      "id": 28922033301,
+      "nombre": "Provider LATAM",
+      "pais": "Chile"
+    },
+    {
+      "id": 29001831474,
+      "nombre": "Grupo Maclean Servicios Integrales",
+      "pais": "Chile"
+    },
+    {
+      "id": 29001831475,
+      "nombre": "WS Cargo",
+      "pais": "Chile"
+    },
+    {
+      "id": 29001859881,
+      "nombre": "AgroAdvance",
+      "pais": "Chile"
+    },
+    {
+      "id": 29170085715,
+      "nombre": "CleverIT Group",
+      "pais": "Chile"
+    },
+    {
+      "id": 29181323880,
+      "nombre": "Fracht Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 29181632082,
+      "nombre": "Superintendencia de Educación",
+      "pais": "Chile"
+    },
+    {
+      "id": 29181632084,
+      "nombre": "Jeansblue SPA / Wrangler Jeans - Lee Jeans",
+      "pais": "Chile"
+    },
+    {
+      "id": 29181632091,
+      "nombre": "Inmobiliaria Parque San Pedro",
+      "pais": "Chile"
+    },
+    {
+      "id": 29205549997,
+      "nombre": "Electrocom",
+      "pais": "Chile"
+    },
+    {
+      "id": 29289282167,
+      "nombre": "Inmobiliaria Elisur",
+      "pais": "Chile"
+    },
+    {
+      "id": 29472780400,
+      "nombre": "Clínica Costanera Valdivia",
+      "pais": "Chile"
+    },
+    {
+      "id": 29481338387,
+      "nombre": "LIDERMAN CHILE",
+      "pais": "Chile"
+    },
+    {
+      "id": 29502703761,
+      "nombre": "",
+      "pais": "Chile"
+    },
+    {
+      "id": 29523411609,
+      "nombre": "Constructora VAIN",
+      "pais": "Chile"
+    },
+    {
+      "id": 29523411613,
+      "nombre": "Corporacion Cultural de Vitacura",
+      "pais": "Chile"
+    },
+    {
+      "id": 29525618534,
+      "nombre": "Colegios Monte Tabor y Nazaret",
+      "pais": "Chile"
+    },
+    {
+      "id": 29539181330,
+      "nombre": "eClass",
+      "pais": "Chile"
+    },
+    {
+      "id": 29694544142,
+      "nombre": "Seguros de Salud UC CHRISTUS",
+      "pais": "Chile"
+    },
+    {
+      "id": 29778359053,
+      "nombre": "TRAVELCLUB",
+      "pais": "Chile"
+    },
+    {
+      "id": 29769156611,
+      "nombre": "Comercial Porvenir SpA.",
+      "pais": "Chile"
+    },
+    {
+      "id": 29850647405,
+      "nombre": "Syncore",
+      "pais": "Chile"
+    },
+    {
+      "id": 29855191641,
+      "nombre": "Esimtel S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 29828441126,
+      "nombre": "Viggo",
+      "pais": "Chile"
+    },
+    {
+      "id": 29942203557,
+      "nombre": "Cambiaso Hnos",
+      "pais": "Chile"
+    },
+    {
+      "id": 29942203561,
+      "nombre": "Andacor S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 29977403394,
+      "nombre": "AutoPlanet",
+      "pais": "Chile"
+    },
+    {
+      "id": 30105153137,
+      "nombre": "Unidad de Análisis Financiero",
+      "pais": "Chile"
+    },
+    {
+      "id": 30234860077,
+      "nombre": "KPMG Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 30318410281,
+      "nombre": "RockTruck",
+      "pais": "Chile"
+    },
+    {
+      "id": 30318410289,
+      "nombre": "Tika Foods",
+      "pais": "Chile"
+    },
+    {
+      "id": 30318566307,
+      "nombre": "Universidad Austral de Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 30343266993,
+      "nombre": "Fundación Coanil",
+      "pais": "Chile"
+    },
+    {
+      "id": 30640972649,
+      "nombre": "Solfrut",
+      "pais": "Chile"
+    },
+    {
+      "id": 30884455563,
+      "nombre": "GSI Capital",
+      "pais": "Chile"
+    },
+    {
+      "id": 30919327134,
+      "nombre": "Unimarc",
+      "pais": "Chile"
+    },
+    {
+      "id": 30934897481,
+      "nombre": "Grupo Liguria",
+      "pais": "Chile"
+    },
+    {
+      "id": 31022960191,
+      "nombre": "Fluor Salfa",
+      "pais": "Chile"
+    },
+    {
+      "id": 31030046573,
+      "nombre": "Veltis Latam",
+      "pais": "Chile"
+    },
+    {
+      "id": 31050729851,
+      "nombre": "FT Foods",
+      "pais": "Chile"
+    },
+    {
+      "id": 31124668673,
+      "nombre": "Traza Ltda",
+      "pais": "Chile"
+    },
+    {
+      "id": 31132375715,
+      "nombre": "Supermercados Trébol",
+      "pais": "Chile"
+    },
+    {
+      "id": 31206812687,
+      "nombre": "RPM PARTS",
+      "pais": "Chile"
+    },
+    {
+      "id": 31207652987,
+      "nombre": "Skm Industrial Ltda.",
+      "pais": "Chile"
+    },
+    {
+      "id": 31345331498,
+      "nombre": "CF Seguros de Vida S.A.",
+      "pais": "Mexico"
+    },
+    {
+      "id": 31440136813,
+      "nombre": "Instituto Profesional IPLACEX",
+      "pais": "Chile"
+    },
+    {
+      "id": 31529654570,
+      "nombre": "MetroPago",
+      "pais": "Chile"
+    },
+    {
+      "id": 31529671532,
+      "nombre": "Eco Hotel Boutique Bidasoa",
+      "pais": "Chile"
+    },
+    {
+      "id": 31529673656,
+      "nombre": "Kubo Financiero",
+      "pais": "Mexico"
+    },
+    {
+      "id": 31508138332,
+      "nombre": "Subsecretaría de Educación Parvularia",
+      "pais": "Chile"
+    },
+    {
+      "id": 31665324819,
+      "nombre": "Comercializadora de Trigo S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 31654856870,
+      "nombre": "Creaxxion Ingenieros Consultores LTDA.",
+      "pais": "Chile"
+    },
+    {
+      "id": 31645928303,
+      "nombre": "Ilustre Municipalidad de Chillán",
+      "pais": "Chile"
+    },
+    {
+      "id": 31743477427,
+      "nombre": "NUTRISERV LTDA",
+      "pais": "Chile"
+    },
+    {
+      "id": 31808382862,
+      "nombre": "Banpro Factoring Perú",
+      "pais": "Peru"
+    },
+    {
+      "id": 31808121162,
+      "nombre": "ACEROFERTAS",
+      "pais": "Mexico"
+    },
+    {
+      "id": 31797191959,
+      "nombre": "Laboratorios Sanfer",
+      "pais": "Mexico"
+    },
+    {
+      "id": 31795788082,
+      "nombre": "Gentera",
+      "pais": "Mexico"
+    },
+    {
+      "id": 31803155305,
+      "nombre": "Subsecretaría de Previsión Social",
+      "pais": "Chile"
+    },
+    {
+      "id": 31809451375,
+      "nombre": "Grupo Galeria",
+      "pais": "Mexico"
+    },
+    {
+      "id": 31809440081,
+      "nombre": "Iconn",
+      "pais": "Mexico"
+    },
+    {
+      "id": 31795788293,
+      "nombre": "PLUSCORP",
+      "pais": "Mexico"
+    },
+    {
+      "id": 31780289381,
+      "nombre": "AENZA",
+      "pais": "Peru"
+    },
+    {
+      "id": 31810377995,
+      "nombre": "Banregio",
+      "pais": "Mexico"
+    },
+    {
+      "id": 31821628952,
+      "nombre": "Grupo Inmobiliario GFA",
+      "pais": "Mexico"
+    },
+    {
+      "id": 31782495254,
+      "nombre": "Hospitales Star Médica",
+      "pais": "Mexico"
+    },
+    {
+      "id": 31819792404,
+      "nombre": "Viva",
+      "pais": "Mexico"
+    },
+    {
+      "id": 31794891910,
+      "nombre": "SOUTHERN PERU COPPER CORPORATION",
+      "pais": "Peru"
+    },
+    {
+      "id": 31821630791,
+      "nombre": "Yanbal",
+      "pais": "Peru"
+    },
+    {
+      "id": 31822277221,
+      "nombre": "Diavaz DEP",
+      "pais": "Mexico"
+    },
+    {
+      "id": 31866023021,
+      "nombre": "Caitan SpA",
+      "pais": "Chile"
+    },
+    {
+      "id": 31893027471,
+      "nombre": "DERCORP S.A",
+      "pais": "Chile"
+    },
+    {
+      "id": 31888645794,
+      "nombre": "Academia Nacional de Estudios Políticos y Estratégicos",
+      "pais": "Chile"
+    },
+    {
+      "id": 31835919487,
+      "nombre": "National Fisheries and Aquaculture Service of Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 31848090969,
+      "nombre": "Alinorte S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 31848865113,
+      "nombre": "Municipalidad de Talca",
+      "pais": "Chile"
+    },
+    {
+      "id": 31848865118,
+      "nombre": "Perez Fernandez Consultores",
+      "pais": "Chile"
+    },
+    {
+      "id": 31843760452,
+      "nombre": "Holding Grupo Firma",
+      "pais": "Chile"
+    },
+    {
+      "id": 31893651882,
+      "nombre": "Envases Central SA",
+      "pais": "Chile"
+    },
+    {
+      "id": 31893651887,
+      "nombre": "Municipalidad de Huechuraba",
+      "pais": "Chile"
+    },
+    {
+      "id": 31837155950,
+      "nombre": "Huillinco Family Office",
+      "pais": "Chile"
+    },
+    {
+      "id": 31837155954,
+      "nombre": "Isamed SpA",
+      "pais": "Chile"
+    },
+    {
+      "id": 31889486646,
+      "nombre": "Delta Servicios Financieros SpA",
+      "pais": "Chile"
+    },
+    {
+      "id": 31861233564,
+      "nombre": "SOPRODI S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 31861233566,
+      "nombre": "Congreso Nacional de Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 31853376886,
+      "nombre": "Senado de Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 31867318670,
+      "nombre": "Municipalidad de Antofagasta",
+      "pais": "Chile"
+    },
+    {
+      "id": 31851048116,
+      "nombre": "Editorial Trillas",
+      "pais": "Mexico"
+    },
+    {
+      "id": 31864375052,
+      "nombre": "BBVA en Perú",
+      "pais": "Peru"
+    },
+    {
+      "id": 31911419283,
+      "nombre": "Global Via Pública LATAM",
+      "pais": "Chile"
+    },
+    {
+      "id": 31876105549,
+      "nombre": "Glemflow",
+      "pais": "Chile"
+    },
+    {
+      "id": 31850019223,
+      "nombre": "SWITCH CHILE",
+      "pais": "Chile"
+    },
+    {
+      "id": 31903406606,
+      "nombre": "Inamar Izaje",
+      "pais": "Chile"
+    },
+    {
+      "id": 31886403140,
+      "nombre": "Grupo STI S.A",
+      "pais": "Chile"
+    },
+    {
+      "id": 31902784684,
+      "nombre": "Tierra Armada Chile S.p.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 31918483240,
+      "nombre": "Corporación Municipal Viña del Mar",
+      "pais": "Chile"
+    },
+    {
+      "id": 31865206557,
+      "nombre": "INWASSER SPA",
+      "pais": "Chile"
+    },
+    {
+      "id": 31864427385,
+      "nombre": "Recon Drilling SAC",
+      "pais": "Peru"
+    },
+    {
+      "id": 31888098664,
+      "nombre": "ITECK",
+      "pais": "Chile"
+    },
+    {
+      "id": 31888098669,
+      "nombre": "compania minera teck quebrada blanca s.a.",
+      "pais": "Chile"
+    },
+    {
+      "id": 31902939223,
+      "nombre": "ASI Group Latam",
+      "pais": "Chile"
+    },
+    {
+      "id": 31899809714,
+      "nombre": "Geobarra Exins S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 31881902881,
+      "nombre": "Ecoser",
+      "pais": "Chile"
+    },
+    {
+      "id": 31911424881,
+      "nombre": "KS Servicios Integrales SPA",
+      "pais": "Chile"
+    },
+    {
+      "id": 31917555013,
+      "nombre": "Fundación Gabriel & Mary Mustakis",
+      "pais": "Chile"
+    },
+    {
+      "id": 31917555024,
+      "nombre": "COMPLEX LTDA",
+      "pais": "Chile"
+    },
+    {
+      "id": 31917555026,
+      "nombre": "InDelta",
+      "pais": "Chile"
+    },
+    {
+      "id": 31918895743,
+      "nombre": "ASERCOP LTDA",
+      "pais": "Chile"
+    },
+    {
+      "id": 31898409779,
+      "nombre": "Mantos Group",
+      "pais": "Chile"
+    },
+    {
+      "id": 31898409780,
+      "nombre": "InterWins Motorola",
+      "pais": "Chile"
+    },
+    {
+      "id": 31898409784,
+      "nombre": "STAVIC LTDA.",
+      "pais": "Chile"
+    },
+    {
+      "id": 31851100678,
+      "nombre": "Membrantec S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 31904331815,
+      "nombre": "Nutricion Y Alimentos Sociedad Anonima",
+      "pais": "Chile"
+    },
+    {
+      "id": 31904331816,
+      "nombre": "HLC Ingeniería y Construcción",
+      "pais": "Peru"
+    },
+    {
+      "id": 31911892908,
+      "nombre": "Ceibo",
+      "pais": "Chile"
+    },
+    {
+      "id": 32390194200,
+      "nombre": "Colegio Santa María de Lo Cañas",
+      "pais": "Chile"
+    },
+    {
+      "id": 32390194204,
+      "nombre": "Alessandri Abogados",
+      "pais": "Chile"
+    },
+    {
+      "id": 32395995258,
+      "nombre": "VGM Consultores",
+      "pais": "Chile"
+    },
+    {
+      "id": 32395995259,
+      "nombre": "Centro de Estudios en Derecho Informático, Facultad de Derecho, Universidad de Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 32399193677,
+      "nombre": "Facultad de Odontologia - Universidad de Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 32386168108,
+      "nombre": "Consejo para la Transparencia",
+      "pais": "Chile"
+    },
+    {
+      "id": 32387097462,
+      "nombre": "Compañia Minera Zaldivar",
+      "pais": "Chile"
+    },
+    {
+      "id": 32387097463,
+      "nombre": "Consejo de Defensa del Estado",
+      "pais": "Chile"
+    },
+    {
+      "id": 32423909702,
+      "nombre": "Miniso Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 32388324276,
+      "nombre": "People & Partners",
+      "pais": "Chile"
+    },
+    {
+      "id": 32393973164,
+      "nombre": "Megasalud",
+      "pais": "Chile"
+    },
+    {
+      "id": 32444422226,
+      "nombre": "frutera san fernando sociedad anonima",
+      "pais": "Chile"
+    },
+    {
+      "id": 32401196626,
+      "nombre": "Deira ING",
+      "pais": "Chile"
+    },
+    {
+      "id": 32442438241,
+      "nombre": "Ilustre Municipalidad de Ancud",
+      "pais": "Chile"
+    },
+    {
+      "id": 32626305412,
+      "nombre": "Orsan Seguros",
+      "pais": "Chile"
+    },
+    {
+      "id": 32628005946,
+      "nombre": "Compañia Molinera San Cristobal",
+      "pais": "Chile"
+    },
+    {
+      "id": 32614023497,
+      "nombre": "Corporación Cultural de Las Condes",
+      "pais": "Chile"
+    },
+    {
+      "id": 32908938045,
+      "nombre": "Urbano Proyectos S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 32993042339,
+      "nombre": "ARTL a Member of Nexia",
+      "pais": "Chile"
+    },
+    {
+      "id": 32990882352,
+      "nombre": "Hoteles Cumbres",
+      "pais": "Chile"
+    },
+    {
+      "id": 33111920783,
+      "nombre": "Industrias Vanni S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 33116960825,
+      "nombre": "Prieto Abogados",
+      "pais": "Chile"
+    },
+    {
+      "id": 33117889960,
+      "nombre": "Club de Polo y Equitación San Cristóbal",
+      "pais": "Chile"
+    },
+    {
+      "id": 33116496715,
+      "nombre": "Rastreosat by Redd",
+      "pais": "Chile"
+    },
+    {
+      "id": 33119128761,
+      "nombre": "Cuerpo de Bomberos de Santiago",
+      "pais": "Chile"
+    },
+    {
+      "id": 33112849920,
+      "nombre": "Budnik",
+      "pais": "Chile"
+    },
+    {
+      "id": 33122482271,
+      "nombre": "ULTRATUG",
+      "pais": "Chile"
+    },
+    {
+      "id": 33122482274,
+      "nombre": "Quinta Ingenieria",
+      "pais": "Chile"
+    },
+    {
+      "id": 33113766012,
+      "nombre": "ZUBIMED",
+      "pais": "Chile"
+    },
+    {
+      "id": 33388592495,
+      "nombre": "Neumachile Urrutia y Otarola Ltda",
+      "pais": "Chile"
+    },
+    {
+      "id": 34099303182,
+      "nombre": "Manare",
+      "pais": "Chile"
+    },
+    {
+      "id": 34119485573,
+      "nombre": "EIT Logística S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 34109067264,
+      "nombre": "Gestión Vial",
+      "pais": "Chile"
+    },
+    {
+      "id": 34107361393,
+      "nombre": "Ruuf",
+      "pais": "Chile"
+    },
+    {
+      "id": 34097757823,
+      "nombre": "4life Seguros",
+      "pais": "Chile"
+    },
+    {
+      "id": 34368886201,
+      "nombre": "Blue Light Energy",
+      "pais": "Chile"
+    },
+    {
+      "id": 34348586377,
+      "nombre": "Mediapro Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 34569830014,
+      "nombre": "New Trade Bunkar S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 34728324993,
+      "nombre": "Lader Energy",
+      "pais": "Chile"
+    },
+    {
+      "id": 34729402807,
+      "nombre": "Baraona Marshall & Cía",
+      "pais": "Chile"
+    },
+    {
+      "id": 34987771211,
+      "nombre": "Alster",
+      "pais": "Chile"
+    },
+    {
+      "id": 35039299976,
+      "nombre": "Fundación Amparo y Justicia",
+      "pais": "Chile"
+    },
+    {
+      "id": 35039299979,
+      "nombre": "Bill Capital",
+      "pais": "Chile"
+    },
+    {
+      "id": 35201562657,
+      "nombre": "ComDer Contraparte Central",
+      "pais": "Chile"
+    },
+    {
+      "id": 35358790251,
+      "nombre": "AHD Auditores y Consultores",
+      "pais": "Chile"
+    },
+    {
+      "id": 35375804973,
+      "nombre": "REcorp - Real Estate Helper",
+      "pais": "Chile"
+    },
+    {
+      "id": 35368705627,
+      "nombre": "Predomina",
+      "pais": "Chile"
+    },
+    {
+      "id": 35369675562,
+      "nombre": "AndinaPrime",
+      "pais": "Chile"
+    },
+    {
+      "id": 35369675567,
+      "nombre": "Dal Propiedades",
+      "pais": "Chile"
+    },
+    {
+      "id": 35368705636,
+      "nombre": "Broker Inmobiliario",
+      "pais": "Mexico"
+    },
+    {
+      "id": 35368705638,
+      "nombre": "RES Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 35371687953,
+      "nombre": "Asset Advisors Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 35371687954,
+      "nombre": "Engel & Völkers Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 35376147267,
+      "nombre": "Habiter Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 35461840772,
+      "nombre": "REMAX Synergy",
+      "pais": "Chile"
+    },
+    {
+      "id": 35453564055,
+      "nombre": "Ossandón Auditores Consultores",
+      "pais": "Chile"
+    },
+    {
+      "id": 35462488177,
+      "nombre": "SW Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 35449602215,
+      "nombre": "Ilustre Municipalidad de Taltal",
+      "pais": "Chile"
+    },
+    {
+      "id": 35483194400,
+      "nombre": "PTM Chile SPA",
+      "pais": "Chile"
+    },
+    {
+      "id": 35532666193,
+      "nombre": "Ingevec Inmobiliaria",
+      "pais": "Chile"
+    },
+    {
+      "id": 35498361694,
+      "nombre": "MONEX GRUPO FINANCIERO",
+      "pais": "Mexico"
+    },
+    {
+      "id": 35533711539,
+      "nombre": "FCAdvisory",
+      "pais": "Chile"
+    },
+    {
+      "id": 35526981192,
+      "nombre": "Constructora Harcha",
+      "pais": "Chile"
+    },
+    {
+      "id": 35526981194,
+      "nombre": "Freemaq",
+      "pais": "Chile"
+    },
+    {
+      "id": 35582169157,
+      "nombre": "Moore Landa",
+      "pais": "Chile"
+    },
+    {
+      "id": 35503015479,
+      "nombre": "ComBanc",
+      "pais": "Chile"
+    },
+    {
+      "id": 35570037530,
+      "nombre": "ORBE Ambiental & Legal",
+      "pais": "Chile"
+    },
+    {
+      "id": 35594898790,
+      "nombre": "Bridge Ventures Group SpA",
+      "pais": "Chile"
+    },
+    {
+      "id": 35596270410,
+      "nombre": "VIZCAYA CAPITAL INVERSIONES SA",
+      "pais": "Chile"
+    },
+    {
+      "id": 35644246347,
+      "nombre": "RAM Abogados",
+      "pais": "Chile"
+    },
+    {
+      "id": 35902885711,
+      "nombre": "Transportes Cruz Del Sur Ltda",
+      "pais": "Chile"
+    },
+    {
+      "id": 36304583689,
+      "nombre": "Grupo Insurex",
+      "pais": "Chile"
+    },
+    {
+      "id": 36655639054,
+      "nombre": "RCM Modular",
+      "pais": "Chile"
+    },
+    {
+      "id": 36650860705,
+      "nombre": "Soluciones Expertas S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 36686913578,
+      "nombre": "CRITERIA",
+      "pais": "Chile"
+    },
+    {
+      "id": 36736339542,
+      "nombre": "Tokosova Hydroval",
+      "pais": "Chile"
+    },
+    {
+      "id": 36784205359,
+      "nombre": "Chilean Grape Group",
+      "pais": "Chile"
+    },
+    {
+      "id": 36782307413,
+      "nombre": "MBA UC",
+      "pais": "Chile"
+    },
+    {
+      "id": 36771086406,
+      "nombre": "THINKING",
+      "pais": "Chile"
+    },
+    {
+      "id": 36771086409,
+      "nombre": "Universidad Academia de Humanismo Cristiano",
+      "pais": "Chile"
+    },
+    {
+      "id": 36799346953,
+      "nombre": "Un Techo para Chile",
+      "pais": "Mexico"
+    },
+    {
+      "id": 36796718224,
+      "nombre": "PROSIGA",
+      "pais": "Chile"
+    },
+    {
+      "id": 36949023257,
+      "nombre": "Bracker",
+      "pais": "Chile"
+    },
+    {
+      "id": 37009134937,
+      "nombre": "Occidental Chemical Chile Limitada",
+      "pais": "Chile"
+    },
+    {
+      "id": 37030092298,
+      "nombre": "Conix Ingenieria y Construccion SpA",
+      "pais": "Chile"
+    },
+    {
+      "id": 37329815896,
+      "nombre": "Ecoterra Foods",
+      "pais": "Chile"
+    },
+    {
+      "id": 37880832408,
+      "nombre": "RENTAS PATIO IV SPA",
+      "pais": "Chile"
+    },
+    {
+      "id": 38676732541,
+      "nombre": "RNE",
+      "pais": "Chile"
+    },
+    {
+      "id": 38766779542,
+      "nombre": "Zoomlion Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 38803720109,
+      "nombre": "Geti Solutions",
+      "pais": "Chile"
+    },
+    {
+      "id": 38801136033,
+      "nombre": "",
+      "pais": "Chile"
+    },
+    {
+      "id": 38968606485,
+      "nombre": "Andesbhumi",
+      "pais": "Chile"
+    },
+    {
+      "id": 38990826401,
+      "nombre": "AVANC Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 38990826402,
+      "nombre": "Gran Américas Santiago",
+      "pais": "Chile"
+    },
+    {
+      "id": 38991908971,
+      "nombre": "Compliance Officer",
+      "pais": "Mexico"
+    },
+    {
+      "id": 38967881739,
+      "nombre": "Consorcio ARA",
+      "pais": "Mexico"
+    },
+    {
+      "id": 38954187170,
+      "nombre": "Vambe",
+      "pais": "Chile"
+    },
+    {
+      "id": 38954187175,
+      "nombre": "ALTRAD RMDK Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 38980593963,
+      "nombre": "Praxis+ Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 38981204250,
+      "nombre": "Vigilance SpA",
+      "pais": "Chile"
+    },
+    {
+      "id": 38969742260,
+      "nombre": "KOLMMA",
+      "pais": "Chile"
+    },
+    {
+      "id": 38998534820,
+      "nombre": "Lead Asesores",
+      "pais": "Mexico"
+    },
+    {
+      "id": 38996283707,
+      "nombre": "MAB Risk Compliance",
+      "pais": "Chile"
+    },
+    {
+      "id": 38996283709,
+      "nombre": "ARMMA",
+      "pais": "Chile"
+    },
+    {
+      "id": 38953877411,
+      "nombre": "Paragon Project Partners",
+      "pais": "Chile"
+    },
+    {
+      "id": 38953877416,
+      "nombre": "Blue Latam",
+      "pais": "Chile"
+    },
+    {
+      "id": 38990981795,
+      "nombre": "GM Analítica",
+      "pais": "Chile"
+    },
+    {
+      "id": 38952791098,
+      "nombre": "WorklegalChile",
+      "pais": "Chile"
+    },
+    {
+      "id": 38995665814,
+      "nombre": "P&M Abogados",
+      "pais": "Chile"
+    },
+    {
+      "id": 38962131093,
+      "nombre": "Procesos Metalmecánicos del Bajío",
+      "pais": "Mexico"
+    },
+    {
+      "id": 38962131096,
+      "nombre": "INDAR: Precio, Rapidez y Atención",
+      "pais": "Mexico"
+    },
+    {
+      "id": 38969273993,
+      "nombre": "Harvey Abogados",
+      "pais": "Chile"
+    },
+    {
+      "id": 38969273999,
+      "nombre": "Work Therapy",
+      "pais": "Chile"
+    },
+    {
+      "id": 38953256603,
+      "nombre": "Transición laboral",
+      "pais": "Chile"
+    },
+    {
+      "id": 38954495542,
+      "nombre": "Casia by Ceibo",
+      "pais": "Chile"
+    },
+    {
+      "id": 38954495543,
+      "nombre": "Skrum Solutions",
+      "pais": "Chile"
+    },
+    {
+      "id": 38954495544,
+      "nombre": "Cuche López",
+      "pais": "Chile"
+    },
+    {
+      "id": 38954495545,
+      "nombre": "Numerus Software",
+      "pais": "Chile"
+    },
+    {
+      "id": 38993022635,
+      "nombre": "NDC PERSSO GROUP",
+      "pais": "Chile"
+    },
+    {
+      "id": 38993022636,
+      "nombre": "TOCTOC",
+      "pais": "Chile"
+    },
+    {
+      "id": 38993022638,
+      "nombre": "Facultad de Gobierno Universidad de Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 38993022641,
+      "nombre": "Sealand Advanced Aquaculture",
+      "pais": "Chile"
+    },
+    {
+      "id": 38960899239,
+      "nombre": "Maestranza y Galvanizadora PYP",
+      "pais": "Chile"
+    },
+    {
+      "id": 38969429798,
+      "nombre": "C&P Assurance Compliance SpA",
+      "pais": "Chile"
+    },
+    {
+      "id": 38969429801,
+      "nombre": "Automining",
+      "pais": "Chile"
+    },
+    {
+      "id": 38969429804,
+      "nombre": "ALUVIAL CONSULTORES",
+      "pais": "Chile"
+    },
+    {
+      "id": 38969429805,
+      "nombre": "WEWLU.COM",
+      "pais": "Chile"
+    },
+    {
+      "id": 38965113700,
+      "nombre": "Hi! Sports TV",
+      "pais": "Mexico"
+    },
+    {
+      "id": 38966962978,
+      "nombre": "L&M ALVARADO CONSULTORES",
+      "pais": "Chile"
+    },
+    {
+      "id": 38995665818,
+      "nombre": "BeFX",
+      "pais": "Chile"
+    },
+    {
+      "id": 38995665823,
+      "nombre": "CAMPORT, Cámara Marítima y Portuaria de Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 38995665824,
+      "nombre": "3xi",
+      "pais": "Chile"
+    },
+    {
+      "id": 38995665825,
+      "nombre": "PMT SpA",
+      "pais": "Chile"
+    },
+    {
+      "id": 38991445360,
+      "nombre": "KLCE Group",
+      "pais": "Chile"
+    },
+    {
+      "id": 38992112970,
+      "nombre": "Ilustre Municipalidad de Tomé",
+      "pais": "Chile"
+    },
+    {
+      "id": 38991030565,
+      "nombre": "Corporación Municipal Viña del Mar",
+      "pais": "Chile"
+    },
+    {
+      "id": 38969480598,
+      "nombre": "Piwén",
+      "pais": "Chile"
+    },
+    {
+      "id": 39041486688,
+      "nombre": "Bodegas y Viñedos de Aguirre S.A",
+      "pais": "Chile"
+    },
+    {
+      "id": 39041486689,
+      "nombre": "TRANSBORDADORA AUSTRAL BROOM SA",
+      "pais": "Chile"
+    },
+    {
+      "id": 39041486690,
+      "nombre": "forestal comaco s a",
+      "pais": "Chile"
+    },
+    {
+      "id": 39041486691,
+      "nombre": "Hotel AWA",
+      "pais": "Chile"
+    },
+    {
+      "id": 38964490539,
+      "nombre": "Puga Ortiz",
+      "pais": "Chile"
+    },
+    {
+      "id": 38990569739,
+      "nombre": "Servicio de Salud Aysén",
+      "pais": "Chile"
+    },
+    {
+      "id": 39051149088,
+      "nombre": "Red Negocios",
+      "pais": "Chile"
+    },
+    {
+      "id": 39068212109,
+      "nombre": "Grupo Inversiones Norte",
+      "pais": "Chile"
+    },
+    {
+      "id": 39028256572,
+      "nombre": "Minería Creativa",
+      "pais": "Chile"
+    },
+    {
+      "id": 39059300995,
+      "nombre": "Dily",
+      "pais": "Chile"
+    },
+    {
+      "id": 39082727246,
+      "nombre": "Berríos & Palavecino | Pinochet - Abogados",
+      "pais": "Chile"
+    },
+    {
+      "id": 39068707508,
+      "nombre": "Coquimbo Unido",
+      "pais": "Chile"
+    },
+    {
+      "id": 39101441581,
+      "nombre": "TrioGroup",
+      "pais": "Chile"
+    },
+    {
+      "id": 39103299657,
+      "nombre": "DG Medios Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 39122110045,
+      "nombre": "Globo Marketing",
+      "pais": "Chile"
+    },
+    {
+      "id": 39104310598,
+      "nombre": "ATR Producciones",
+      "pais": "Chile"
+    },
+    {
+      "id": 39111127099,
+      "nombre": "ELB (Transportes Nacionales Libertador)",
+      "pais": "Chile"
+    },
+    {
+      "id": 39158105777,
+      "nombre": "Terciados y Elaboración de Maderas S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 39268210186,
+      "nombre": "Winpharm",
+      "pais": "Chile"
+    },
+    {
+      "id": 39276964467,
+      "nombre": "Harry Plotter",
+      "pais": "Chile"
+    },
+    {
+      "id": 39371723568,
+      "nombre": "StickerShopcl",
+      "pais": "Chile"
+    },
+    {
+      "id": 39815087176,
+      "nombre": "Pension Fi",
+      "pais": "Chile"
+    },
+    {
+      "id": 40108292891,
+      "nombre": "Greendot Spa",
+      "pais": "Chile"
+    },
+    {
+      "id": 40175163030,
+      "nombre": "BENEXIA®",
+      "pais": "Chile"
+    },
+    {
+      "id": 40242767228,
+      "nombre": "Corporación TRANSED",
+      "pais": "Chile"
+    },
+    {
+      "id": 40268506997,
+      "nombre": "Escuela de Postgrado Economía y Negocios - Universidad de Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 40253114677,
+      "nombre": "Four Points by Sheraton Los Ángeles, Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 40329979778,
+      "nombre": "Contador Público y Auditor",
+      "pais": "Chile"
+    },
+    {
+      "id": 40373021786,
+      "nombre": "Veladoras Místicas",
+      "pais": "Mexico"
+    },
+    {
+      "id": 40373021790,
+      "nombre": "Siegfried Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 40360064069,
+      "nombre": "CENTRAL DE MATERIALES REWO",
+      "pais": "Mexico"
+    },
+    {
+      "id": 40177271170,
+      "nombre": "MedSolution",
+      "pais": "Chile"
+    },
+    {
+      "id": 40177271173,
+      "nombre": "Trebulco School",
+      "pais": "Chile"
+    },
+    {
+      "id": 40436652403,
+      "nombre": "ESE Business School Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 40384940299,
+      "nombre": "BANCO DEL BAJIO",
+      "pais": "Mexico"
+    },
+    {
+      "id": 40384940304,
+      "nombre": "dey",
+      "pais": "Mexico"
+    },
+    {
+      "id": 40351272632,
+      "nombre": "PROREF SpA",
+      "pais": "Chile"
+    },
+    {
+      "id": 40351272710,
+      "nombre": "AMBBIO",
+      "pais": "Mexico"
+    },
+    {
+      "id": 40329363484,
+      "nombre": "Walfort International",
+      "pais": "Mexico"
+    },
+    {
+      "id": 40414757028,
+      "nombre": "Gentor",
+      "pais": "Mexico"
+    },
+    {
+      "id": 40361302274,
+      "nombre": "EL REY DEL TORNILLO",
+      "pais": "Mexico"
+    },
+    {
+      "id": 40400930058,
+      "nombre": "TotalPack",
+      "pais": "Chile"
+    },
+    {
+      "id": 40419951401,
+      "nombre": "Terminal Graneles del Norte S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 40333078322,
+      "nombre": "Distribuidora Disur, S.A. de C.V.",
+      "pais": "Mexico"
+    },
+    {
+      "id": 40383701562,
+      "nombre": "AB SAMI Servicios Integrados",
+      "pais": "Chile"
+    },
+    {
+      "id": 40383701563,
+      "nombre": "Aguas CAP",
+      "pais": "Chile"
+    },
+    {
+      "id": 40383701565,
+      "nombre": "Viventa",
+      "pais": "Chile"
+    },
+    {
+      "id": 40349473622,
+      "nombre": "Clinica Beauvisage",
+      "pais": "Chile"
+    },
+    {
+      "id": 40336147247,
+      "nombre": "Michell Consultores",
+      "pais": "Chile"
+    },
+    {
+      "id": 40328431992,
+      "nombre": "Elite Brands Latam",
+      "pais": "Chile"
+    },
+    {
+      "id": 40330753951,
+      "nombre": "Energy Sustainability Tech consultora (Gestores Integrales  EGR)",
+      "pais": "Chile"
+    },
+    {
+      "id": 40352666726,
+      "nombre": "Ameq Chile S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 40375805820,
+      "nombre": "Banco KEB Hana México",
+      "pais": "Mexico"
+    },
+    {
+      "id": 40401239917,
+      "nombre": "Smartvision Consulting",
+      "pais": "Chile"
+    },
+    {
+      "id": 40329517159,
+      "nombre": "IM Logística",
+      "pais": "Chile"
+    },
+    {
+      "id": 40329517167,
+      "nombre": "Aspel de México",
+      "pais": "Mexico"
+    },
+    {
+      "id": 40363622957,
+      "nombre": "Omnistock SpA",
+      "pais": "Chile"
+    },
+    {
+      "id": 40436186991,
+      "nombre": "Profonanpe",
+      "pais": "Peru"
+    },
+    {
+      "id": 40360064083,
+      "nombre": "OHLA CHILE",
+      "pais": "Chile"
+    },
+    {
+      "id": 40360064087,
+      "nombre": "SMI",
+      "pais": "Peru"
+    },
+    {
+      "id": 40358542495,
+      "nombre": "RedOffice",
+      "pais": "Chile"
+    },
+    {
+      "id": 40615127078,
+      "nombre": "Club Deportivo Universidad San Sebastián",
+      "pais": "Chile"
+    },
+    {
+      "id": 40682057120,
+      "nombre": "DeepLanding",
+      "pais": "Chile"
+    },
+    {
+      "id": 40601519888,
+      "nombre": "PESCALABS",
+      "pais": "Chile"
+    },
+    {
+      "id": 40630429301,
+      "nombre": "PROREP Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 40779503452,
+      "nombre": "Grupo KitCorp",
+      "pais": "Chile"
+    },
+    {
+      "id": 40973694530,
+      "nombre": "InverCap Afore",
+      "pais": "Mexico"
+    },
+    {
+      "id": 41222197173,
+      "nombre": "Asociación InsurTech México",
+      "pais": "Mexico"
+    },
+    {
+      "id": 41191840158,
+      "nombre": "Portal Agentes",
+      "pais": "Mexico"
+    },
+    {
+      "id": 41356007254,
+      "nombre": "Inversiones Díaz Cumsille",
+      "pais": "Chile"
+    },
+    {
+      "id": 41521026345,
+      "nombre": "",
+      "pais": "Chile"
+    },
+    {
+      "id": 41399122178,
+      "nombre": "Dentaid",
+      "pais": "Chile"
+    },
+    {
+      "id": 41575000205,
+      "nombre": "IIDESA Inmobiliaria e Inversiones S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 41788656410,
+      "nombre": "Nuevo Capital",
+      "pais": "Chile"
+    },
+    {
+      "id": 41807686312,
+      "nombre": "RIOblanco",
+      "pais": "Chile"
+    },
+    {
+      "id": 41794424399,
+      "nombre": "Tek Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 41825183530,
+      "nombre": "Autofact",
+      "pais": "Chile"
+    },
+    {
+      "id": 41825183532,
+      "nombre": "Cargomobility",
+      "pais": "Chile"
+    },
+    {
+      "id": 42307019121,
+      "nombre": "MEATERS",
+      "pais": "Chile"
+    },
+    {
+      "id": 42707716743,
+      "nombre": "Secretaría de Hacienda y Crédito Público",
+      "pais": "Mexico"
+    },
+    {
+      "id": 42712980585,
+      "nombre": "SARELLY SARELLY",
+      "pais": "Mexico"
+    },
+    {
+      "id": 42712980592,
+      "nombre": "NewGrow",
+      "pais": "Chile"
+    },
+    {
+      "id": 42721490850,
+      "nombre": "Fetén Consulting",
+      "pais": "Chile"
+    },
+    {
+      "id": 42719791104,
+      "nombre": "Grupo Flosol",
+      "pais": "Mexico"
+    },
+    {
+      "id": 42697070104,
+      "nombre": "Ale Service Center",
+      "pais": "Mexico"
+    },
+    {
+      "id": 42701250640,
+      "nombre": "RPP",
+      "pais": "Peru"
+    },
+    {
+      "id": 42725671725,
+      "nombre": "Moving Food Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 42706787588,
+      "nombre": "Comercial Octava",
+      "pais": "Chile"
+    },
+    {
+      "id": 42695366040,
+      "nombre": "BUKA Foods",
+      "pais": "Chile"
+    },
+    {
+      "id": 42708489075,
+      "nombre": "Lean Transformation",
+      "pais": "Mexico"
+    },
+    {
+      "id": 42613487174,
+      "nombre": "Norte Grande S.A. y Filiales",
+      "pais": "Chile"
+    },
+    {
+      "id": 42613487177,
+      "nombre": "Grupo JRI",
+      "pais": "Chile"
+    },
+    {
+      "id": 42743210651,
+      "nombre": "Economia Circular",
+      "pais": "Chile"
+    },
+    {
+      "id": 42743210657,
+      "nombre": "Potenciadora de Negocios",
+      "pais": "Chile"
+    },
+    {
+      "id": 42807444572,
+      "nombre": "Exitus Credit",
+      "pais": "Mexico"
+    },
+    {
+      "id": 42718091113,
+      "nombre": "Pérez-Llorca México",
+      "pais": "Mexico"
+    },
+    {
+      "id": 42718091114,
+      "nombre": "Guerra & Meniconi Abogados",
+      "pais": "Chile"
+    },
+    {
+      "id": 42698773400,
+      "nombre": "Uni-Trade Group",
+      "pais": "Mexico"
+    },
+    {
+      "id": 42696295459,
+      "nombre": "Todostore",
+      "pais": "Chile"
+    },
+    {
+      "id": 42694128673,
+      "nombre": "Redcomercio S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 42724586598,
+      "nombre": "Marathon Sports",
+      "pais": "Peru"
+    },
+    {
+      "id": 42705484294,
+      "nombre": "Remolinos Consultores",
+      "pais": "Chile"
+    },
+    {
+      "id": 42696142434,
+      "nombre": "Clase Azul México",
+      "pais": "Mexico"
+    },
+    {
+      "id": 42696142438,
+      "nombre": "Corporacion Administrativa del Poder Judicial",
+      "pais": "Chile"
+    },
+    {
+      "id": 42787397791,
+      "nombre": "DATAGRID",
+      "pais": "Chile"
+    },
+    {
+      "id": 42711741998,
+      "nombre": "CSC Banmédica",
+      "pais": "Chile"
+    },
+    {
+      "id": 42614261537,
+      "nombre": "COEMCO - Corporación Educacional Masónica de Concepción",
+      "pais": "Chile"
+    },
+    {
+      "id": 42787551835,
+      "nombre": "CAP MinerÃ­a",
+      "pais": "Chile"
+    },
+    {
+      "id": 42787551843,
+      "nombre": "SG Autos",
+      "pais": "Chile"
+    },
+    {
+      "id": 42787551844,
+      "nombre": "Delpin Pizarro & Cia",
+      "pais": "Chile"
+    },
+    {
+      "id": 42709264189,
+      "nombre": "Moov® | Creative & Growth Consulting | Moov Media Group",
+      "pais": "Chile"
+    },
+    {
+      "id": 42710348670,
+      "nombre": "GEOMAT Chile SpA",
+      "pais": "Chile"
+    },
+    {
+      "id": 42695521137,
+      "nombre": "V & V Security",
+      "pais": "Chile"
+    },
+    {
+      "id": 42796399448,
+      "nombre": "TSP Ingeniería de Caminos",
+      "pais": "Chile"
+    },
+    {
+      "id": 42705794418,
+      "nombre": "Automotriz Musalem",
+      "pais": "Chile"
+    },
+    {
+      "id": 42709419691,
+      "nombre": "Clínica Oftalmológica Kydoft",
+      "pais": "Chile"
+    },
+    {
+      "id": 42706168729,
+      "nombre": "Nuclear",
+      "pais": "Mexico"
+    },
+    {
+      "id": 42706168730,
+      "nombre": "HIZ ABOGADOS",
+      "pais": "Chile"
+    },
+    {
+      "id": 42805585937,
+      "nombre": "Royal Holiday",
+      "pais": "Mexico"
+    },
+    {
+      "id": 42805585942,
+      "nombre": "La Cumbre Digital",
+      "pais": "Chile"
+    },
+    {
+      "id": 42796399457,
+      "nombre": "Bubba Autoparts Ltda",
+      "pais": "Chile"
+    },
+    {
+      "id": 42712361396,
+      "nombre": "Incendios Forestales/CONAF",
+      "pais": "Chile"
+    },
+    {
+      "id": 42691959868,
+      "nombre": "DRL Lighting",
+      "pais": "Chile"
+    },
+    {
+      "id": 42722420530,
+      "nombre": "Inmobiliaria Grupo Áurea",
+      "pais": "Mexico"
+    },
+    {
+      "id": 42722420532,
+      "nombre": "InfoSec365 | Tecnología e Información - T&I Consultores",
+      "pais": "Chile"
+    },
+    {
+      "id": 42722420536,
+      "nombre": "FIVE Consultores",
+      "pais": "Chile"
+    },
+    {
+      "id": 42722420538,
+      "nombre": "Nueva era",
+      "pais": "Chile"
+    },
+    {
+      "id": 42810393780,
+      "nombre": "MLS Cargo",
+      "pais": "Chile"
+    },
+    {
+      "id": 42712980812,
+      "nombre": "",
+      "pais": "Chile"
+    },
+    {
+      "id": 42877677606,
+      "nombre": "Vlak Properties",
+      "pais": "Chile"
+    },
+    {
+      "id": 42711939708,
+      "nombre": "RSK Group",
+      "pais": "Chile"
+    },
+    {
+      "id": 42882040598,
+      "nombre": "Matrix Consulting",
+      "pais": "Chile"
+    },
+    {
+      "id": 42930470743,
+      "nombre": "Gestion Urbana",
+      "pais": "Chile"
+    },
+    {
+      "id": 43050508937,
+      "nombre": "Aptec",
+      "pais": "Mexico"
+    },
+    {
+      "id": 43061645700,
+      "nombre": "ALCOP",
+      "pais": "Chile"
+    },
+    {
+      "id": 43036973395,
+      "nombre": "Servitrans Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 43060903720,
+      "nombre": "Mail Boxes Etc.",
+      "pais": "Chile"
+    },
+    {
+      "id": 43253211472,
+      "nombre": "Payet, Rey, Cauvi, Pérez Abogados",
+      "pais": "Peru"
+    },
+    {
+      "id": 43243615246,
+      "nombre": "CREDIX",
+      "pais": "Mexico"
+    },
+    {
+      "id": 43475431540,
+      "nombre": "Zweicom",
+      "pais": "Chile"
+    },
+    {
+      "id": 43496669614,
+      "nombre": "Importadora Go-Shop, Vytrous Biotech, ESN-Cursor",
+      "pais": "Chile"
+    },
+    {
+      "id": 43924183611,
+      "nombre": "PREGO",
+      "pais": "Chile"
+    },
+    {
+      "id": 44096674195,
+      "nombre": "Rojo y Asociados Ltda",
+      "pais": "Chile"
+    },
+    {
+      "id": 44096674196,
+      "nombre": "Confidence Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 44048120478,
+      "nombre": "AseconSA",
+      "pais": "Chile"
+    },
+    {
+      "id": 44056445487,
+      "nombre": "Radio Pauta",
+      "pais": "Chile"
+    },
+    {
+      "id": 44065816398,
+      "nombre": "MDA Inmobiliaria",
+      "pais": "Chile"
+    },
+    {
+      "id": 44399416626,
+      "nombre": "InfoBusiness",
+      "pais": "Chile"
+    },
+    {
+      "id": 44561458480,
+      "nombre": "Grupo Falabella",
+      "pais": "Chile"
+    },
+    {
+      "id": 44561002394,
+      "nombre": "Macaya Safety",
+      "pais": "Chile"
+    },
+    {
+      "id": 44563484076,
+      "nombre": "Corporación Municipal Lo Prado",
+      "pais": "Chile"
+    },
+    {
+      "id": 44685947406,
+      "nombre": "Municipalidad de Graneros",
+      "pais": "Chile"
+    },
+    {
+      "id": 44685947408,
+      "nombre": "Avalia",
+      "pais": "Mexico"
+    },
+    {
+      "id": 45010928698,
+      "nombre": "Landmark Cap",
+      "pais": "Chile"
+    },
+    {
+      "id": 45237232648,
+      "nombre": "Ski Portillo",
+      "pais": "Chile"
+    },
+    {
+      "id": 45242487165,
+      "nombre": "Constructora Tecsa",
+      "pais": "Chile"
+    },
+    {
+      "id": 45885724442,
+      "nombre": "Asociación de Profesionales en Logística APLOG A.G.",
+      "pais": "Chile"
+    },
+    {
+      "id": 45886399608,
+      "nombre": "Servicio de Salud Atacama",
+      "pais": "Chile"
+    },
+    {
+      "id": 45891787152,
+      "nombre": "American Parts Spa",
+      "pais": "Chile"
+    },
+    {
+      "id": 46011152761,
+      "nombre": "Maicao",
+      "pais": "Chile"
+    },
+    {
+      "id": 46011152768,
+      "nombre": "Inversiones y Asesorías Liguria S. A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 46021240407,
+      "nombre": "Schusterdautor",
+      "pais": "Chile"
+    },
+    {
+      "id": 45910830627,
+      "nombre": "Jedimar Corporativo",
+      "pais": "Chile"
+    },
+    {
+      "id": 46002058393,
+      "nombre": "ALUS",
+      "pais": "Mexico"
+    },
+    {
+      "id": 45914628434,
+      "nombre": "Autopistas de Antofagasta",
+      "pais": "Chile"
+    },
+    {
+      "id": 45886485110,
+      "nombre": "PandaPay",
+      "pais": "Mexico"
+    },
+    {
+      "id": 45900512865,
+      "nombre": "AKLOE",
+      "pais": "Chile"
+    },
+    {
+      "id": 46032211852,
+      "nombre": "BrainTraining-Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 46032211853,
+      "nombre": "2talk",
+      "pais": "Chile"
+    },
+    {
+      "id": 45888474649,
+      "nombre": "ISecurity S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 45903603240,
+      "nombre": "PROelectrica Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 45916328714,
+      "nombre": "GRUPO PASTA",
+      "pais": "Mexico"
+    },
+    {
+      "id": 46055707729,
+      "nombre": "Parga, Montes & Vasseur Laborales",
+      "pais": "Chile"
+    },
+    {
+      "id": 46055707730,
+      "nombre": "Ingeniería SINTEGRACOM",
+      "pais": "Chile"
+    },
+    {
+      "id": 46055707732,
+      "nombre": "DATAPROP",
+      "pais": "Chile"
+    },
+    {
+      "id": 45887238250,
+      "nombre": "OTEC FORMAX PRO",
+      "pais": "Chile"
+    },
+    {
+      "id": 45992608317,
+      "nombre": "Cecilia Porta M. Desarrollo Empresarial",
+      "pais": "Chile"
+    },
+    {
+      "id": 45992608322,
+      "nombre": "WideGroup® Consulting",
+      "pais": "Chile"
+    },
+    {
+      "id": 45992608324,
+      "nombre": "Petco Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 46050058630,
+      "nombre": "Riagui Servicios Mineros",
+      "pais": "Chile"
+    },
+    {
+      "id": 46050058637,
+      "nombre": "Exeltis Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 45947061901,
+      "nombre": "JRC Rental",
+      "pais": "Chile"
+    },
+    {
+      "id": 45890183595,
+      "nombre": "Victoria Consultores",
+      "pais": "Chile"
+    },
+    {
+      "id": 45890183596,
+      "nombre": "Globe Power",
+      "pais": "Chile"
+    },
+    {
+      "id": 46035502487,
+      "nombre": "Chiloeacui spa",
+      "pais": "Chile"
+    },
+    {
+      "id": 46039573889,
+      "nombre": "Enrique Osses E. y Cia Ltda.",
+      "pais": "Chile"
+    },
+    {
+      "id": 46038844320,
+      "nombre": "comercial dicalla s a",
+      "pais": "Chile"
+    },
+    {
+      "id": 46038844324,
+      "nombre": "JOBI COMPANY",
+      "pais": "Chile"
+    },
+    {
+      "id": 45880170634,
+      "nombre": "TERRITORIALES COSULTORA",
+      "pais": "Chile"
+    },
+    {
+      "id": 45880170636,
+      "nombre": "SmartSAP Consultores",
+      "pais": "Chile"
+    },
+    {
+      "id": 45902375718,
+      "nombre": "DLM COMERCIAL SPA",
+      "pais": "Chile"
+    },
+    {
+      "id": 46056016981,
+      "nombre": "Serrano Perez Consultores",
+      "pais": "Chile"
+    },
+    {
+      "id": 46056016988,
+      "nombre": "Grupo Muya",
+      "pais": "Peru"
+    },
+    {
+      "id": 46056016989,
+      "nombre": "Fundacion Santa Clara",
+      "pais": "Chile"
+    },
+    {
+      "id": 45894818718,
+      "nombre": "Corredora de Propiedades",
+      "pais": "Chile"
+    },
+    {
+      "id": 45882388803,
+      "nombre": "TV5 Linares",
+      "pais": "Chile"
+    },
+    {
+      "id": 45900356158,
+      "nombre": "Tierraverde",
+      "pais": "Chile"
+    },
+    {
+      "id": 46080399176,
+      "nombre": "Petric Auditores",
+      "pais": "Chile"
+    },
+    {
+      "id": 46198367274,
+      "nombre": "TecWagen",
+      "pais": "Chile"
+    },
+    {
+      "id": 46690483631,
+      "nombre": "Matriz Ideas S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 46915390070,
+      "nombre": "Andes Blend",
+      "pais": "Chile"
+    },
+    {
+      "id": 47346810946,
+      "nombre": "Grupo Agurto",
+      "pais": "Chile"
+    },
+    {
+      "id": 47331283976,
+      "nombre": "Ferreteria Madesur",
+      "pais": "Chile"
+    },
+    {
+      "id": 47330050217,
+      "nombre": "Vivero Nueva Vid S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 47338374255,
+      "nombre": "",
+      "pais": "Chile"
+    },
+    {
+      "id": 47415306267,
+      "nombre": "EUROPER",
+      "pais": "Chile"
+    },
+    {
+      "id": 47580928029,
+      "nombre": "ENC Consultants",
+      "pais": "Chile"
+    },
+    {
+      "id": 47693446219,
+      "nombre": "Lago Sofia Circular Food",
+      "pais": "Chile"
+    },
+    {
+      "id": 47676202671,
+      "nombre": "Almifrut Alimentos",
+      "pais": "Chile"
+    },
+    {
+      "id": 47974073242,
+      "nombre": "Safecorp Ingeniería y Seguridad Spa",
+      "pais": "Chile"
+    },
+    {
+      "id": 47974073243,
+      "nombre": "Ecorecyc",
+      "pais": "Chile"
+    },
+    {
+      "id": 47971112457,
+      "nombre": "Contempla SpA",
+      "pais": "Chile"
+    },
+    {
+      "id": 47971112459,
+      "nombre": "AVP Ventures",
+      "pais": "Peru"
+    },
+    {
+      "id": 47974074173,
+      "nombre": "ANAGEA Gestión Ambiental",
+      "pais": "Chile"
+    },
+    {
+      "id": 47974074178,
+      "nombre": "Grupo Abadi",
+      "pais": "Mexico"
+    },
+    {
+      "id": 47792798984,
+      "nombre": "Rex+",
+      "pais": "Chile"
+    },
+    {
+      "id": 47792798979,
+      "nombre": "Santiago Medical Institute",
+      "pais": "Chile"
+    },
+    {
+      "id": 47836031249,
+      "nombre": "Defensoría del Contribuyente",
+      "pais": "Chile"
+    },
+    {
+      "id": 47836031250,
+      "nombre": "Asociación de Dializados y Trasplantados de Chile (Asodi)",
+      "pais": "Chile"
+    },
+    {
+      "id": 47973755821,
+      "nombre": "Canon CL Pro Print",
+      "pais": "Chile"
+    },
+    {
+      "id": 47970956826,
+      "nombre": "PmConsulting",
+      "pais": "Chile"
+    },
+    {
+      "id": 47970956827,
+      "nombre": "Municipalidad de San Pedro de La Paz",
+      "pais": "Chile"
+    },
+    {
+      "id": 47970956833,
+      "nombre": "Welcome Back (SUP '25)",
+      "pais": "Chile"
+    },
+    {
+      "id": 47971284079,
+      "nombre": "Ilumina Servicios",
+      "pais": "Chile"
+    },
+    {
+      "id": 47970742812,
+      "nombre": "Logistic Dynamics Corporation",
+      "pais": "Mexico"
+    },
+    {
+      "id": 47971601799,
+      "nombre": "Integra Servicios S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 47971601806,
+      "nombre": "NOZOMI Agua y Energía",
+      "pais": "Mexico"
+    },
+    {
+      "id": 47829169164,
+      "nombre": "DUHOVIT",
+      "pais": "Chile"
+    },
+    {
+      "id": 47875565099,
+      "nombre": "MICOR",
+      "pais": "Chile"
+    },
+    {
+      "id": 47875565105,
+      "nombre": "Ingevent Ltda.",
+      "pais": "Chile"
+    },
+    {
+      "id": 47875565106,
+      "nombre": "Conpat Global",
+      "pais": "Chile"
+    },
+    {
+      "id": 47672109356,
+      "nombre": "ICINET -Corporación de Ingenieros",
+      "pais": "Chile"
+    },
+    {
+      "id": 47672109360,
+      "nombre": "Fabrimachine",
+      "pais": "Chile"
+    },
+    {
+      "id": 47973753911,
+      "nombre": "On Street S.A",
+      "pais": "Chile"
+    },
+    {
+      "id": 47937055869,
+      "nombre": "WORK Consulting Group",
+      "pais": "Chile"
+    },
+    {
+      "id": 47970954793,
+      "nombre": "UNIVERSIDAD DEL PAÍS INNOVA",
+      "pais": "Mexico"
+    },
+    {
+      "id": 47970954794,
+      "nombre": "Dial Consultores S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 47970954800,
+      "nombre": "#tga (Trend Group America)",
+      "pais": "Chile"
+    },
+    {
+      "id": 47883715596,
+      "nombre": "Estudiante de Enfermería 2.0",
+      "pais": "Mexico"
+    },
+    {
+      "id": 47883715598,
+      "nombre": "MetalBit",
+      "pais": "Chile"
+    },
+    {
+      "id": 47971602228,
+      "nombre": "Universidad Anáhuac",
+      "pais": "Mexico"
+    },
+    {
+      "id": 47815425441,
+      "nombre": "Empresas Agua Santa",
+      "pais": "Chile"
+    },
+    {
+      "id": 47815425444,
+      "nombre": "Hospital San Juan de Dios",
+      "pais": "Chile"
+    },
+    {
+      "id": 48467035303,
+      "nombre": "Transportes Nuevo Mundo",
+      "pais": "Chile"
+    },
+    {
+      "id": 48482409790,
+      "nombre": "TIBOX",
+      "pais": "Chile"
+    },
+    {
+      "id": 48634708640,
+      "nombre": "Polari Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 49453031213,
+      "nombre": "Ticketmaster Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 49506722098,
+      "nombre": "Abingraf",
+      "pais": "Chile"
+    },
+    {
+      "id": 49491506957,
+      "nombre": "Exom Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 49586450510,
+      "nombre": "FÓNDIKA",
+      "pais": "Mexico"
+    },
+    {
+      "id": 49589893915,
+      "nombre": "PRELCO SPA",
+      "pais": "Chile"
+    },
+    {
+      "id": 49589893916,
+      "nombre": "Vila's Motor",
+      "pais": "Chile"
+    },
+    {
+      "id": 49589893917,
+      "nombre": "Fraunhofer Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 49589120937,
+      "nombre": "Comunidad Atacameña de Toconao",
+      "pais": "Chile"
+    },
+    {
+      "id": 49589120939,
+      "nombre": "Facultad de Derecho y Humanidades U. Central",
+      "pais": "Chile"
+    },
+    {
+      "id": 49589120942,
+      "nombre": "VGT Mining",
+      "pais": "Chile"
+    },
+    {
+      "id": 49653917834,
+      "nombre": "Ingeniería y Proyectos nCom Spa",
+      "pais": "Chile"
+    },
+    {
+      "id": 49653917835,
+      "nombre": "Pega el Salto",
+      "pais": "Chile"
+    },
+    {
+      "id": 49638786129,
+      "nombre": "Ingeterm Ltda.",
+      "pais": "Chile"
+    },
+    {
+      "id": 49584125784,
+      "nombre": "BUSINESS CONSULTING S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 49564352548,
+      "nombre": "URCONSA",
+      "pais": "Mexico"
+    },
+    {
+      "id": 49566210211,
+      "nombre": "Troy Desarrollos",
+      "pais": "Mexico"
+    },
+    {
+      "id": 49568804663,
+      "nombre": "Fundación Rassmuss",
+      "pais": "Chile"
+    },
+    {
+      "id": 49568804667,
+      "nombre": "Blümel Ingeniería",
+      "pais": "Chile"
+    },
+    {
+      "id": 49577139990,
+      "nombre": "Tao Inversiones",
+      "pais": "Chile"
+    },
+    {
+      "id": 49577139993,
+      "nombre": "AUTOFACIL CHILE",
+      "pais": "Chile"
+    },
+    {
+      "id": 49564974406,
+      "nombre": "Bruja Impresiones",
+      "pais": "Chile"
+    },
+    {
+      "id": 49564974412,
+      "nombre": "Best Place to Live® Store",
+      "pais": "Chile"
+    },
+    {
+      "id": 49564974413,
+      "nombre": "Smartycar",
+      "pais": "Chile"
+    },
+    {
+      "id": 49564974414,
+      "nombre": "Ampliando Círculos®",
+      "pais": "Chile"
+    },
+    {
+      "id": 49586450518,
+      "nombre": "Clay Fintech",
+      "pais": "Chile"
+    },
+    {
+      "id": 49586450519,
+      "nombre": "Rentando.online.cl",
+      "pais": "Chile"
+    },
+    {
+      "id": 49586450522,
+      "nombre": "METALFE LTDA",
+      "pais": "Chile"
+    },
+    {
+      "id": 49564197189,
+      "nombre": "GRUPO FIMAJ",
+      "pais": "Chile"
+    },
+    {
+      "id": 49564197192,
+      "nombre": "FC2 - AML COMPLIANCE & ADVISORY SERVICES",
+      "pais": "Mexico"
+    },
+    {
+      "id": 49582115644,
+      "nombre": "Transportes Santa Fe",
+      "pais": "Chile"
+    },
+    {
+      "id": 49582115647,
+      "nombre": "Bice Corredores de Bolsa S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 49595925659,
+      "nombre": "VC Laminations",
+      "pais": "Mexico"
+    },
+    {
+      "id": 49595925664,
+      "nombre": "Tremus, Food for All",
+      "pais": "Chile"
+    },
+    {
+      "id": 49568495022,
+      "nombre": "LGMG Chile",
+      "pais": "Chile"
+    },
+    {
+      "id": 49568495025,
+      "nombre": "Voltari Ingeniería & Negocios Ltda.",
+      "pais": "Chile"
+    },
+    {
+      "id": 49572057485,
+      "nombre": "FHM abogados",
+      "pais": "Chile"
+    },
+    {
+      "id": 49572057487,
+      "nombre": "GRUPO TORUS",
+      "pais": "Mexico"
+    },
+    {
+      "id": 49599018620,
+      "nombre": "KUMPLY CHILE",
+      "pais": "Chile"
+    },
+    {
+      "id": 49599018625,
+      "nombre": "Inmosat",
+      "pais": "Mexico"
+    },
+    {
+      "id": 49582115653,
+      "nombre": "SLAB",
+      "pais": "Chile"
+    },
+    {
+      "id": 49582115656,
+      "nombre": "Parox Productora",
+      "pais": "Chile"
+    },
+    {
+      "id": 49582115658,
+      "nombre": "MATIKA",
+      "pais": "Chile"
+    },
+    {
+      "id": 49577914545,
+      "nombre": "Servicio Local de Educación Pública (Slep) Petorca",
+      "pais": "Chile"
+    },
+    {
+      "id": 49580276387,
+      "nombre": "Francisco Petricio SpA",
+      "pais": "Chile"
+    },
+    {
+      "id": 49743464721,
+      "nombre": "Celmedia-Mobile",
+      "pais": "Chile"
+    },
+    {
+      "id": 49922643992,
+      "nombre": "Vopexa Industrial",
+      "pais": "Chile"
+    },
+    {
+      "id": 50156437122,
+      "nombre": "Partner Consulting",
+      "pais": "Chile"
+    },
+    {
+      "id": 50186007951,
+      "nombre": "RAD Creative Venture Studio",
+      "pais": "Chile"
+    },
+    {
+      "id": 50237426334,
+      "nombre": "Chileactores",
+      "pais": "Chile"
+    },
+    {
+      "id": 50689682448,
+      "nombre": "Informat S.A.",
+      "pais": "Chile"
+    },
+    {
+      "id": 51138358842,
+      "nombre": "FEYE Consultores",
+      "pais": "Chile"
+    },
+    {
+      "id": 51128319803,
+      "nombre": "TAMED Smart Living",
+      "pais": "Chile"
+    },
+    {
+      "id": 51793113140,
+      "nombre": "Tubesoft",
+      "pais": "Chile"
+    },
+    {
+      "id": 52647873066,
+      "nombre": "En Simple",
+      "pais": "Chile"
+    },
+    {
+      "id": 52807192749,
+      "nombre": "HLSport",
+      "pais": "Chile"
+    },
+    {
+      "id": 52919020188,
+      "nombre": "Importafácil",
+      "pais": "Chile"
+    },
+    {
+      "id": 53114580328,
+      "nombre": "Kaniwan",
+      "pais": "Chile"
+    },
+    {
+      "id": 53122348420,
+      "nombre": "",
+      "pais": "Chile"
+    },
+    {
+      "id": 53305720377,
+      "nombre": "US&G",
+      "pais": "Chile"
+    }
+  ]
+}
