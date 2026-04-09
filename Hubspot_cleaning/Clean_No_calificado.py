@@ -1,32 +1,17 @@
 """
-Script: Clasificar Lifecycle según etapas de deal — Plutoneta AE
-================================================================
-Aplica tres reglas en orden de prioridad:
+Script: Empresas No Calificadas — Plutoneta AE
+===============================================
+Busca todas las empresas con deal en Plutoneta AE en etapas:
+  · Z - Closed Lost       (49655667)
+  · Deal No Calificado    (1044035701)
 
-  REGLA 1 — No calificado  (lifecyclestage → "1151001700")
-    Empresa tiene deal en Plutoneta AE en etapa:
-      · Z - Closed Lost       (49655667)
-      · Deal No Calificado    (1044035701)
+Y actualiza su lifecyclestage → No calificado (1151001700).
+También actualiza los contactos asociados.
 
-  REGLA 2 — Nurturing       (lifecyclestage → "50005795")
-    Empresa tiene deal en Plutoneta AE en etapa:
-      · AA Freeze             (233748848)
-      · Nurturing             (1035269638)
-
-  REGLA 3 — Prospect        (lifecyclestage → "subscriber")
-    Empresa ya tiene lifecyclestage = Nurturing  Y
-    NO tiene ningún deal activo en Plutoneta AE.
-    ("Activo" = etapa que NO sea closed/terminal — ver PLUTTONETA_TERMINAL)
-
-Prioridad: Regla 1 > Regla 2 > Regla 3
-(si una empresa califica para varias reglas, gana la de mayor prioridad)
-
-─────────────────────────────────────────────────────────────
 INSTRUCCIONES:
-  1. Pega tu token en HUBSPOT_TOKEN  (o usa variable de entorno)
+  1. export HUBSPOT_TOKEN=pat-na1-...
   2. Corre con  DRY_RUN = True  para ver qué cambiaría
   3. Cambia    DRY_RUN = False  para aplicar los cambios reales
-─────────────────────────────────────────────────────────────
 """
 
 import os
@@ -42,53 +27,18 @@ from datetime import datetime
 HUBSPOT_TOKEN = os.getenv("HUBSPOT_TOKEN", "")
 DRY_RUN       = True     # ← cambiar a False para aplicar
 BATCH_SIZE    = 100
-DELAY         = 0.3      # segundos entre requests
+DELAY         = 0.3
 # ─────────────────────────────────────────────────────────────
 
-BASE_URL = "https://api.hubapi.com"
-
-# ── Pipeline ─────────────────────────────────────────────────
+BASE_URL           = "https://api.hubapi.com"
 PIPELINE_PLUTONETA = "20361325"
 
-# ── Etapas que activan cada regla ────────────────────────────
 ETAPAS_NO_CALIFICADO = [
-    "49655667",    # Z - Closed Lost
-    "1044035701",  # Deal No Calificado (No SQO)
+    "1044035701",  # Deal No Calificado
 ]
 
-ETAPAS_NURTURING = [
-    "233748848",   # AA Freeze
-    "1035269638",  # Nurturing
-]
-
-# Etapas terminales/cerradas (no cuentan como "activo" para Regla 3)
-PLUTTONETA_TERMINAL = set(ETAPAS_NO_CALIFICADO + ETAPAS_NURTURING + [
-    "49655666",    # Won
-    "1166145656",  # X - Listo para facturar
-    "1007516181",  # One Shoot Cerrado
-])
-
-# ── Valores de lifecyclestage ─────────────────────────────────
 LC_NO_CALIFICADO = "1151001700"
-LC_NURTURING     = "50005795"
-LC_PROSPECT      = "subscriber"
 
-# Nombres legibles para mostrar en pantalla
-LC_LABELS = {
-    "1151001700": "No calificado",
-    "50005795":   "Nurturing",
-    "subscriber": "Prospect",
-    "lead":       "Lead",
-    "opportunity":"Qualified Opportunity",
-    "customer":   "Live Customer",
-    "other":      "Churned",
-    "sin valor":  "sin valor",
-}
-
-
-# ─────────────────────────────────────────────────────────────
-#  HELPERS
-# ─────────────────────────────────────────────────────────────
 
 def hdrs():
     return {
@@ -97,18 +47,16 @@ def hdrs():
     }
 
 
-def search_all_deals(pipeline):
-    """
-    Retorna lista de (deal_id, stage_id, fecha) para TODOS los deals
-    del pipeline. Fecha = hs_lastmodifieddate (siempre existe).
-    """
+def search_deals_no_calificados():
+    """Retorna lista de deal_ids en etapas No Calificado dentro de Plutoneta AE."""
     deals, after = [], None
     while True:
         body = {
             "filterGroups": [{"filters": [
-                {"propertyName": "pipeline", "operator": "EQ", "value": pipeline},
+                {"propertyName": "pipeline",  "operator": "EQ",  "value": PIPELINE_PLUTONETA},
+                {"propertyName": "dealstage", "operator": "IN",  "values": ETAPAS_NO_CALIFICADO},
             ]}],
-            "properties": ["dealstage", "hs_lastmodifieddate"],
+            "properties": ["dealstage"],
             "limit": 200,
         }
         if after:
@@ -123,9 +71,7 @@ def search_all_deals(pipeline):
             break
 
         data = r.json()
-        for d in data["results"]:
-            p = d["properties"]
-            deals.append((int(d["id"]), p["dealstage"], p.get("hs_lastmodifieddate") or ""))
+        deals.extend(int(d["id"]) for d in data["results"])
 
         after = (data.get("paging") or {}).get("next", {}).get("after")
         if not after:
@@ -135,38 +81,11 @@ def search_all_deals(pipeline):
     return deals
 
 
-def latest_deal_per_company(all_deals, co_map):
-    """
-    Dado todos los deals (id, stage, fecha) y el mapa company→deals,
-    retorna {company_id: stage_del_deal_más_reciente}.
-    """
-    # deal_id → (stage, fecha)
-    deal_info = {did: (stage, fecha) for did, stage, fecha in all_deals}
-
-    result = {}
-    for cid, deal_ids in co_map.items():
-        # Ordenar por fecha desc y tomar el primero
-        deals_con_fecha = [
-            (did, deal_info[did][0], deal_info[did][1])
-            for did in deal_ids if did in deal_info
-        ]
-        if not deals_con_fecha:
-            continue
-        deals_con_fecha.sort(key=lambda x: x[2] or "", reverse=True)
-        result[cid] = deals_con_fecha[0][1]   # stage del más reciente
-
-    return result
-
-
 def deals_to_companies(deal_ids):
-    """
-    Dado un iterable de deal IDs, retorna {company_id: set(deal_ids)}
-    usando el endpoint de asociaciones batch v4.
-    """
+    """Retorna {company_id: set(deal_ids)} usando asociaciones batch v4."""
     co_map = {}
-    ids = list(deal_ids)
-    for i in range(0, len(ids), BATCH_SIZE):
-        batch = ids[i : i + BATCH_SIZE]
+    for i in range(0, len(deal_ids), BATCH_SIZE):
+        batch = deal_ids[i : i + BATCH_SIZE]
         r = requests.post(
             f"{BASE_URL}/crm/v4/associations/deals/companies/batch/read",
             headers=hdrs(),
@@ -182,40 +101,6 @@ def deals_to_companies(deal_ids):
             print(f"  ⚠️  Error asociaciones ({r.status_code}): {r.text[:150]}")
         time.sleep(DELAY)
     return co_map
-
-
-def search_companies_by_lifecycle(lifecycle_value):
-    """Retorna set de company IDs con el lifecyclestage dado."""
-    ids, after = set(), None
-    while True:
-        body = {
-            "filterGroups": [{"filters": [
-                {"propertyName": "lifecyclestage", "operator": "EQ", "value": lifecycle_value},
-            ]}],
-            "properties": ["lifecyclestage"],
-            "limit": 200,
-        }
-        if after:
-            body["after"] = after
-
-        r = requests.post(
-            f"{BASE_URL}/crm/v3/objects/companies/search",
-            headers=hdrs(), json=body,
-        )
-        if r.status_code not in (200, 201):
-            print(f"  ⚠️  Error buscando empresas ({r.status_code}): {r.text[:200]}")
-            break
-
-        data = r.json()
-        for c in data["results"]:
-            ids.add(int(c["id"]))
-
-        after = (data.get("paging") or {}).get("next", {}).get("after")
-        if not after:
-            break
-        time.sleep(DELAY)
-
-    return ids
 
 
 def batch_read_companies(ids):
@@ -242,7 +127,7 @@ def batch_read_companies(ids):
 
 
 def get_contacts_of_companies(company_ids):
-    """Retorna {company_id: [contact_ids]} para un batch de empresas."""
+    """Retorna {company_id: [contact_ids]}."""
     co_contacts = {}
     for i in range(0, len(company_ids), BATCH_SIZE):
         batch = company_ids[i : i + BATCH_SIZE]
@@ -259,50 +144,50 @@ def get_contacts_of_companies(company_ids):
     return co_contacts
 
 
-def batch_update_contacts(ids, new_stage):
-    """Actualiza lifecyclestage de contactos en batches."""
-    updated = errors = 0
-    total = len(ids)
-    for i in range(0, total, BATCH_SIZE):
-        batch = ids[i : i + BATCH_SIZE]
+def get_total_deals_per_company(company_ids):
+    """Retorna {company_id: total_deals} contando TODOS los deals de cada empresa."""
+    result = {}
+    for i in range(0, len(company_ids), BATCH_SIZE):
+        batch = company_ids[i : i + BATCH_SIZE]
         r = requests.post(
-            f"{BASE_URL}/crm/v3/objects/contacts/batch/update",
+            f"{BASE_URL}/crm/v4/associations/companies/deals/batch/read",
             headers=hdrs(),
-            json={"inputs": [
-                {"id": str(c), "properties": {"lifecyclestage": new_stage}}
-                for c in batch
-            ]},
+            json={"inputs": [{"id": str(cid)} for cid in batch]},
         )
-        if r.status_code in (200, 201):
-            updated += len(batch)
+        if r.status_code in (200, 201, 207):
+            for item in r.json().get("results", []):
+                cid = int(item["from"]["id"])
+                result[cid] = len(item.get("to", []))
         else:
-            errors += len(batch)
-            print(f"\n  ⚠️  Error contactos ({r.status_code}): {r.text[:200]}")
+            print(f"  ⚠️  Error contando deals ({r.status_code}): {r.text[:150]}")
         time.sleep(DELAY)
-    print(f"  ✅ Contactos actualizados: {updated} | Errores: {errors}")
-    return updated, errors
+    return result
 
 
-def update_contacts_for_companies(company_ids, new_stage):
-    """Obtiene contactos de las empresas y los actualiza al mismo lifecycle."""
-    if not company_ids:
-        return
-    print(f"  → Obteniendo contactos de {len(company_ids)} empresas...")
-    co_contacts = get_contacts_of_companies(company_ids)
-    contact_ids = list({cid for contacts in co_contacts.values() for cid in contacts})
-    print(f"  → {len(contact_ids)} contactos a actualizar → {lc_name(new_stage)}")
-    if contact_ids:
-        batch_update_contacts(contact_ids, new_stage)
-
-
-def batch_update_companies(ids, new_stage):
-    """Actualiza lifecyclestage en batches, muestra progreso."""
+def batch_update(object_type, ids, new_stage):
+    """Actualiza lifecyclestage en batches.
+    Primero resetea a '' para poder mover a cualquier stage
+    (HubSpot solo permite avanzar, no retroceder, si no se limpia antes).
+    """
     updated = errors = 0
     total = len(ids)
     for i in range(0, total, BATCH_SIZE):
         batch = ids[i : i + BATCH_SIZE]
+
+        # Paso 1: limpiar lifecycle stage
+        requests.post(
+            f"{BASE_URL}/crm/v3/objects/{object_type}/batch/update",
+            headers=hdrs(),
+            json={"inputs": [
+                {"id": str(c), "properties": {"lifecyclestage": ""}}
+                for c in batch
+            ]},
+        )
+        time.sleep(DELAY)
+
+        # Paso 2: asignar el nuevo stage
         r = requests.post(
-            f"{BASE_URL}/crm/v3/objects/companies/batch/update",
+            f"{BASE_URL}/crm/v3/objects/{object_type}/batch/update",
             headers=hdrs(),
             json={"inputs": [
                 {"id": str(c), "properties": {"lifecyclestage": new_stage}}
@@ -313,52 +198,13 @@ def batch_update_companies(ids, new_stage):
             updated += len(batch)
         else:
             errors += len(batch)
-            print(f"\n  ⚠️  Error ({r.status_code}): {r.text[:200]}")
+            print(f"\n  ⚠️  Error {object_type} ({r.status_code}): {r.text[:200]}")
 
         pct = (i + len(batch)) / total * 100
         print(f"  Progreso: {pct:.0f}%  |  ok: {updated}  |  err: {errors}", end="\r")
         time.sleep(DELAY)
-    print(f"\n  ✅ Actualizadas: {updated}  |  Errores: {errors}")
+    print(f"\n  ✅ {object_type} actualizados: {updated} | Errores: {errors}")
     return updated, errors
-
-
-def lc_name(code):
-    return LC_LABELS.get(code, code)
-
-
-def print_preview(label, companies_info, id_list, new_stage, limit=20):
-    print(f"\n── {label} → '{lc_name(new_stage)}'  ({len(id_list)} empresas) ──────────")
-    for cid in id_list[:limit]:
-        info   = companies_info.get(cid, {})
-        actual = info.get("lifecyclestage", "?")
-        print(f"  [{cid}]  {info.get('name','?'):<45}  {lc_name(actual)} → {lc_name(new_stage)}")
-    if len(id_list) > limit:
-        print(f"  ... y {len(id_list) - limit} más")
-
-
-def save_csv(current, to_no_cal, to_nurture, to_prospect):
-    """Guarda CSV con todas las empresas clasificadas."""
-    stage_map = {}
-    for cid in to_no_cal:
-        stage_map[cid] = lc_name(LC_NO_CALIFICADO)
-    for cid in to_nurture:
-        stage_map[cid] = lc_name(LC_NURTURING)
-    for cid in to_prospect:
-        stage_map[cid] = lc_name(LC_PROSPECT)
-
-    csv_path = f"reporte_lifecycle_plutoneta.csv"
-    with open(csv_path, "w", newline="", encoding="utf-8") as f:
-        writer = csv.writer(f)
-        writer.writerow(["ID", "Nombre", "Estado actual", "Estado nuevo"])
-        for cid, nuevo in stage_map.items():
-            info = current.get(cid, {})
-            writer.writerow([
-                cid,
-                info.get("name", ""),
-                lc_name(info.get("lifecyclestage", "")),
-                nuevo,
-            ])
-    print(f"\n📄 CSV guardado: {csv_path} ({len(stage_map)} empresas)")
 
 
 # ─────────────────────────────────────────────────────────────
@@ -366,135 +212,96 @@ def save_csv(current, to_no_cal, to_nurture, to_prospect):
 # ─────────────────────────────────────────────────────────────
 
 def main():
-    print("=" * 65)
-    print("  LIFECYCLE UPDATE — Plutoneta AE")
+    print("=" * 62)
+    print("  NO CALIFICADO — Plutoneta AE → lifecycle update")
     print(f"  Modo: {'👁️  DRY RUN (sin cambios)' if DRY_RUN else '✏️  APLICANDO CAMBIOS'}")
-    print("=" * 65)
+    print("=" * 62)
 
-    if not HUBSPOT_TOKEN or HUBSPOT_TOKEN == "TU_TOKEN_AQUI":
+    if not HUBSPOT_TOKEN:
         print("❌  Configura HUBSPOT_TOKEN antes de ejecutar.")
+        print("    export HUBSPOT_TOKEN=pat-na1-...")
         return
 
-    # ── TRAER TODOS LOS DEALS DEL PIPELINE ───────────────────
-    print("\n🔍 Trayendo todos los deals de Plutoneta AE...")
-    all_deals = search_all_deals(PIPELINE_PLUTONETA)
-    print(f"   → {len(all_deals)} deals encontrados")
+    # 1. Buscar deals en etapas No Calificado
+    print("\n🔍 Buscando deals No Calificado en Plutoneta AE...")
+    deal_ids = search_deals_no_calificados()
+    print(f"   → {len(deal_ids)} deals encontrados")
 
-    all_deal_ids = [d for d, _, _ in all_deals]
-    co_map = deals_to_companies(all_deal_ids)
-    print(f"   → {len(co_map)} empresas con deals en el pipeline")
+    # 2. Obtener empresas asociadas al deal No Calificado
+    print("\n🏢 Obteniendo empresas asociadas...")
+    co_map = deals_to_companies(deal_ids)
+    company_ids_raw = list(co_map.keys())
+    print(f"   → {len(company_ids_raw)} empresas con deal No Calificado")
 
-    # Stage del deal más reciente por empresa
-    latest_stage = latest_deal_per_company(all_deals, co_map)
+    # 3. Contar TODOS los deals de cada empresa (para informar en el CSV)
+    print(f"\n🔢 Contando todos los deals por empresa...")
+    total_deals = get_total_deals_per_company(company_ids_raw)
+    company_ids = company_ids_raw
+    print(f"   → {len(company_ids)} empresas en total")
 
-    # ── CLASIFICAR POR STAGE MÁS RECIENTE ────────────────────
-    co_r1 = {cid for cid, stage in latest_stage.items()
-             if stage in set(ETAPAS_NO_CALIFICADO)}
+    # 4. Leer estado actual
+    print(f"\n🔍 Leyendo lifecycle actual...")
+    current = batch_read_companies(company_ids)
 
-    co_r2 = {cid for cid, stage in latest_stage.items()
-             if stage in set(ETAPAS_NURTURING)}
+    # 5. Filtrar las que ya tienen el stage correcto
+    to_update = [c for c in company_ids
+                 if current.get(c, {}).get("lifecyclestage") != LC_NO_CALIFICADO]
+    ya_ok     = len(company_ids) - len(to_update)
 
-    # Empresas con deal activo (último deal NO es terminal)
-    co_con_activos = {cid for cid, stage in latest_stage.items()
-                      if stage not in PLUTTONETA_TERMINAL}
+    # 6. Preview
+    print(f"\n── Preview ({len(to_update)} a actualizar, {ya_ok} ya correctas) ──")
+    for cid in to_update[:25]:
+        info = current.get(cid, {})
+        print(f"  {info.get('name','?'):<50}  deals={total_deals.get(cid,0)}  {info.get('lifecyclestage','?')} → No calificado")
+    if len(to_update) > 25:
+        print(f"  ... y {len(to_update) - 25} más")
 
-    print(f"\n   → Regla 1 (último deal = No calificado): {len(co_r1)}")
-    print(f"   → Regla 2 (último deal = Nurturing):      {len(co_r2)}")
-    print(f"   → Con deal activo:                        {len(co_con_activos)}")
-
-    # ── REGLA 3: Nurturing lifecycle sin deal activo ──────────
-    print("\n🔍 [Regla 3] Empresas con lifecycle Nurturing sin deal activo...")
-    co_nurturing_lc = search_companies_by_lifecycle(LC_NURTURING)
-    print(f"   → {len(co_nurturing_lc)} empresas con lifecycle Nurturing")
-    co_r3_candidatos = co_nurturing_lc - co_con_activos
-    print(f"   → {len(co_r3_candidatos)} sin deal activo")
-
-    # ── APLICAR PRIORIDADES ───────────────────────────────────
-    to_no_cal   = co_r1
-    to_nurture  = co_r2 - co_r1
-    to_prospect = co_r3_candidatos - co_r1 - co_r2
-
-    print(f"\n🧮 Clasificación final:")
-    print(f"   → No calificado (Regla 1):  {len(to_no_cal)}")
-    print(f"   → Nurturing     (Regla 2):  {len(to_nurture)}")
-    print(f"   → Prospect      (Regla 3):  {len(to_prospect)}")
-
-    # ── LEER ESTADO ACTUAL ────────────────────────────────────
-    all_ids = list(to_no_cal | to_nurture | to_prospect)
-    print(f"\n🔍 Leyendo lifecycle actual de {len(all_ids)} empresas...")
-    current = batch_read_companies(all_ids)
-
-    # Filtrar solo las que realmente necesitan cambio
-    to_no_cal_upd   = [c for c in to_no_cal   if current.get(c, {}).get("lifecyclestage") != LC_NO_CALIFICADO]
-    to_nurture_upd  = [c for c in to_nurture  if current.get(c, {}).get("lifecyclestage") != LC_NURTURING]
-    to_prospect_upd = [c for c in to_prospect if current.get(c, {}).get("lifecyclestage") != LC_PROSPECT]
-
-    total_cambios = len(to_no_cal_upd) + len(to_nurture_upd) + len(to_prospect_upd)
-
-    # ── PREVIEW ───────────────────────────────────────────────
-    print_preview("No calificado (Regla 1)", current, to_no_cal_upd,   LC_NO_CALIFICADO)
-    print_preview("Nurturing     (Regla 2)", current, to_nurture_upd,  LC_NURTURING)
-    print_preview("Prospect      (Regla 3)", current, to_prospect_upd, LC_PROSPECT)
-
-    print(f"\n{'─'*65}")
-    print(f"  Total empresas a actualizar: {total_cambios}")
-
-    save_csv(current, to_no_cal_upd, to_nurture_upd, to_prospect_upd)
+    # 7. Guardar CSV
+    csv_path = "reporte_no_calificado.csv"
+    with open(csv_path, "w", newline="", encoding="utf-8") as f:
+        writer = csv.writer(f)
+        writer.writerow(["ID", "Nombre", "Num Deals", "Lifecycle actual", "Lifecycle nuevo"])
+        for cid in to_update:
+            info = current.get(cid, {})
+            writer.writerow([cid, info.get("name", ""), total_deals.get(cid, 0), info.get("lifecyclestage", ""), "No calificado"])
+    print(f"\n📄 CSV guardado: {csv_path}")
 
     if DRY_RUN:
-        print(f"\n✅ DRY RUN completado. Cambia DRY_RUN = False para aplicar.")
+        print(f"\n✅ DRY RUN completado — {len(to_update)} empresas se actualizarían.")
+        print(f"   Cambia DRY_RUN = False para aplicar.")
         return
 
-    if total_cambios == 0:
+    if not to_update:
         print("\n✅ Todo está al día. Nada que actualizar.")
         return
 
-    confirm = input(
-        f"\n⚠️  ¿Confirmas actualizar {total_cambios} empresas? (escribe 'SI'): "
-    )
+    confirm = input(f"\n⚠️  ¿Confirmas actualizar {len(to_update)} empresas y sus contactos? (escribe 'SI'): ")
     if confirm.strip().upper() != "SI":
         print("❌ Cancelado.")
         return
 
-    # ── APLICAR CAMBIOS ───────────────────────────────────────
-    log = {"fecha": datetime.now().isoformat(), "reglas": {}}
+    # 8. Actualizar empresas
+    print(f"\n✏️  Actualizando {len(to_update)} empresas → No calificado...")
+    batch_update("companies", to_update, LC_NO_CALIFICADO)
 
-    if to_no_cal_upd:
-        print(f"\n✏️  Actualizando {len(to_no_cal_upd)} empresas → No calificado...")
-        batch_update_companies(to_no_cal_upd, LC_NO_CALIFICADO)
-        update_contacts_for_companies(to_no_cal_upd, LC_NO_CALIFICADO)
-        log["reglas"]["no_calificado"] = [
-            {"id": c, "nombre": current.get(c, {}).get("name"),
-             "anterior": current.get(c, {}).get("lifecyclestage")}
-            for c in to_no_cal_upd
-        ]
+    # 9. Actualizar contactos asociados
+    print(f"\n✏️  Actualizando contactos asociados...")
+    co_contacts = get_contacts_of_companies(to_update)
+    contact_ids = list({cid for contacts in co_contacts.values() for cid in contacts})
+    print(f"   → {len(contact_ids)} contactos encontrados")
+    if contact_ids:
+        batch_update("contacts", contact_ids, LC_NO_CALIFICADO)
 
-    if to_nurture_upd:
-        print(f"\n✏️  Actualizando {len(to_nurture_upd)} empresas → Nurturing...")
-        batch_update_companies(to_nurture_upd, LC_NURTURING)
-        update_contacts_for_companies(to_nurture_upd, LC_NURTURING)
-        log["reglas"]["nurturing"] = [
-            {"id": c, "nombre": current.get(c, {}).get("name"),
-             "anterior": current.get(c, {}).get("lifecyclestage")}
-            for c in to_nurture_upd
-        ]
-
-    if to_prospect_upd:
-        print(f"\n✏️  Actualizando {len(to_prospect_upd)} empresas → Prospect...")
-        batch_update_companies(to_prospect_upd, LC_PROSPECT)
-        update_contacts_for_companies(to_prospect_upd, LC_PROSPECT)
-        log["reglas"]["prospect"] = [
-            {"id": c, "nombre": current.get(c, {}).get("name"),
-             "anterior": current.get(c, {}).get("lifecyclestage")}
-            for c in to_prospect_upd
-        ]
-
-    log_path = f"log_lifecycle_plutoneta_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
+    # 10. Log
+    log_path = f"log_no_calificado_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
     with open(log_path, "w") as f:
-        json.dump(log, f, indent=2, ensure_ascii=False)
+        json.dump([
+            {"id": c, "nombre": current.get(c, {}).get("name"),
+             "anterior": current.get(c, {}).get("lifecyclestage")}
+            for c in to_update
+        ], f, indent=2, ensure_ascii=False)
 
-    print(f"\n✅ Proceso completado.")
-    print(f"   Log guardado en: {log_path}")
+    print(f"\n✅ Proceso completado. Log: {log_path}")
 
 
 if __name__ == "__main__":

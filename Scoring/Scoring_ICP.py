@@ -520,49 +520,154 @@ def get_company_data(rut: str) -> dict:
     }
 
 
+def lookup_empresa(rut: str, razon_social: str) -> dict:
+    """
+    Busca nombre de fantasía y sitio web de una empresa chilena.
+    Usa el cliente LiteLLM compartido (mismo patrón que las otras funciones).
+    """
+    prompt = (
+        f"Eres un experto en empresas chilenas. Tu tarea es identificar el nombre comercial "
+        f"(nombre de fantasía) y sitio web de una empresa dado su RUT y razón social legal.\n\n"
+        f"Empresa:\n"
+        f"  Razón social: {razon_social}\n"
+        f"  RUT: {rut}\n\n"
+        f"Instrucciones:\n"
+        f"1. Nombre de fantasía: es la marca o nombre comercial con que la empresa opera públicamente, "
+        f"distinto a su razón social legal. Ejemplos: 'EMBOTELLADORA ANDINA S.A.' → 'Coca-Cola Andina', "
+        f"'CENCOSUD S.A.' → 'Jumbo / Paris / Easy', 'FALABELLA S.A.' → 'Falabella'. "
+        f"Si la razón social ya ES la marca conocida (ej: 'WALMART CHILE S.A.'), repítela como nombre de fantasía. "
+        f"Si es una empresa holding, inversiones o sociedad sin marca pública reconocida → null.\n"
+        f"2. Sitio web: URL oficial completa de la empresa, siempre con protocolo (ej: https://www.copec.cl, https://www.sice.com). "
+        f"No retornes solo el dominio — retorna la URL completa con https://. "
+        f"No incluyas directorios como Mercantil o Amarillas. "
+        f"Considera ambas variantes de dominio (.com y .cl): empresas internacionales suelen usar .com (ej: https://www.sice.com, https://www.americanairlines.com), "
+        f"empresas locales suelen usar .cl (ej: https://www.copec.cl). "
+        f"Solo incluye si estás seguro. Si no sabes → null.\n\n"
+        f"Responde SOLO con este JSON (sin texto adicional):\n"
+        f'{{\n'
+        f'  "Rut": "{rut}",\n'
+        f'  "Razon_Social": "{razon_social}",\n'
+        f'  "Nombre_Fantasia": null,\n'
+        f'  "Sitio_Web": null,\n'
+        f'  "Confianza": "Baja"\n'
+        f'}}\n\n'
+        f"Reemplaza null por el valor real si lo conoces. "
+        f"Confianza: Alta=ampliamente conocida, Media=probable, Baja=inferencia parcial."
+    )
+
+    response = client.chat.completions.create(
+        model="claude-haiku-4-5-20251001",
+        max_tokens=300,
+        messages=[{"role": "user", "content": prompt}],
+    )
+
+    text = response.choices[0].message.content.strip()
+    try:
+        return _extraer_json(text)
+    except Exception:
+        return {
+            "Rut": rut,
+            "Razon_Social": razon_social,
+            "Nombre_Fantasia": None,
+            "Sitio_Web": None,
+            "Confianza": "Error",
+        }
+
+
+def score_rut(rut: str, signal: str = "N/A") -> dict:
+    """
+    Dado un RUT, obtiene todos los datos desde Charon y retorna
+    el scoring completo usando score_lead_adj2.
+
+    Parámetros opcionales:
+    - signal: señal externa de la empresa (ej: "licitación adjudicada")
+    """
+    url = f"https://charon-staging.herokuapp.com/api/businesses/{rut}"
+    resp = requests.get(url, timeout=10)
+    resp.raise_for_status()
+    data = resp.json()
+
+    if not data:
+        raise ValueError(f"RUT '{rut}' no encontrado en Charon.")
+
+    biz = data[0]
+
+    nombre          = biz.get("name") or ""
+    giro            = biz.get("economic_activity") or ""
+    tramo           = str(biz.get("sales_segment") or "0")
+    region          = biz.get("region") or ""
+    num_trabajadores = str(biz.get("direct_employees") or 0)
+
+    num_hijos  = str(len(biz.get("subsidiaries") or []))
+    num_padres = str(len(biz.get("parents") or []))
+
+    resultado = score_lead_adj2(
+        company_name     = nombre,
+        rut              = rut,
+        giro             = giro,
+        tramo            = tramo,
+        region           = region,
+        num_hijos        = num_hijos,
+        num_trabajadores = num_trabajadores,
+        num_padres       = num_padres,
+        signal           = signal,
+    )
+
+    resultado["company_name"] = nombre
+    resultado["rut"]          = rut
+    resultado["giro"]         = giro
+    resultado["tramo"]        = tramo
+    resultado["region"]       = region
+
+    return resultado
+
+
 # ── Ejemplo de uso ────────────────────────────────────────────────────────────
 if __name__ == "__main__":
 
-    # Parámetros para funciones antiguas
-    params_base = dict(
-    company_name="CHITA SPA",
-    rut="76596744-9",
-    giro="OTRAS ACTIVIDADES DE SERVICIOS FINANCIEROS, EXCEPTO LAS DE SEGUROS Y FONDOS DE PENSIONES N.C.P.",
-    tramo="10",
-    region="XIII REGION METROPOLITANA",
-    signal="",
-)
+#     # Parámetros para funciones antiguas
+#     params_base = dict(
+#     company_name="CHITA SPA",
+#     rut="76596744-9",
+#     giro="OTRAS ACTIVIDADES DE SERVICIOS FINANCIEROS, EXCEPTO LAS DE SEGUROS Y FONDOS DE PENSIONES N.C.P.",
+#     tramo="10",
+#     region="XIII REGION METROPOLITANA",
+#     signal="",
+# )
 
-# Parámetros para la nueva función ajustada
-    params_adj2 = dict(
-    company_name="CHITA SPA",
-    rut="76596744-9",
-    giro="OTRAS ACTIVIDADES DE SERVICIOS FINANCIEROS, EXCEPTO LAS DE SEGUROS Y FONDOS DE PENSIONES N.C.P.",
-    tramo="10",
-    region="XIII REGION METROPOLITANA",
-    num_hijos="5",
-    num_trabajadores="65",
-    num_padres="0",
-    signal="" )
+# # Parámetros para la nueva función ajustada
+#     params_adj2 = dict(
+#     company_name="CHITA SPA",
+#     rut="76596744-9",
+#     giro="OTRAS ACTIVIDADES DE SERVICIOS FINANCIEROS, EXCEPTO LAS DE SEGUROS Y FONDOS DE PENSIONES N.C.P.",
+#     tramo="10",
+#     region="XIII REGION METROPOLITANA",
+#     num_hijos="5",
+#     num_trabajadores="65",
+#     num_padres="0",
+#     signal="" )
 
-    print("── score_lead ──────────────────────────────────────")
-    print_score(score_lead(**params_base), company_name=params_base["company_name"])
+#     print("── score_lead ──────────────────────────────────────")
+#     print_score(score_lead(**params_base), company_name=params_base["company_name"])
 
-    print("── score_lead_adj1 ─────────────────────────────────")
-    print_score(score_lead_adj1(**params_base), company_name=params_base["company_name"])
+#     print("── score_lead_adj1 ─────────────────────────────────")
+#     print_score(score_lead_adj1(**params_base), company_name=params_base["company_name"])
 
-    print("── score_lead_adj2 ─────────────────────────────────")
-    print_score(score_lead_adj2(**params_adj2), company_name=params_adj2["company_name"])
+#     print("── score_lead_adj2 ─────────────────────────────────")
+#     print_score(score_lead_adj2(**params_adj2), company_name=params_adj2["company_name"])
 
-    # print("── score_lead_lookup (solo RUT) ────────────────────")
-    # print_score(score_lead_lookup("59141000"), "DNB GROUP AGENCIA EN CHILE")
+#     # print("── score_lead_lookup (solo RUT) ────────────────────")
+#     # print_score(score_lead_lookup("59141000"), "DNB GROUP AGENCIA EN CHILE")
 
-    print("── get_company_data ────────────────────────────────")
-    data = get_company_data("76320186-4")
-    for k, v in data.items():
-        print(f"  {k:<20} {v}")
+#     print("── get_company_data ────────────────────────────────")
+#     data = get_company_data("76320186-4")
+#     for k, v in data.items():
+#         print(f"  {k:<20} {v}")
 
     # print("── score_lead_lookup (solo nombre) ─────────────────")
     # print_score(score_lead_lookup("Esbbio"), "Esbbio")
 
+    print("── score_rut (solo RUT) ────────────────────────────")
+    resultado = score_rut("78383730-7")
+    print_score(resultado, company_name=resultado["company_name"])
 

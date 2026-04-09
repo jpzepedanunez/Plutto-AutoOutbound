@@ -1,20 +1,35 @@
 """
-Script: Actualizar Lifecycle Stage → Prospect y Live Customer
-=============================================================
+Script: Actualizar Lifecycle Stage
+====================================
 Clasifica y actualiza el lifecyclestage de empresas en HubSpot
-según sus deals activos en los pipelines Pluttoneta AE y CS Renewal.
+según sus deals en los pipelines Pluttoneta AE y CS Renewal.
+
+Prioridad (de mayor a menor):
+  1. CHURNED > 2. LIVE CUSTOMER > 3. IMPLEMENTACIÓN > 4. PROSPECT
 
 ─────────────────────────────────────────────────────────────
-PROSPECT  (lifecyclestage → "opportunity")
-  Condición 1: Tiene deal en Pluttoneta AE en etapa activa
-  Condición 2 (AND): Sin deal en CS Renewal
-               O deal en CS Renewal solo en etapas tempranas
-               (Implementación, Setup, Kick Off, Documentation & Advance)
+REGLAS (se evalúan en orden de prioridad)
+─────────────────────────────────────────────────────────────
 
-LIVE CUSTOMER  (lifecyclestage → "customer")
-  Condición 1: Tiene deal en CS Renewal en etapa activa
-               (Go Live & Hand Off, 12-6 meses, 2-3 meses, 1 month, Closed Won)
-  Condición 2 (AND): Sin deal en Closed Lost en CS Renewal
+1. CHURNED  (lifecyclestage → 50020179)
+   · El deal más reciente en CS Renewal está en "Closed Lost"
+
+2. LIVE CUSTOMER  (lifecyclestage → 52560399)
+   · Tiene al menos un deal en CS Renewal en etapa activa:
+     Go Live & Hand Off / 12-6 meses / 2-3 meses / 1 month / Closed Won
+   · (Se aplica aunque también tenga un Closed Lost en CS Renewal,
+     siempre que el deal más reciente NO sea Closed Lost)
+
+3. IMPLEMENTACIÓN  (lifecyclestage → 52531545)
+   · Tiene deal en CS Renewal en etapa temprana:
+     Implementación / Setup / Kick Off / Documentation & Advance
+   · Y NO tiene ningún deal en etapa Live Customer
+
+4. PROSPECT  (lifecyclestage → "opportunity")
+   · Tiene deal activo en Pluttoneta AE
+   · Y NO tiene ningún deal en CS Renewal (ni temprano ni activo)
+   · Excepción: si ya es Live Customer (52560399), se imprime
+     para revisión manual pero NO se mueve
 
 ─────────────────────────────────────────────────────────────
 PIPELINES:
@@ -22,7 +37,7 @@ PIPELINES:
   CS Renewal     → 33728953
 
 INSTRUCCIONES:
-  1. Pega tu token en HUBSPOT_TOKEN
+  1. export HUBSPOT_TOKEN=pat-na1-...
   2. Corre con DRY_RUN = True para revisar qué empresas se actualizarán
   3. Cambia DRY_RUN = False para aplicar los cambios
 """
@@ -49,38 +64,61 @@ PIPELINE_CS_RENEWAL = "33728953"
 # Pluttoneta AE — etapas activas (prob > 0.01)
 PLUTTONETA_ACTIVE = [
     "144033658",   # Appointment Scheduled
+    "172924342",   # BDR Precalificación
     "996295554",   # Consulting Discovery AE
-    "1028970392",  # Interest Confirmed
+    "1028970392",  # DEAL CALIFICADO (SQO)
     "49686858",    # Demostración
-    "49686857",    # DEAL CALIFICADO (SQO)
-    "98993471",    # Economica Propuesta
+    "49686857",    # Economica Propuesta
+    "98993471",    # Interest Confirmed
     "49686859",    # Negotiation
+    "74323563",    # Pilot
     "49963372",    # Verbal Yes
     "1163283618",  # W - Iterando Contratos
     "49655666",    # Won
-    "1007516181",  # Pilot
+    "1007516181",  # One Shoot Cerrado
 ]
 
-# CS Renewal — etapas tempranas (permiten seguir como Prospect)
+# CS Renewal — etapas Implementación
 CS_EARLY = [
-    "1164813841",  # Implementación
-    "1164813842",  # Setup
-    "1164813897",  # Kick Off
-    "1164813898",  # Documentation & Advance
+    "994511463",   # Implementación
+    "1164813898",  # Setup
+    "1164813897",  # Kickoff
+    "1164813842",  # Documentation & Advanced Setup
 ]
 
 # CS Renewal — etapas Live Customer
 CS_LIVE = [
-    "74579363",    # Go Live & Hand Off
-    "78817538",    # 12-6 meses
-    "78817539",    # 2-3 meses
+    "1164813841",  # Go-live & Handoff CS
+    "74579363",    # 12-6 month
+    "78817538",    # 3-6 month
+    "78817539",    # 2-3 month
     "78817540",    # 1 month
+    "85334091",    # Pending
     "78817541",    # Closed Won
 ]
 
 CS_CLOSED_LOST = "78817542"
 
+# Lifecycle stage IDs del portal
+LC_LIVE_CUSTOMER  = "52560399"   # Live Customer
+LC_IMPLEMENTACION = "52531545"   # Implementación
+LC_CHURNED        = "50020179"   # Churned
+
 BASE_URL = "https://api.hubapi.com"
+
+
+def print_pipeline_stages(pipeline_id, label):
+    """Imprime todas las etapas de un pipeline con sus IDs reales."""
+    r = requests.get(
+        f"{BASE_URL}/crm/v3/pipelines/deals/{pipeline_id}/stages",
+        headers={"Authorization": f"Bearer {HUBSPOT_TOKEN}"},
+    )
+    if r.status_code != 200:
+        print(f"  ⚠️  Error leyendo etapas ({r.status_code}): {r.text[:200]}")
+        return
+    print(f"\n── Etapas de {label} (pipeline {pipeline_id}) ──")
+    for s in r.json().get("results", []):
+        print(f"  {s['id']:<15}  {s['label']}")
 
 
 def hdrs():
@@ -202,10 +240,25 @@ def get_contacts_of_companies(company_ids):
 
 
 def batch_update_contacts(ids, new_stage):
-    """Actualiza lifecyclestage de contactos en batches."""
+    """Actualiza lifecyclestage de contactos en batches.
+    Resetea primero para poder mover a cualquier stage.
+    """
     updated = errors = 0
     for i in range(0, len(ids), BATCH_SIZE):
         batch = ids[i : i + BATCH_SIZE]
+
+        # Paso 1: limpiar
+        requests.post(
+            f"{BASE_URL}/crm/v3/objects/contacts/batch/update",
+            headers=hdrs(),
+            json={"inputs": [
+                {"id": str(c), "properties": {"lifecyclestage": ""}}
+                for c in batch
+            ]},
+        )
+        time.sleep(DELAY)
+
+        # Paso 2: asignar
         r = requests.post(
             f"{BASE_URL}/crm/v3/objects/contacts/batch/update",
             headers=hdrs(),
@@ -236,11 +289,27 @@ def update_contacts_for_companies(company_ids, new_stage):
 
 
 def batch_update_companies(ids, new_stage):
-    """Actualiza lifecyclestage en batches."""
+    """Actualiza lifecyclestage en batches.
+    Primero resetea a '' para poder mover a cualquier stage (HubSpot solo
+    permite avanzar, no retroceder, si no se limpia primero).
+    """
     updated = errors = 0
     total = len(ids)
     for i in range(0, total, BATCH_SIZE):
         batch = ids[i : i + BATCH_SIZE]
+
+        # Paso 1: limpiar lifecycle stage
+        requests.post(
+            f"{BASE_URL}/crm/v3/objects/companies/batch/update",
+            headers=hdrs(),
+            json={"inputs": [
+                {"id": str(c), "properties": {"lifecyclestage": ""}}
+                for c in batch
+            ]},
+        )
+        time.sleep(DELAY)
+
+        # Paso 2: asignar el nuevo stage
         r = requests.post(
             f"{BASE_URL}/crm/v3/objects/companies/batch/update",
             headers=hdrs(),
@@ -275,6 +344,21 @@ def main():
         print("❌  Configura HUBSPOT_TOKEN antes de ejecutar.")
         return
 
+    # ── 0. VERIFICAR IDs DE ETAPAS ────────────────────────────
+    print_pipeline_stages(PIPELINE_CS_RENEWAL, "CS Renewal")
+    print_pipeline_stages(PIPELINE_PLUTTONETA, "Pluttoneta AE")
+
+    # Lifecycle stages del portal
+    r_lc = requests.get(
+        f"{BASE_URL}/crm/v3/properties/companies/lifecyclestage",
+        headers={"Authorization": f"Bearer {HUBSPOT_TOKEN}"},
+    )
+    if r_lc.status_code == 200:
+        print("\n── Lifecycle stages del portal ──")
+        for opt in r_lc.json().get("options", []):
+            print(f"  {opt['value']:<20}  {opt['label']}")
+    print()
+
     # ── 1. PLUTTONETA AE ──────────────────────────────────────
     print("\n🔍 Buscando deals activos en Pluttoneta AE...")
     plt_deals = search_deals(PIPELINE_PLUTTONETA, PLUTTONETA_ACTIVE)
@@ -306,19 +390,19 @@ def main():
 
     # ── 3. CLASIFICACIÓN ──────────────────────────────────────
     print("\n🧮 Clasificando empresas...")
-    prospects      = []
-    live_customers = []
-    churned        = []
+    prospects        = []
+    implementaciones = []
+    live_customers   = []
+    churned          = []
 
     all_companies = plt_companies | set(cs_co_stages.keys())
 
     for cid in all_companies:
         stages = cs_co_stages.get(cid, set())
 
-        has_live    = bool(stages & set(CS_LIVE))
-        has_cl_lost = CS_CLOSED_LOST in stages
-        has_early   = bool(stages & set(CS_EARLY))
-        no_renewal  = len(stages) == 0
+        has_live   = bool(stages & set(CS_LIVE))
+        has_early  = bool(stages & set(CS_EARLY))
+        no_renewal = len(stages) == 0
 
         # Último deal de esta empresa en CS Renewal
         deals_de_empresa = cs_co_map.get(cid, set())
@@ -333,34 +417,57 @@ def main():
         if ultimo_deal_stage == CS_CLOSED_LOST:
             # ✅ Churned: el último deal en CS Renewal está en Closed Lost
             churned.append(cid)
-        elif has_live and not has_cl_lost:
-            # ✅ Live Customer
+        elif has_live:
+            # ✅ Live Customer (con o sin Closed Lost, si hay deal activo gana)
             live_customers.append(cid)
-        elif has_live and has_cl_lost:
-            # Tiene deal activo Y Closed Lost pero no es el último → Live Customer
-            live_customers.append(cid)
-        elif cid in plt_companies and (no_renewal or has_early):
-            # ✅ Prospect: en Pluttoneta AE sin CS Renewal o solo etapas tempranas
+        elif has_early:
+            # ✅ Implementación: tiene deal en CS Renewal en etapas tempranas, sin Live
+            implementaciones.append(cid)
+        elif cid in plt_companies and no_renewal:
+            # ✅ Prospect: en Pluttoneta AE sin ningún deal en CS Renewal
             prospects.append(cid)
 
-    print(f"   → Prospects:      {len(prospects)}")
-    print(f"   → Live Customers: {len(live_customers)}")
-    print(f"   → Churned:        {len(churned)}")
+    print(f"   → Prospects:        {len(prospects)}")
+    print(f"   → Implementaciones: {len(implementaciones)}")
+    print(f"   → Live Customers:   {len(live_customers)}")
+    print(f"   → Churned:          {len(churned)}")
 
     # ── 4. LEER ESTADO ACTUAL ─────────────────────────────────
-    all_ids = list(set(prospects + live_customers + churned))
+    all_ids = list(set(prospects + implementaciones + live_customers + churned))
     print(f"\n🔍 Leyendo lifecycle actual de {len(all_ids)} empresas...")
     current = batch_read_companies(all_ids)
 
+    # Debug: stages en CS Renewal para empresas en Implementación
+    print("\n  🔍 DEBUG — stages en CS Renewal para empresas clasificadas como Implementación:")
+    for cid in implementaciones:
+        name = current.get(cid, {}).get("name", f"ID {cid}")
+        stages = cs_co_stages.get(cid, set())
+        print(f"     {name:<45}  stages={stages}")
+
+    # Valores que equivalen a "ya es cliente" (valor viejo "customer" o nuevo LC_LIVE_CUSTOMER)
+    ES_CLIENTE = (LC_LIVE_CUSTOMER, "customer")
+
     # Filtrar los que realmente necesitan cambio
-    to_prospect = [c for c in prospects
-                   if current.get(c, {}).get("lifecyclestage") != "opportunity"]
-    to_customer = [c for c in live_customers
-                   if current.get(c, {}).get("lifecyclestage") != "customer"]
-    to_churned  = [c for c in churned
-                   if current.get(c, {}).get("lifecyclestage") != "other"]
+    # Empresas que ya son Live Customer y clasificarían como Prospect → NO mover, solo reportar
+    prospects_era_customer = [c for c in prospects
+                              if current.get(c, {}).get("lifecyclestage") in ES_CLIENTE]
+    to_prospect       = [c for c in prospects
+                         if current.get(c, {}).get("lifecyclestage") not in ("opportunity",) + ES_CLIENTE]
+    # No bajar a Implementación si ya es cliente (LC_LIVE_CUSTOMER o "customer")
+    to_implementacion = [c for c in implementaciones
+                         if current.get(c, {}).get("lifecyclestage") not in (LC_IMPLEMENTACION,) + ES_CLIENTE]
+    to_customer       = [c for c in live_customers
+                         if current.get(c, {}).get("lifecyclestage") != LC_LIVE_CUSTOMER]
+    to_churned        = [c for c in churned
+                         if current.get(c, {}).get("lifecyclestage") != LC_CHURNED]
 
     # ── 5. REPORTE ────────────────────────────────────────────
+    if prospects_era_customer:
+        print(f"\n── ⚠️  Revisar manualmente ({len(prospects_era_customer)}) — clasifican como Prospect pero ya son Live Customer ──")
+        for cid in prospects_era_customer:
+            p = current.get(cid, {})
+            print(f"  {p.get('name','?'):<45}  Live Customer → (sin cambio, revisar)")
+
     print(f"\n── Prospects a actualizar ({len(to_prospect)}) ─────────────────")
     for cid in to_prospect[:25]:
         p = current.get(cid, {})
@@ -368,10 +475,17 @@ def main():
     if len(to_prospect) > 25:
         print(f"  ... y {len(to_prospect) - 25} más")
 
+    print(f"\n── Implementación a actualizar ({len(to_implementacion)}) ──────")
+    for cid in to_implementacion[:25]:
+        p = current.get(cid, {})
+        print(f"  {p.get('name','?'):<45}  {p.get('lifecyclestage','?')} → Implementación")
+    if len(to_implementacion) > 25:
+        print(f"  ... y {len(to_implementacion) - 25} más")
+
     print(f"\n── Live Customers a actualizar ({len(to_customer)}) ────────────")
     for cid in to_customer[:25]:
         p = current.get(cid, {})
-        print(f"  {p.get('name','?'):<45}  {p.get('lifecyclestage','?')} → customer")
+        print(f"  {p.get('name','?'):<45}  {p.get('lifecyclestage','?')} → Live Customer")
     if len(to_customer) > 25:
         print(f"  ... y {len(to_customer) - 25} más")
 
@@ -382,14 +496,16 @@ def main():
     if len(to_churned) > 25:
         print(f"  ... y {len(to_churned) - 25} más")
 
-    total_cambios = len(to_prospect) + len(to_customer) + len(to_churned)
+    total_cambios = len(to_prospect) + len(to_implementacion) + len(to_customer) + len(to_churned)
 
     # ── CSV con todas las empresas ────────────────────────────
     nuevo_stage = {}
     for c in to_prospect:
         nuevo_stage[c] = "opportunity"
+    for c in to_implementacion:
+        nuevo_stage[c] = "Implementación"
     for c in to_customer:
-        nuevo_stage[c] = "customer"
+        nuevo_stage[c] = "Live Customer"
     for c in to_churned:
         nuevo_stage[c] = "other (churned)"
 
@@ -418,6 +534,7 @@ def main():
 
     confirm = input(
         f"\n⚠️  ¿Confirmas actualizar {len(to_prospect)} Prospects, "
+        f"{len(to_implementacion)} Implementación, "
         f"{len(to_customer)} Live Customers y {len(to_churned)} Churned? (escribe 'SI'): "
     )
     if confirm.strip().upper() != "SI":
@@ -425,10 +542,11 @@ def main():
         return
 
     log = {
-        "fecha":          datetime.now().isoformat(),
-        "prospects":      [],
-        "live_customers": [],
-        "churned":        [],
+        "fecha":           datetime.now().isoformat(),
+        "prospects":       [],
+        "implementaciones":[],
+        "live_customers":  [],
+        "churned":         [],
     }
 
     if to_prospect:
@@ -441,10 +559,20 @@ def main():
             for c in to_prospect
         ]
 
+    if to_implementacion:
+        print(f"\n✏️  Actualizando {len(to_implementacion)} Implementación → {LC_IMPLEMENTACION}...")
+        batch_update_companies(to_implementacion, LC_IMPLEMENTACION)
+        update_contacts_for_companies(to_implementacion, LC_IMPLEMENTACION)
+        log["implementaciones"] = [
+            {"id": c, "nombre": current.get(c, {}).get("name"),
+             "anterior": current.get(c, {}).get("lifecyclestage")}
+            for c in to_implementacion
+        ]
+
     if to_customer:
-        print(f"\n✏️  Actualizando {len(to_customer)} Live Customers → customer...")
-        batch_update_companies(to_customer, "customer")
-        update_contacts_for_companies(to_customer, "customer")
+        print(f"\n✏️  Actualizando {len(to_customer)} Live Customers → {LC_LIVE_CUSTOMER}...")
+        batch_update_companies(to_customer, LC_LIVE_CUSTOMER)
+        update_contacts_for_companies(to_customer, LC_LIVE_CUSTOMER)
         log["live_customers"] = [
             {"id": c, "nombre": current.get(c, {}).get("name"),
              "anterior": current.get(c, {}).get("lifecyclestage")}
@@ -453,8 +581,8 @@ def main():
 
     if to_churned:
         print(f"\n✏️  Actualizando {len(to_churned)} Churned → other...")
-        batch_update_companies(to_churned, "other")
-        update_contacts_for_companies(to_churned, "other")
+        batch_update_companies(to_churned, LC_CHURNED)
+        update_contacts_for_companies(to_churned, LC_CHURNED)
         log["churned"] = [
             {"id": c, "nombre": current.get(c, {}).get("name"),
              "anterior": current.get(c, {}).get("lifecyclestage")}
