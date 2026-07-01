@@ -18,3 +18,4 @@ __pycache__/
 # Entorno
 .env
 *.env
+Holding_asker/composicion_sociedades.csv
