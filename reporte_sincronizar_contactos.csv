@@ -1,0 +1,774 @@
+contact_id,nombre,email,empresa_id,lc_anterior,lc_nuevo,razon,metodo
+3701,Emma Going,egoing@mitta.cl,9166290003,50005795,50020180,sinc. con empresa,empresa
+3801,Andrea Velásquez,andrea.velasquez@transvip.cl,9034645902,subscriber,lead,sinc. con empresa,empresa
+11301,Robert McDonald,robert.mcdonald@truepartnersconsulting.com,9166183012,evangelist,lead,sinc. con empresa,empresa
+9801,Adriana Macedo,adriana.macedo@ricoh-la.com,22107440779,evangelist,lead,sinc. con empresa,empresa
+11201,Contacto Comercio,contactocomercio@conservador.cl,9166296440,subscriber,lead,sinc. con empresa,empresa
+10201,Sebastian Briones,sebastian.briones@bicevida.cl,9165725711,50020180,lead,sinc. con empresa,empresa
+11751,Julia Duarte,julia@luzia.com,45889565614,evangelist,lead,sinc. con empresa,empresa
+8951,Sin nombre,cuentascorrientes@conservador.cl,9166296440,subscriber,lead,sinc. con empresa,empresa
+16401,Johanna Acevedo,johanna@grupoalcosafe.cl,9251228210,evangelist,lead,sinc. con empresa,empresa
+13901,Ian Otersen,ian.otersen@vambe.ai,9169725826,lead,50020180,sinc. con empresa,empresa
+13401,Roberto Rodriguez,rmartinezm@fen.uchile.cl,9166272595,evangelist,lead,sinc. con empresa,empresa
+15451,Josefina Peterson,jpeterson@endeavor.cl,9232350516,evangelist,lead,sinc. con empresa,empresa
+14701,Sebastian Alvarado,sebastian.alvarado@shopify.com,9186110772,evangelist,lead,sinc. con empresa,empresa
+14751,Alejandro Pozo,alejandro@valari.co,9186110772,evangelist,lead,sinc. con empresa,empresa
+13801,Ignacio Montes Campos,ignacio.montescampos@santander.cl,9159860300,evangelist,lead,sinc. con empresa,empresa
+15851,Matias Pardo,matias@dplabs.pro,22108420129,evangelist,lead,sinc. con empresa,empresa
+18551,José Lizana,josel@amazon.com,9310936619,evangelist,lead,sinc. con empresa,empresa
+30601,Sin nombre,nquintero@svb.com,23413524525,evangelist,lead,sinc. con empresa,empresa
+21401,Cristian Oppliger,cristian.oppliger@global66.com,9165725705,lead,50020180,sinc. con empresa,empresa
+30651,Ivette Lepe,ilepe@cooley.com,40344369570,evangelist,lead,sinc. con empresa,empresa
+22251,Juan Pedro Toro,jptoro@polyphenolhealth.com,9361430453,50005795,lead,sinc. con empresa,empresa
+32301,Francisco Garcia,francisco.garcia@efexpay.com,9447282740,evangelist,lead,sinc. con empresa,empresa
+35151,Gonzalo Pizarro,gonzalo.pizarro@latam.com,9505626248,50005795,lead,sinc. con empresa,empresa
+32401,Sebastián Reyes,sebastian.reyes@bx.cl,9452373012,lead,50005795,sinc. con empresa,empresa
+31901,Thiago Caruso,tcaruso@integrationconsulting.com,9439095338,evangelist,lead,sinc. con empresa,empresa
+32451,Mateo Fantoni,mfantoni@masanalytics.com,9452382487,evangelist,lead,sinc. con empresa,empresa
+40301,Tianming Xie,tianming@amplovc.com,9546411828,evangelist,lead,sinc. con empresa,empresa
+40151,Sabrina Orellana,sabrinaorellana@udd.cl,9034351536,lead,50020180,sinc. con empresa,empresa
+55322,Fernando Martínez,fernando.martinez@iansa.cl,9826788923,evangelist,lead,sinc. con empresa,empresa
+59001,José Irarrázaval,jose.irarrazaval@iansa.cl,9826788923,evangelist,lead,sinc. con empresa,empresa
+49051,Italo Moyano Moyano,italo.moyano@cencosud.cl,9826756469,50005795,50020180,sinc. con empresa,empresa
+59359,Karl-Huber,karl.huber@iansa.cl,9826788923,evangelist,lead,sinc. con empresa,empresa
+45051,Sin nombre,kapaza@ccs.cl,9251228210,evangelist,lead,sinc. con empresa,empresa
+47101,Jonathan Awad,jonathan@baselayerhq.com,22108375330,evangelist,lead,sinc. con empresa,empresa
+53902,Luis Mancilla,lmancilla@froward.cl,10105802312,evangelist,lead,sinc. con empresa,empresa
+52370,Victor Otero,rafael.otero@trex.cl,9826729650,evangelist,lead,sinc. con empresa,empresa
+52453,Sady Delgado,euribe@losfiordos.cl,9826729651,50020180,lead,sinc. con empresa,empresa
+57107,Rodrigo Alarcon,christian.larenas@dsv.com,9826667787,50020180,lead,sinc. con empresa,empresa
+54057,Arturo Pero,apero@banmedica.cl,9826729648,evangelist,lead,sinc. con empresa,empresa
+55194,Juan Carlos,juan.valenzuela@espol.cl,9827092362,50020180,lead,sinc. con empresa,empresa
+56063,Francisco Bravo,francisco.bravo@cbb.cl,9826738956,50020180,lead,sinc. con empresa,empresa
+61494,Valera Pascual,danieltornel@sdn.cl,9826630553,evangelist,lead,sinc. con empresa,empresa
+58176,Daniela Alejandra,djorquera@belcorp.biz,31523030423,,lead,sinc. con empresa,empresa
+55643,Maria Eugenia,maria.espinosa@gpremium.cl,22108425227,,lead,sinc. con empresa,empresa
+62708,Frank Wanckel Wanckel,fwanckel@reutter.cl,19604119382,evangelist,lead,sinc. con empresa,empresa
+60427,Claudio Diaz,claudio.diaz@garcesfruit.com,9827245172,lead,50020180,sinc. con empresa,empresa
+61814,Sebastian Piza,spiza@buk.cl,9166272593,lead,50020180,sinc. con empresa,empresa
+59877,Americo Becerra,aordenes@chiledar.cl,9827122210,50005795,lead,sinc. con empresa,empresa
+59918,Carmen Hernandez,chernandez@saam.cl,9826921744,lead,subscriber,sinc. con empresa,empresa
+59196,John Allen,john.allen@clinicasantamaria.cl,9827265852,evangelist,lead,sinc. con empresa,empresa
+55647,Ricardo Ecclefield,ricardo@puntaelmonte.com,17052056074,50005795,50020180,sinc. con empresa,empresa
+63612,Victor Romero,victor.romero@inchalam.cl,9827127913,50020180,lead,sinc. con empresa,empresa
+62603,Christian Espinoza,christian.espinoza@aus.com,9827204880,evangelist,lead,sinc. con empresa,empresa
+59543,Carmen Chica,carmen.chica@ericsson.com,9827265822,evangelist,lead,sinc. con empresa,empresa
+59544,Eduardo Vasquez,evasquez@verano.energy,19634056033,evangelist,lead,sinc. con empresa,empresa
+210110903396,Pablo Sanhueza,pablo.sanhuezaprado@fracht.cl,9827174014,lead,50020180,sinc. con empresa,empresa
+59345,Gabriel Chadwick,gchadwick@interclinica.cl,9827265833,50020180,lead,sinc. con empresa,empresa
+61243,Pablo Ramirez,pramirez@iaconcagua.com,9826630540,evangelist,lead,sinc. con empresa,empresa
+60016,Fernando Santivanez,fsantivanezbarbera@mitta.cl,9166290003,lead,50020180,sinc. con empresa,empresa
+60311,Sergio Correa,sergio.correa@conpax.cl,9827101841,evangelist,lead,sinc. con empresa,empresa
+59861,Sin nombre,acobs@pedrodevaldivia.cl,9826738944,evangelist,lead,sinc. con empresa,empresa
+61760,Elia Arcos,elia.arcos@contach.cl,9827265854,evangelist,lead,sinc. con empresa,empresa
+54931,José Molina,jmolina@molinamorel.cl,9827113338,evangelist,lead,sinc. con empresa,empresa
+59970,David Guiloff,david.guilofflewy@neuvol.cl,9827072684,evangelist,50005795,sinc. con empresa,empresa
+63051,Martin Lewit,martin.lewit@nisum.com,9827148606,evangelist,lead,sinc. con empresa,empresa
+59799,Eduardo Pastén,eduardo.pasten@porsche-chile.cl,9827080540,50020180,lead,sinc. con empresa,empresa
+59922,Camilo Jiménez,camilo.jimenez@ppulegal.com,9827204894,evangelist,lead,sinc. con empresa,empresa
+60257,Pablo Luisetti,pablo.luisetti@conpax.cl,9827101841,evangelist,lead,sinc. con empresa,empresa
+59896,Milko Markusovic,mmarkusovic@mimet.cl,9827245202,evangelist,lead,sinc. con empresa,empresa
+59420,Valeria Tornel,vtornel@sdn.cl,9826630553,evangelist,lead,sinc. con empresa,empresa
+60253,Yoni Yap,yoni.yap@ppartnersgroup.com,9827204886,evangelist,lead,sinc. con empresa,empresa
+60347,Sergio Gutiérrez,sgutierrez@espacioriesco.cl,9826815668,evangelist,lead,sinc. con empresa,empresa
+64001,Sergio Rojas,srojas@icb.cl,9826928743,evangelist,lead,sinc. con empresa,empresa
+55628,Marcelo Hasenberg,mhasenberg@fibro.cl,9827165528,evangelist,lead,sinc. con empresa,empresa
+63340,Diego Uzcudun,duzcudun@brightstar-group.cl,9827216663,evangelist,lead,sinc. con empresa,empresa
+59779,José Ramon,jrvalenzuela@pedrodevaldivia.cl,9826738944,evangelist,lead,sinc. con empresa,empresa
+62863,Jonatan Moran,jmoran@dimar.cl,9827127887,evangelist,lead,sinc. con empresa,empresa
+57028,Mariana Pizarro,mpizarro@ambitec.cl,9827260796,50005795,lead,sinc. con empresa,empresa
+63222,Fabio Magrin,fabio.magrin@cummins.com,27752823090,,lead,sinc. con empresa,empresa
+60679,Alejandro Saval,asaval@saval.cl,9827165520,evangelist,lead,sinc. con empresa,empresa
+56085,Patricio Alberto,pherrera@econssachile.cl,9826815766,evangelist,lead,sinc. con empresa,empresa
+60390,Fernando Corvalan,fernandocorvalan@bdilatam.com,9827165520,evangelist,lead,sinc. con empresa,empresa
+63614,Javier Plaza,jplaza@frutexsa.cl,9826729769,evangelist,lead,sinc. con empresa,empresa
+62383,Juan Carlos Castillo,juancarlos.castillo@sixt.cl,16073424197,evangelist,lead,sinc. con empresa,empresa
+57036,Ricardo Orellana,rorellana@cpp.cl,15719033394,50020180,lead,sinc. con empresa,empresa
+61406,Jorge Encina,jencina@grupoalto.com,9826738955,50020180,lead,sinc. con empresa,empresa
+52322,Luis Sanguinetti,luis.sanguinetti@southdatala.com,22108473499,evangelist,lead,sinc. con empresa,empresa
+54935,Ricardo Ortega,rortega@empresasieg.com,9827174029,evangelist,lead,sinc. con empresa,empresa
+63404,Alfredo Schaub,aschaub@fabrimetal.cl,9826667833,evangelist,lead,sinc. con empresa,empresa
+61488,Carolina Colomer,ccolomer@clinicaloscarrera.cl,9827113347,50020180,lead,sinc. con empresa,empresa
+52315,Pablo Ripetti,pripetti@dellorto.cl,9827122207,evangelist,lead,sinc. con empresa,empresa
+60281,Jorge Barrientos,jorge.barrientos@salfasur.cl,9827072780,50020180,lead,sinc. con empresa,empresa
+63416,Juan Ritz,juan.ritz@maersk.com,9826923795,evangelist,lead,sinc. con empresa,empresa
+60403,Manuel Marin,manuel.marin@usm.cl,9826756459,lead,50005795,sinc. con empresa,empresa
+59754,Claudio Figueroa,cfigueroa@copelec.cl,9827113348,evangelist,lead,sinc. con empresa,empresa
+62702,Fernando Zúñiga,fzuniga@grupointexa.cl,9827247187,lead,50020180,sinc. con empresa,empresa
+56098,Paul De,pmtaillu@iansa.cl,9826788923,evangelist,lead,sinc. con empresa,empresa
+64304,Sady Delgado,sady.delgado@aquachile.com,9826729651,50020180,lead,sinc. con empresa,empresa
+62601,Max Donoso,max.donosomujica@armadoybarras.cl,9826686006,evangelist,lead,sinc. con empresa,empresa
+60341,Diego Hollweck,dhollweck@generadora.cl,9826926264,50020180,lead,sinc. con empresa,empresa
+61151,Jan Barends,jbarends@difor.cl,9826706192,evangelist,lead,sinc. con empresa,empresa
+61500,Roberto Gomez,rgomez@in-ver.com,9826630540,evangelist,lead,sinc. con empresa,empresa
+61762,Cristian Sierra,cristian.sierra@inchcape.com,9827243297,50020180,lead,sinc. con empresa,empresa
+61258,Francisco Rodriguez,fpedrero@icb.cl,9826928743,50020180,lead,sinc. con empresa,empresa
+59221,Luis Rivera,lrivera@crossnet.cl,9826923804,evangelist,lead,sinc. con empresa,empresa
+64007,Guillermo Montufar,guillermo@solucionesgtec.com,9827243329,evangelist,lead,sinc. con empresa,empresa
+55583,Rodrigo Pulido,brodrigo@etres.es,9827080557,evangelist,lead,sinc. con empresa,empresa
+59798,Patricio Zulueta Govoni,patricio@zulueta.cl,9826729756,50005795,lead,sinc. con empresa,empresa
+63908,Alex,alex.olivares@padrelascasas.cl,9827101874,evangelist,lead,sinc. con empresa,empresa
+63402,Edmundo,edmundo.puentes@oxiquim.cl,9826756457,evangelist,lead,sinc. con empresa,empresa
+63413,Luis,lcamus@dvc.cl,9827243354,evangelist,lead,sinc. con empresa,empresa
+62735,Nathalie Alvarez,naqueveque@bsale.app,22107436960,50005795,lead,sinc. con empresa,empresa
+60440,Angie Bejarano,abejarano@axinntus.com,9827148582,50020180,lead,sinc. con empresa,empresa
+66101,Redes Sociales Ecr Group,rrss@ecrgroup.cl,9884740524,evangelist,lead,sinc. con empresa,empresa
+61802,Lenka Chavez,lenka.chavez@falp.org,9827122255,lead,50020180,sinc. con empresa,empresa
+62659,Luisa Londoño,luisa.londono@sura-im.com,9827263323,50020180,lead,sinc. con empresa,empresa
+71501,Gustavo Cáceres,gustavo.caceres@cumplo.com,9166302017,lead,50020180,sinc. con empresa,empresa
+74801,Maximiliano Gallardo,maximiliano.gallardo@walmart.com,10105802312,50020180,lead,sinc. con empresa,empresa
+75651,Javier Sanz Fernandez,sanzj@visa.com,10137446927,,lead,sinc. con empresa,empresa
+74701,Martin Alfaro,martin.alfaro@macrobots.com,10105802312,50005795,lead,sinc. con empresa,empresa
+79901,Gonzalo Muñoz,gmunoz@signum-bi.com,46052527529,evangelist,lead,sinc. con empresa,empresa
+81451,Giovanna Gardella,ggardella@compliancegc.com,10272805759,,lead,sinc. con empresa,empresa
+81251,Nicolas Madariaga,nicolas.madariaga@iqvia.com,10272709271,evangelist,lead,sinc. con empresa,empresa
+77701,Sebastian Rojas,sarojas@tmluc.com,10201504944,50005795,lead,sinc. con empresa,empresa
+81551,Gonzalo Ceballos Guzman,gceballos@abcdin.cl,10247770923,evangelist,lead,sinc. con empresa,empresa
+78501,Enrique Martinez,enrique.martinez@grupobimbo.com,10219478350,evangelist,lead,sinc. con empresa,empresa
+80351,Julien Labrot,julien.labrot@revolut.com,17052056074,50005795,50020180,sinc. con empresa,empresa
+81951,Cristian Vasquez,cvasquez@falcom.cl,10324351322,lead,50020180,sinc. con empresa,empresa
+84551,Raul Barrero,raul.barrero@discovercars.com,26491203215,evangelist,lead,sinc. con empresa,empresa
+82251,Carlos Conley Villalón,cconleyv@prisa.cl,10330201930,evangelist,lead,sinc. con empresa,empresa
+82301,Martin Cook,mcook@valuefactory.cl,9159860300,50005795,lead,sinc. con empresa,empresa
+83351,Matías Concha,matias.concha@forum.cl,9159860300,50005795,lead,sinc. con empresa,empresa
+82351,Ignacio Prado,ignacio.prado@security.cl,9826756447,evangelist,lead,sinc. con empresa,empresa
+89351,Felipe Díaz,felipe.diaz@aldautomotive.com,9826815749,50005795,lead,sinc. con empresa,empresa
+87051,Nicolás Marambio,nicolas.marambio@bice.cl,16980453793,lead,50020180,sinc. con empresa,empresa
+89901,Sin nombre,convenios@registrocivil.gob.cl,10626085556,evangelist,lead,sinc. con empresa,empresa
+89401,Cristián Cataldo,cristian.cataldo@gcwlatam.com,9826815749,50005795,lead,sinc. con empresa,empresa
+89251,A Carrasco,acarolacarrasco@cca.cl,9826815749,50005795,lead,sinc. con empresa,empresa
+88001,Benjamin Mujica,bmujica@brilux.com.br,10574856521,evangelist,lead,sinc. con empresa,empresa
+90601,Daniel Sepúlveda Páez,dsepulve@registrocivil.gob.cl,10626085556,evangelist,lead,sinc. con empresa,empresa
+95501,Fulvio Persico,persicoperrot.fulvio@bnpparibascardif.com,12124741471,evangelist,50020180,sinc. con empresa,empresa
+92001,Andre Reyes,areyes@getty.edu,22597403055,evangelist,lead,sinc. con empresa,empresa
+95351,Daniel De Santiago,daniel.desantiago@pedidosya.com,12120523014,50020180,50005795,sinc. con empresa,empresa
+97151,Hugo Andrade Santa Maria,hugo.andrade@chubb.com,13520408357,evangelist,lead,sinc. con empresa,empresa
+93351,David Huynh,david@partnerfundservices.com,36784976980,,lead,sinc. con empresa,empresa
+93101,Rodrigo Avello,rodrigo.andresavello@orsanseguros.cl,11047395152,subscriber,lead,sinc. con empresa,empresa
+94401,Rodrigo Lama,rodrigo.lama@sbins.cl,11579601541,50005795,lead,sinc. con empresa,empresa
+92101,José Ignacio Rivas Gutiérrez,jose.rivas@security.cl,9826756447,evangelist,lead,sinc. con empresa,empresa
+98401,Fabiana De Nicolo,,11579601541,evangelist,lead,sinc. con empresa,empresa
+97651,Alfredo Palma,apalma@moneda.cl,11558551325,,50020180,sinc. con empresa,empresa
+99201,Michele Hromić Leyton,,11579601541,evangelist,lead,sinc. con empresa,empresa
+98201,Carlos Diaz A.,,11579601541,evangelist,lead,sinc. con empresa,empresa
+97951,Karen Lopez Roa,karen.lopez@chubb.com,13520408357,evangelist,lead,sinc. con empresa,empresa
+101351,Nahin Estay,nestay@inarco.cl,9826788979,evangelist,lead,sinc. con empresa,empresa
+106553,Bastian Garcia Saavedra,bgarcias@falabella.cl,9240844657,lead,50020180,sinc. con empresa,empresa
+103551,Esteban Romano,esteban.romano@kibernum.com,9826756460,50005795,lead,sinc. con empresa,empresa
+104351,Emili Almeida,ealmeida@gomaxxa.com,9314576159,evangelist,50020180,sinc. con empresa,empresa
+112451,Sebastián de la Vega,,9826788923,evangelist,lead,sinc. con empresa,empresa
+112751,Denise Ortiz,dortizc@laaraucana.cl,14870716000,evangelist,50020180,sinc. con empresa,empresa
+112501,Viviana Romero,,14908728098,evangelist,lead,sinc. con empresa,empresa
+108951,Macarena Pino,macarena@destacame.cl,14793166655,50005795,lead,sinc. con empresa,empresa
+112301,Gonzalo Marambio,gonzalo.marambio@cic.cl,13801303650,50020180,lead,sinc. con empresa,empresa
+110801,Claudia Pinilla,cpinilla@grupoglobal.cl,14870716000,lead,50020180,sinc. con empresa,empresa
+112351,Gonzalo Marambio,,13801303650,50020180,lead,sinc. con empresa,empresa
+114001,Pedro Brain,pbrain@ultraport.cl,9827197323,lead,50020180,sinc. con empresa,empresa
+115851,Mauricio Sanhueza,mauricio.sanhueza@polpaico.cl,14928998327,50020180,lead,sinc. con empresa,empresa
+119051,Daniel Zuniga,daniel.zuniga@regus.com,15005132206,subscriber,lead,sinc. con empresa,empresa
+118801,"Lolic Wainstein, Benjamin Ignacio",benjamin.lolic@cocha.com,9826756469,50005795,50020180,sinc. con empresa,empresa
+120851,Andres Avalos,andres.avalos@jpmorgan.com,15039893604,evangelist,lead,sinc. con empresa,empresa
+119901,Miguel Muñoz,miguel.munoz.velasquez@strabag.com,14992615254,evangelist,lead,sinc. con empresa,empresa
+123001,Gonzalo Arcas,,15149245369,50005795,lead,sinc. con empresa,empresa
+125701,Santiago Larrain,slarrain@moneda.cl,15059229963,lead,50020180,sinc. con empresa,empresa
+126501,Esteban Campos,eandrescampos@bancoripley.cl,15312428439,50020180,lead,sinc. con empresa,empresa
+126401,Oliver Sepúlveda,osepulveda@bancoripley.cl,15312428439,50020180,lead,sinc. con empresa,empresa
+127201,Nicolás Tobar Valenzuela,nicolas@santander.cl,14774477470,evangelist,lead,sinc. con empresa,empresa
+126451,Matias Goldsmith,mgoldsmithd@bancoripley.com,15312428439,50020180,lead,sinc. con empresa,empresa
+129701,Diego Torres,dtorres@borafactoring.cl,15459079992,50005795,lead,sinc. con empresa,empresa
+130501,Jorge Eynaudi,jorge.eynaudi@jpmorgan.com,15333873021,evangelist,lead,sinc. con empresa,empresa
+128751,Marcos Rebolledo,central@agrorental.cl,15261808761,evangelist,lead,sinc. con empresa,empresa
+137751,Todd Wood,todd.wood@bakertilly.com,9166183012,50020180,lead,sinc. con empresa,empresa
+135451,Edwin Gonzalez,edwing@qualtrics.com,22108387460,evangelist,lead,sinc. con empresa,empresa
+134951,Felipe Grau,fgrau@puentefinanciero.cl,15460715919,50020180,lead,sinc. con empresa,empresa
+139051,Sin nombre,ramon@reality-systems.com,15511746440,other,lead,sinc. con empresa,empresa
+136501,Sin nombre,contacto@mirostudio.cl,15488333654,other,lead,sinc. con empresa,empresa
+134201,Alejandro Araya,aaraya@ecrgroup.cl,15776039812,50005795,lead,sinc. con empresa,empresa
+137801,Mildred Suarez-Tan,mildred.suarez-tan@mossadams.com,9166183012,50020180,lead,sinc. con empresa,empresa
+137551,Raimundo Herrera,raimundo@platan.us,9166290005,other,lead,sinc. con empresa,empresa
+137851,Kanisha Patel,kanisha.patel@complyadvantage.com,9177020052,50020180,lead,sinc. con empresa,empresa
+133801,Jessica Miranda,jf.miranda@live.com,14793166655,evangelist,lead,sinc. con empresa,empresa
+133551,Eduardo Berrios,eberrios@volcan.cl,8941208994,49991712,50020180,sinc. con empresa,empresa
+137901,Callum McIntosh,callum.mcintosh@complyadvantage.com,9177020052,other,lead,sinc. con empresa,empresa
+133851,Jorge Muñoz,jmunoz@inacap.cl,14793166655,50020180,lead,sinc. con empresa,empresa
+137951,Sin nombre,help@typeform.com,15506624517,other,lead,sinc. con empresa,empresa
+137701,Sin nombre,support@checkr.com,9882570612,other,lead,sinc. con empresa,empresa
+134651,Mario Arriagada,marriagada@turistik.com,10417036419,evangelist,lead,sinc. con empresa,empresa
+139001,Roger Rea,roger@reality-systems.com,15511746440,other,lead,sinc. con empresa,empresa
+138751,Héctor Arias,hector@blfactoring.cl,15508127324,50005795,lead,sinc. con empresa,empresa
+140301,Camilo Godoy,cgodoy@tasatax.cl,15534736411,other,lead,sinc. con empresa,empresa
+143401,Romina Cerda,rcerda@huellalocal.cl,22108309909,other,lead,sinc. con empresa,empresa
+143151,Manuela Pena,manuela@truora.com,15583527253,other,lead,sinc. con empresa,empresa
+140351,Sin nombre,agrande@credolab.com,15534944523,other,lead,sinc. con empresa,empresa
+143201,Daniel de Truora,dbilbao@truora.com,15583527253,other,lead,sinc. con empresa,empresa
+140151,Pablo Rodriguez,pablo@grupotusmaquinas.com,15529731895,50005795,lead,sinc. con empresa,empresa
+144001,Juan Pablo Barroilhet,barroilhet.juan@bice.cl,15609270853,50005795,lead,sinc. con empresa,empresa
+143501,Juzgado de Policía,juzgado@lobarnechea.cl,9349215257,subscriber,lead,sinc. con empresa,empresa
+140951,Harry Qi,harry@usemotion.com,15566537886,other,lead,sinc. con empresa,empresa
+143001,Jacob Meltzer,jacob.meltzer@cantor.com,15486585270,other,lead,sinc. con empresa,empresa
+143551,Sin nombre,cvalenzuela@achef.cl,15598325030,other,lead,sinc. con empresa,empresa
+143051,Sin nombre,steven@alpha-sense.com,15486585270,other,lead,sinc. con empresa,empresa
+140501,Sin nombre,phishing@paypal.com,15547712387,other,lead,sinc. con empresa,empresa
+143101,Sin nombre,ignacio.navarrete@escapology.com,15583931546,other,lead,sinc. con empresa,empresa
+147001,David Ventura,dventura@autored.cl,15699347883,other,lead,sinc. con empresa,empresa
+146251,Sin nombre,amoraga@komax.cl,15665269277,other,lead,sinc. con empresa,empresa
+146001,Marianela Vidal,marianela.vidal@mondelezinternational.com,15645584148,evangelist,50020180,sinc. con empresa,empresa
+147051,Ronald Ben-Dov,rbendov@autored.cl,15699347883,other,lead,sinc. con empresa,empresa
+145001,Antonio Zegers,azegers@gofactoring.cl,15611258416,evangelist,lead,sinc. con empresa,empresa
+144751,Mireya Sandoval,mireya@gocap.ca,15611258416,evangelist,lead,sinc. con empresa,empresa
+146301,Camilo Vargas,csaldano@komax.cl,15665269277,50020180,lead,sinc. con empresa,empresa
+146051,Eduardo Charme,eduardo.charme@khipu.com,15318199573,evangelist,lead,sinc. con empresa,empresa
+147851,Ignacio Bruna,ibruna@brolly.cl,15708224289,evangelist,lead,sinc. con empresa,empresa
+144801,Francisco Elton,felton@go.cl,15611258416,evangelist,lead,sinc. con empresa,empresa
+146351,Sin nombre,jpereira@komax.cl,15665269277,other,lead,sinc. con empresa,empresa
+146101,Luis Muñoz,luis.munoz@mastercard.com,15658271283,other,lead,sinc. con empresa,empresa
+147651,Marcela Paz Chaparro Godoy,marcela.chaparro@security.cl,15705371942,,lead,sinc. con empresa,empresa
+146901,Daniel Alevy,dalevy@autored.cl,15699347883,other,lead,sinc. con empresa,empresa
+154651,Valeria Esparza Pozas,valeria.esparza@solventa.cl,15775311186,evangelist,lead,sinc. con empresa,empresa
+152351,Claudia Sepulveda Cabrera,csepulveda@pentafinanciero.cl,15762003824,evangelist,lead,sinc. con empresa,empresa
+150101,Pragati Priya,pragati@climatiq.io,15729752072,other,lead,sinc. con empresa,empresa
+149701,Constanza Cid Soto,ccid@patagoniafactoring.cl,15719068449,evangelist,lead,sinc. con empresa,empresa
+156951,Cristobal Valle,cristobal.valle@papernest.com,8941377927,50020180,lead,sinc. con empresa,empresa
+156451,Alexis Monnot,alexis.monnot@rothschildandco.com,15799665984,50020180,lead,sinc. con empresa,empresa
+155951,Renán Gómez Castañón,renan.gomez@idiem.cl,15790855510,evangelist,lead,sinc. con empresa,empresa
+158001,Dajana Marsollek,dajana@lyceum.technology,15729752072,50020180,lead,sinc. con empresa,empresa
+159551,Rodrigo Zannier,rzannier@fen.uchile.cl,9166272595,subscriber,lead,sinc. con empresa,empresa
+156751,Mauricio Maragaño,mmaragano@ecrgroup.cl,9884740524,evangelist,lead,sinc. con empresa,empresa
+156501,Magdalena Bullrich,magdalena.bullrich@jpmorgan.com,15258316705,other,lead,sinc. con empresa,empresa
+155501,Branden Abushanab,branden@propfirmmatch.com,22108279325,other,lead,sinc. con empresa,empresa
+158101,Claudia Hermosilla,chermosilla@cocha.com,15871457587,other,lead,sinc. con empresa,empresa
+157851,Sin nombre,matias@gregario.com,15859975954,other,lead,sinc. con empresa,empresa
+155551,Sara Munizaga,sara@6tosentido.cl,15779248013,other,lead,sinc. con empresa,empresa
+157852,Ignacio Uribe,ignacio@gregario.com,15859975954,other,lead,sinc. con empresa,empresa
+157601,Daniel Pérez Rada,daniel@copilot.money,20201591708,50020180,lead,sinc. con empresa,empresa
+157902,Sin nombre,admon@cltrv.com.mx,9994315869,other,lead,sinc. con empresa,empresa
+157903,Laura Fregoso de La Paz,lfregoso@cltrv.com.mx,9994315869,50020180,lead,sinc. con empresa,empresa
+157901,Guillermo Guizar,gduran@cltrv.com.mx,9994315869,50020180,lead,sinc. con empresa,empresa
+157904,Sin nombre,ggutierrez@cltrv.com.mx,9994315869,other,lead,sinc. con empresa,empresa
+157401,Ricardo Goulart,ricardo.goulart@mycopyhub.com,15837187977,50020180,lead,sinc. con empresa,empresa
+157151,Carla Martinez Apablaza,carla.martinez@rdfmedia.cl,15833887315,other,lead,sinc. con empresa,empresa
+159201,Brett Hurll - Executive Editor - Gfm Review,brett@gfmreview.com,15837187977,50020180,lead,sinc. con empresa,empresa
+156401,Sin nombre,jhdoubet@pt.lu,15799589538,other,lead,sinc. con empresa,empresa
+163101,Nicole Mahuzier,mahuzier.nicole@principal.com,15992155733,,lead,sinc. con empresa,empresa
+162951,Jessica Perez Kuschel,jessica.perez@aicapitals.com,15992155733,50005795,lead,sinc. con empresa,empresa
+162202,Yerko Orellana Román,yorellana@forum.cl,9159860300,evangelist,lead,sinc. con empresa,empresa
+168551,Cybil Oliver,oliver.c@citi.com,16195875391,evangelist,lead,sinc. con empresa,empresa
+168302,Ralph Piket,ralph@fidelite.org,9505626248,evangelist,lead,sinc. con empresa,empresa
+168851,Jorge Armando Rivera Orellana,jorge.orellana@cummins.cl,9166290003,50005795,50020180,sinc. con empresa,empresa
+167101,Alejandro Nodleman,alejandro.nodleman@recasur-rac.com,16074215943,evangelist,lead,sinc. con empresa,empresa
+171801,Cristina Mosqueda,cmosqueda@salesforce.com,22108470880,evangelist,lead,sinc. con empresa,empresa
+170053,Marcelo Vasquez,marcelo@canvasgroup.com,16262837303,evangelist,lead,sinc. con empresa,empresa
+169351,Eduardo Riquelme Atenas,eduardo.atenas@aldautomotive.cl,16249677844,50005795,lead,sinc. con empresa,empresa
+214438441255,Walter Bustamante Lopez,wbustamante@icestarlatam.com,16780430357,50020180,lead,sinc. con empresa,empresa
+177651,Jessica Ramírez,jessica.ramirez@grupobimbo.com,16777835351,evangelist,lead,sinc. con empresa,empresa
+175101,Francisco Danitz Miller,fdanitz@codelco.cl,13369578336,evangelist,50020180,sinc. con empresa,empresa
+179203,Jan Ahlström Gallegos,jahlstroemgallegos@tracktec.cl,16794293635,50005795,lead,sinc. con empresa,empresa
+179204,Martin Stenholm,martin.stenholm@volvo.com,16794293635,evangelist,lead,sinc. con empresa,empresa
+181802,Ricardo Scholz Valenzuela,ricardo@compraqui.cl,14770759973,evangelist,lead,sinc. con empresa,empresa
+178603,Sebastián Pujol Iturrieta,sebastian.pujol@salazarisrael.cl,9827122207,evangelist,lead,sinc. con empresa,empresa
+178601,Enzo Constanzo Partarrieu,enzo.partarrieu@salazarisrael.cl,9827122207,evangelist,lead,sinc. con empresa,empresa
+178604,Javier Diaz Bowen,jbowen@gildemeister.cl,9827122207,50020180,lead,sinc. con empresa,empresa
+179903,Rodrigo Ormazabal,rodrigo.ormazabal@adium.cl,16804087953,lead,50020180,sinc. con empresa,empresa
+178651,Eliot Cuevas,eliot.cuevas@salazarisrael.cl,9827122207,evangelist,lead,sinc. con empresa,empresa
+178652,Maria Gonzalez Cruz,maria.gonzalez@salazarisrael.cl,9827122207,evangelist,lead,sinc. con empresa,empresa
+181753,José Ignacio Godoy Godoy,jose@proyectosyservicios.net,14770759973,evangelist,lead,sinc. con empresa,empresa
+183054,Astrid Eloff,astrid.eloff@mastercard.com,15340892688,evangelist,lead,sinc. con empresa,empresa
+183055,Macarena Ewertz,mewertz@pedrodevaldivia.cl,9826738944,evangelist,lead,sinc. con empresa,empresa
+184453,Cristián Rojas Sepúlveda,crojassepulveda@ccs.cl,9251228210,50005795,lead,sinc. con empresa,empresa
+183701,Marianne Gelfenstein Alvarado,marianne.gelfensteinalvarado@brightstarlottery.com,16949464686,evangelist,lead,sinc. con empresa,empresa
+183451,Macarena Fock,macarena.kunstmann@zurich.com,9240844657,,50020180,sinc. con empresa,empresa
+183001,Macarena Fock Kunstmann,mkunstmann@fpay.cl,15340892688,,lead,sinc. con empresa,empresa
+187001,Johana Perez,jperez@bancointernacional.cl,9826921730,50005795,lead,sinc. con empresa,empresa
+186002,Matias Morales,matias.morales@security.cl,13813141272,50005795,50020180,sinc. con empresa,empresa
+185301,Victor Marshall,vmarshall@marshallycia.cl,16984405658,50005795,lead,sinc. con empresa,empresa
+192301,Carlos Padron,carlos.padron@enex.cl,16804154264,50005795,50020180,sinc. con empresa,empresa
+190851,Mauricio Robles,mauricio.roblesbarraza@nuevamasvida.cl,9827197322,lead,50020180,sinc. con empresa,empresa
+188301,Macarena Pilar,macarena.gonzalez@pepsico.com,17052056074,evangelist,50020180,sinc. con empresa,empresa
+192751,Eugenio Araya,eugenio.araya@provida.cl,17081453634,evangelist,lead,sinc. con empresa,empresa
+192801,Juan Espina,jespina@provida.cl,17081453634,evangelist,lead,sinc. con empresa,empresa
+194901,Janine Vergara,jvergara@cuprum.cl,17081488303,evangelist,lead,sinc. con empresa,empresa
+194401,Alejandro Cabrera,angela.cancinoyanez@narbonaconsultores.cl,17081488303,evangelist,lead,sinc. con empresa,empresa
+194151,Miguel Perdomo,mperdomor@cuprum.cl,17081488303,,lead,sinc. con empresa,empresa
+192951,Mariana Schnettler,mariana.schnettler@provida.cl,9826926227,lead,50020180,sinc. con empresa,empresa
+194252,Juan Taito,juan.cristofori@zurich.com,17081488303,,lead,sinc. con empresa,empresa
+208504,Claudio Ortiz,claudio.ortizdezarate@andesmotor.cl,17250364068,evangelist,lead,sinc. con empresa,empresa
+208552,Nelson Sarzosa,nelson@automotoravalp.cl,17250330297,50020180,lead,sinc. con empresa,empresa
+208301,Rodrigo Concha,rconcha@redmc.com,17239422229,lead,50020180,sinc. con empresa,empresa
+208603,Sebastian Astorga,sastorga@guillermomorales.cl,9826706192,evangelist,lead,sinc. con empresa,empresa
+211202,Karen Mendoza,karen@thefoodisland.com,9827140149,evangelist,lead,sinc. con empresa,empresa
+212251,Dominic Rivas,dominic.rivas@valenzueladelarze.cl,9827247181,evangelist,lead,sinc. con empresa,empresa
+209801,Christian Artero,cartero@difor.cl,9827080540,evangelist,lead,sinc. con empresa,empresa
+211853,Rodrigo Gajardo,rodrigo.gajardo@indumotora.cl,17251039665,evangelist,lead,sinc. con empresa,empresa
+214851,Pedro Giglio,pgiglio@autosummit.cl,9826738855,evangelist,lead,sinc. con empresa,empresa
+214905,Jorge Toro,jtoro@difor.cl,9826713415,evangelist,lead,sinc. con empresa,empresa
+215251,Sebastian Munilla,sebastian.munilla@pompeyo.cl,9826713415,evangelist,lead,sinc. con empresa,empresa
+210902,Francisco Troncoso,ftroncoso@grupoempack.cl,9827127906,50020180,lead,sinc. con empresa,empresa
+219151,Pablo Lapostol,pablo.lapostol@aminochem.com,9826815637,50020180,lead,sinc. con empresa,empresa
+213901,Esteban Andres,esteban.navesnik@pompeyo.cl,9826713415,evangelist,lead,sinc. con empresa,empresa
+219401,Christian Graniffo,cgraniffo@agrovitra.com,17328954269,50005795,lead,sinc. con empresa,empresa
+221102,Pia Galaz,pia.saavedra@fresenius-kabi.com,9826756455,evangelist,50020180,sinc. con empresa,empresa
+222152,María Fernanda Beas,fbeas@redmc.com,17239422229,lead,50020180,sinc. con empresa,empresa
+219601,Nicole Grimau,ngrimau@constructoraoval.cl,17328694957,evangelist,lead,sinc. con empresa,empresa
+222351,Isamar Aravena,isamar.aravena@bicevida.cl,10095110530,50020180,lead,sinc. con empresa,empresa
+223402,Agustina Galuschka,agaluschka@explora.com,17412465513,evangelist,lead,sinc. con empresa,empresa
+223151,Jose Sarmiento,jparcha@corralco.com,10095110530,evangelist,lead,sinc. con empresa,empresa
+226602,Diego Cruz,dcruz@ahumada.cl,15149000217,lead,50020180,sinc. con empresa,empresa
+227301,Paola Belmar,pbelmar@hipodromochile.cl,9827101845,50005795,lead,sinc. con empresa,empresa
+228352,Pedro Suarez,pedro.suarez@laboratoriochile.cl,9827148565,evangelist,lead,sinc. con empresa,empresa
+229651,Samuel Agurto,sagurto@saval.cl,9827165520,evangelist,lead,sinc. con empresa,empresa
+229401,Gustavo Farias,gfarias@saval.cl,9827165520,evangelist,lead,sinc. con empresa,empresa
+228902,Francisco Uribe,francisco.uribe@laboratoriochile.cl,9827148565,50005795,lead,sinc. con empresa,empresa
+228651,Ricardo Corte,rcorte@saval.cl,9827165520,evangelist,lead,sinc. con empresa,empresa
+228653,Jorge Andres,jorge.hubner@laboratoriochile.cl,9827148565,50005795,lead,sinc. con empresa,empresa
+228652,Hecmily Ramirez,hramirez@saval.cl,9827165520,evangelist,lead,sinc. con empresa,empresa
+228402,Manuel Ortega,mortega@saval.cl,9827165520,evangelist,lead,sinc. con empresa,empresa
+228401,Caballero Paula,pcaballero@saval.cl,9827165520,evangelist,lead,sinc. con empresa,empresa
+227651,Rodrigo Carvajal,r.carvajal@winsysgroup.com,17412480815,evangelist,lead,sinc. con empresa,empresa
+229701,Francisco Zuniga,fzuniga@saval.cl,9827165520,evangelist,lead,sinc. con empresa,empresa
+229452,Andrea Duguid,andrea.duguid@loreal.com,9826738863,50005795,lead,sinc. con empresa,empresa
+229202,Denisse Faundez,dfaundez@saval.cl,9827165520,evangelist,lead,sinc. con empresa,empresa
+228951,Dagoberto Valladares,dvalladares@saval.cl,9827165520,evangelist,lead,sinc. con empresa,empresa
+231001,Miguel Lavalle,miguel.lavalle@banamex.com,17485853718,evangelist,lead,sinc. con empresa,empresa
+228701,Rolando Rojas,rrojas@saval.cl,9827165520,evangelist,lead,sinc. con empresa,empresa
+229751,Vicente Martinez,vmartinez@saval.cl,9827165520,evangelist,lead,sinc. con empresa,empresa
+229501,Juan Valenzuela,jevalenzuela@saval.cl,9827165520,evangelist,lead,sinc. con empresa,empresa
+229251,Manuel Hormazabal,mhormazabal@saval.cl,9827165520,evangelist,lead,sinc. con empresa,empresa
+228803,Claudia Mardones,claudia.mardones@laboratoriochile.cl,9827148565,50005795,lead,sinc. con empresa,empresa
+228801,Veronica Apablaza,vapablaza@saval.cl,9827165520,evangelist,lead,sinc. con empresa,empresa
+230101,Berenice Sanchez,bsanchez@saval.cl,9827165520,evangelist,lead,sinc. con empresa,empresa
+229351,Daniel Besoain,dbesoain@saval.cl,9827165520,evangelist,lead,sinc. con empresa,empresa
+229101,Aymara Guzman,aguzman@saval.cl,9827165520,evangelist,lead,sinc. con empresa,empresa
+228851,Ivan Osorio,iosorio@saval.cl,9827165520,evangelist,lead,sinc. con empresa,empresa
+233353,Reiner Narr,reiner.narr@vemdo.cl,9827258178,evangelist,lead,sinc. con empresa,empresa
+233402,Agustin Dominguez,adominguezebel@megacentro.cl,9826630523,lead,50020180,sinc. con empresa,empresa
+234255,Paula Prats,paula.alessandri@tvn.cl,9166220964,50005795,lead,sinc. con empresa,empresa
+233751,Gabriel Villaseca,gvillaseca@vtr.com,9827258178,evangelist,lead,sinc. con empresa,empresa
+233303,Solange Kammel,solange.kammel@tvn.cl,9166220964,50005795,lead,sinc. con empresa,empresa
+235201,Constanza Elorza,constanza.elorza@vtr.cl,9827258178,evangelist,lead,sinc. con empresa,empresa
+232402,Juan Pizarro,juancarlos.pizarro@vemdo.cl,9827258178,evangelist,lead,sinc. con empresa,empresa
+231655,Silvia Loyola,silvia.loyola@vtr.cl,9827258178,evangelist,lead,sinc. con empresa,empresa
+231953,Valeria Contreras,valeria.contreras@falp.org,17511133243,lead,50020180,sinc. con empresa,empresa
+233057,Jose Balmaceda,jbalmacedabull@deloitte.com,17510999304,evangelist,lead,sinc. con empresa,empresa
+232702,Marcelo Campos,marcelo.campos@vtr.cl,9827258178,evangelist,lead,sinc. con empresa,empresa
+234802,Javier Brzovic,jbrzovic@conchaytoro.cl,9827265811,evangelist,lead,sinc. con empresa,empresa
+232255,Karen Ojeda,karen.ojeda@conchaytoro.cl,9827265811,evangelist,lead,sinc. con empresa,empresa
+233358,Jairo Duque,jairoduque@hablemosdeapple.com,17511170167,50020180,lead,sinc. con empresa,empresa
+234910,Federico Rosemberg,federico.rosemberg@lavinoteca.cl,9826756425,evangelist,lead,sinc. con empresa,empresa
+234960,Floriana Vidal,floriana@hogarproperties.com,9827265811,evangelist,lead,sinc. con empresa,empresa
+233758,Javier Arrieta,jarrieta@tikafoods.com,17511191175,lead,50020180,sinc. con empresa,empresa
+231806,Felipe Rossel,felipe.rossel@aramco.com,9827265811,evangelist,lead,sinc. con empresa,empresa
+231805,Xiaowen Ji,xiaowen.ji@conchaytoro.cl,9827265811,evangelist,lead,sinc. con empresa,empresa
+233357,Dennis Isaac,dennis.isaac@kraftheinz.com,9827265811,evangelist,lead,sinc. con empresa,empresa
+231910,Cristian Duran,cristian.duran@conchaytoro.cl,9827265811,evangelist,lead,sinc. con empresa,empresa
+233706,Gissela Riveros,griveros@conchaytoro.cl,9827265811,evangelist,lead,sinc. con empresa,empresa
+238601,Hector Illanes,hillanes@codelco.cl,13369578336,evangelist,50020180,sinc. con empresa,empresa
+237851,Gracielle Hummel,gracielle.hummel@codelco.cl,13369578336,evangelist,50020180,sinc. con empresa,empresa
+237854,Sebastian Guzman,sebastian.guzman@bufferchile.cl,17509631493,lead,50020180,sinc. con empresa,empresa
+235552,Jorge Torres,jmontero@codelco.cl,13369578336,evangelist,50020180,sinc. con empresa,empresa
+235302,Cristian Sanchez,csanchez@aminerals.cl,9036337772,evangelist,50020180,sinc. con empresa,empresa
+238905,Cristian Gonzalez,cardiles@codelco.cl,13369578336,evangelist,50020180,sinc. con empresa,empresa
+236354,Florencia Necochea,fnecochea@codelco.cl,13369578336,evangelist,50020180,sinc. con empresa,empresa
+237651,Carla Jofre,carla.jofre@codelco.cl,13369578336,evangelist,50020180,sinc. con empresa,empresa
+237402,Marcelo Silva,marcelo.silva@codelco.cl,13369578336,evangelist,50020180,sinc. con empresa,empresa
+235354,Soledad Bastias,sbastias@codelco.cl,13369578336,evangelist,50020180,sinc. con empresa,empresa
+237152,Denis Castillo,dcast027@codelco.cl,13369578336,evangelist,50020180,sinc. con empresa,empresa
+238451,Francia Tapia,francia.tapia@codelco.cl,13369578336,evangelist,50020180,sinc. con empresa,empresa
+235902,Mario Saavedra,m.saavedra@codelco.cl,13369578336,evangelist,50020180,sinc. con empresa,empresa
+237453,Mauricio Acuna,mauricio.acuna@codelco.cl,13369578336,evangelist,50020180,sinc. con empresa,empresa
+239001,Andrea Yanez,amorales@codelco.cl,13369578336,evangelist,50020180,sinc. con empresa,empresa
+236453,Javiera Rojas,javiera.ortega@codelco.cl,13369578336,evangelist,50020180,sinc. con empresa,empresa
+236204,Mario Serrano,mserrano@codelco.cl,13369578336,evangelist,50020180,sinc. con empresa,empresa
+235952,Carolina Aliaga,carolina.aliaga@codelco.cl,13369578336,evangelist,50020180,sinc. con empresa,empresa
+237751,Pablo Lobo,plobo@codelco.cl,13369578336,evangelist,50020180,sinc. con empresa,empresa
+235454,Juan Martinic,jvargas@codelco.cl,22108385366,evangelist,lead,sinc. con empresa,empresa
+237253,Lorena Galvez,lgalv004@codelco.cl,13369578336,evangelist,50020180,sinc. con empresa,empresa
+236504,Christian Lagos,christian.lagos@codelco.cl,13369578336,evangelist,50020180,sinc. con empresa,empresa
+236508,Cristian Sarrazin,cristian.sarrazin@codelco.cl,13369578336,evangelist,50020180,sinc. con empresa,empresa
+237304,Alejandro Pontigo,calejandro@codelco.cl,13369578336,evangelist,50020180,sinc. con empresa,empresa
+239101,Ghassan Dayoub,gdayoub@codelco.cl,13369578336,evangelist,50020180,sinc. con empresa,empresa
+236053,Cristian Rodriguez,cristian.rodriguez@codelco.cl,13369578336,evangelist,50020180,sinc. con empresa,empresa
+237853,Patricio Morales,pmorales@codelco.cl,13369578336,evangelist,50020180,sinc. con empresa,empresa
+238402,Macarena Vargas,mvargas@codelco.cl,13369578336,evangelist,50020180,sinc. con empresa,empresa
+236352,Jonathan Litvak,jonathan.litvak@glencore.com,9036337772,evangelist,50020180,sinc. con empresa,empresa
+237901,Marco Nahum,marco.nahum@glencore.com,13369578336,evangelist,50020180,sinc. con empresa,empresa
+235602,Hector Sepulveda,hsepulveda@codelco.cl,13369578336,evangelist,50020180,sinc. con empresa,empresa
+237403,Luis Nunez,lriveram@codelco.cl,13369578336,evangelist,50020180,sinc. con empresa,empresa
+237155,Oscar Palma,opalma@codelco.cl,13369578336,evangelist,50020180,sinc. con empresa,empresa
+238951,Javiera Corrales,javiera.corrales@codelco.cl,13369578336,evangelist,50020180,sinc. con empresa,empresa
+236651,Gerardo Quintana,gquintana@codelco.cl,13369578336,evangelist,50020180,sinc. con empresa,empresa
+236653,Hector Bozo,hgodoy@codelco.cl,13369578336,evangelist,50020180,sinc. con empresa,empresa
+235903,Carolina Gonzalez,cgonzalez@pelambres.cl,9827080558,evangelist,lead,sinc. con empresa,empresa
+235405,Daniel Torreblanca,dtorreblanca@collahuasi.cl,17508864266,50005795,50020180,sinc. con empresa,empresa
+237202,David Claveria,adavid@codelco.cl,9036337772,evangelist,50020180,sinc. con empresa,empresa
+235409,Sepulveda Ocampo,hsepu013@codelco.cl,13369578336,evangelist,50020180,sinc. con empresa,empresa
+238751,Alejandro Rivera,alejandro.rivera@codelco.cl,13369578336,evangelist,50020180,sinc. con empresa,empresa
+236203,Vanessa Tapia,vtapia@mineracentinela.cl,9827080558,50020180,lead,sinc. con empresa,empresa
+237258,Sergio Rosales,srosales@codelco.cl,13369578336,evangelist,50020180,sinc. con empresa,empresa
+236251,Hector Figueroa,hfigueroa@codelco.cl,13369578336,evangelist,50020180,sinc. con empresa,empresa
+236506,Monserrat Fernandez,monserrat@sumindus.cl,17511166761,lead,50020180,sinc. con empresa,empresa
+236001,Fernando Gonzalez,fgonzale@codelco.cl,13369578336,evangelist,50020180,sinc. con empresa,empresa
+235753,Cristian Sarah,cristian.sarah@codelco.cl,13369578336,evangelist,50020180,sinc. con empresa,empresa
+237801,Sebastian Collazo,sebastian.collazo@equans.com,17511166761,lead,50020180,sinc. con empresa,empresa
+237307,Alexis Zarate,azarate@codelco.cl,13369578336,lead,50020180,sinc. con empresa,empresa
+236801,Valdebenito Figueroa,ivaldebe@codelco.cl,13369578336,evangelist,50020180,sinc. con empresa,empresa
+239901,Carlos Cuoto,ccouto@explora.com,17412465513,50005795,lead,sinc. con empresa,empresa
+236854,Carlos Olguin,colguin@codelco.cl,13369578336,evangelist,50020180,sinc. con empresa,empresa
+235854,Mauricio Manque,mmanq005@codelco.cl,13369578336,evangelist,50020180,sinc. con empresa,empresa
+235852,Claudio Molina,claudio.molina@codelco.cl,13369578336,evangelist,50020180,sinc. con empresa,empresa
+237151,Pablo Osorio,posorio@codelco.cl,13369578336,evangelist,50020180,sinc. con empresa,empresa
+239204,Celinda Manzo,cmanzo@codelco.cl,13369578336,evangelist,50020180,sinc. con empresa,empresa
+238701,Jose Miguel,jose.miguel@codelco.cl,13369578336,evangelist,50020180,sinc. con empresa,empresa
+236452,Pablo Carrasco,pcastillo@pelambres.cl,9827080558,50020180,lead,sinc. con empresa,empresa
+243202,Roberto Toledo,rtoledo@ohionational.cl,9826756469,lead,50020180,sinc. con empresa,empresa
+243801,Beatriz Vasquez,bvasquez@sb.cl,9827148581,evangelist,lead,sinc. con empresa,empresa
+243301,Paulina Cortes,paulina.c@autonomo.tech,9826756469,50005795,50020180,sinc. con empresa,empresa
+242051,Luz Tagle,ltagle@casamoneda.cl,17598215216,lead,50005795,sinc. con empresa,empresa
+243101,Erick Andres,ebrizuela@sb.cl,9827148581,evangelist,lead,sinc. con empresa,empresa
+243452,Maria Rodriguez,maria.rodriguez@payu.com,9826756469,50005795,50020180,sinc. con empresa,empresa
+247051,Daniel Smet,ddesmet@13.cl,17655466580,50005795,lead,sinc. con empresa,empresa
+246551,Hans Duarte,hduarte@enjoy.cl,9826923804,evangelist,lead,sinc. con empresa,empresa
+244501,David Mateluna,david.mateluna@unicard.cl,13801303650,evangelist,lead,sinc. con empresa,empresa
+246552,Carol Liberona,cliberona@enjoy.cl,9826923804,evangelist,lead,sinc. con empresa,empresa
+246301,Diego Fuentes,diego.fuentes@automovilclub.cl,17655451003,lead,50020180,sinc. con empresa,empresa
+248651,Marcelo Ampuero,marcelo.ampuero.vera@accenture.com,17655563172,,lead,sinc. con empresa,empresa
+248151,Felipe Cuadra,felipe.cuadra@grupocopesa.cl,17654623769,50005795,lead,sinc. con empresa,empresa
+247151,Magaly Quispe,magaly.quispe@enjoy.cl,9826923804,evangelist,lead,sinc. con empresa,empresa
+246901,Raul Carreno,raul.carreno@enjoy.cl,9826923804,evangelist,lead,sinc. con empresa,empresa
+244351,Nicolas Salinas,nsalinas@id-logistics.com,9826756469,50005795,50020180,sinc. con empresa,empresa
+246403,Juan Castillo,juan.rodascastillo@urbani.com.mx,22108446094,evangelist,lead,sinc. con empresa,empresa
+246401,Daniela Vasquez,dbawlitza@enjoy.cl,9826923804,evangelist,lead,sinc. con empresa,empresa
+247203,Ignacio Gonzalez,ignacio.gonzalez@megamedia.cl,9166272595,evangelist,lead,sinc. con empresa,empresa
+246201,Victor Castro,victor.castro@raizs.com.br,22598923788,evangelist,lead,sinc. con empresa,empresa
+245951,Fernando Valenzuela,fvalenzuela@happyland.cl,9826729657,evangelist,lead,sinc. con empresa,empresa
+247001,Cesar Rojas,crojas@tripadvisor.com,22598905912,evangelist,lead,sinc. con empresa,empresa
+246501,Leandro Leguisamo,lleguisamo@enjoy.cl,9826923804,evangelist,lead,sinc. con empresa,empresa
+246252,Carolina Ortega,cortega@enjoy.cl,9826923804,evangelist,lead,sinc. con empresa,empresa
+246353,Felipe Carmona,felipec@microsoft.com,17654590116,evangelist,lead,sinc. con empresa,empresa
+249701,Hector Pincheira,hpincheira@frutexsa.cl,9826729769,evangelist,lead,sinc. con empresa,empresa
+248951,Paulina Bastidas,pbastidas@caletabay.cl,9826729651,50020180,lead,sinc. con empresa,empresa
+250552,Ana Belen Muñoz,ana.munoz@security.cl,9826756447,evangelist,lead,sinc. con empresa,empresa
+249551,Gregorio Binda,gbinda@ventisqueros.cl,17655563267,50005795,lead,sinc. con empresa,empresa
+251952,Consuelo Harrison,charrison@manouvrier.cl,17700163692,evangelist,lead,sinc. con empresa,empresa
+252501,Gabriela Parra,gabriela.parra@pepsico.com,9826788919,evangelist,lead,sinc. con empresa,empresa
+256301,Constanza Astorga,castorga@defontana.com,16750132018,50005795,lead,sinc. con empresa,empresa
+251452,Denise Ortiz,denise.ortiz@equifax.com,14870716000,evangelist,50020180,sinc. con empresa,empresa
+255401,Gonzalo Fanta,gonzalo.fanta@silbertec.cl,18128631946,50005795,lead,sinc. con empresa,empresa
+260101,Miguel Rios,miguel.rios@grupomok.com,9034660956,evangelist,lead,sinc. con empresa,empresa
+261151,Leslie Cabrera,leslie.cabrera@skic.com,17823312785,evangelist,lead,sinc. con empresa,empresa
+260652,Luis Escudero,laponce@nobis.com.ec,17823312785,evangelist,lead,sinc. con empresa,empresa
+260401,Ronald Nunez,ronald.nunez@grupomok.com,9034660956,evangelist,lead,sinc. con empresa,empresa
+260151,Alvaro Ferrari,alvaro.ferrari@sodexo.com,31529667697,evangelist,lead,sinc. con empresa,empresa
+259901,Angela Marino,angela.marino@grupomok.com,9034660956,evangelist,lead,sinc. con empresa,empresa
+261201,Soledad Pulgar,spulgar@jej.cl,17823435693,evangelist,lead,sinc. con empresa,empresa
+260951,Dino Delgado,dino.delgado@skic.com,17823312785,evangelist,lead,sinc. con empresa,empresa
+258401,Barbara Silberberg,barbara@bizon.cl,17799921422,50005795,lead,sinc. con empresa,empresa
+260201,Liz Jimenez,liz.jimenez@grupomok.com,9034660956,evangelist,lead,sinc. con empresa,empresa
+259451,Jairo Lopez,jlopez@marvest.cl,10574856521,evangelist,lead,sinc. con empresa,empresa
+260251,Andres Bermudez,andres.bermudez@grupomok.com,9034660956,evangelist,lead,sinc. con empresa,empresa
+260001,Patricia Olivares,patricia.olivares@grupomok.com,9034660956,50005795,lead,sinc. con empresa,empresa
+259502,Oriana Ramos,teknicachile@teknica.cl,10574856521,evangelist,lead,sinc. con empresa,empresa
+259251,Elias Vilches,evilches@teknica.cl,10574856521,50005795,lead,sinc. con empresa,empresa
+260801,Manuel Moscoso,manuel.moscoso@skic.com,17823312785,evangelist,lead,sinc. con empresa,empresa
+260553,Carlos Rincon,crincon@cosmoplas.com,17823265590,evangelist,lead,sinc. con empresa,empresa
+260301,Nelson Buitrago,nelson.buitrago@grupomok.com,9034660956,evangelist,lead,sinc. con empresa,empresa
+260051,Jose Araya,jose.araya@grupomok.com,9034660956,evangelist,lead,sinc. con empresa,empresa
+260851,Nicolas Sepulveda,nicolas.sepulveda@skic.com,17823312785,evangelist,lead,sinc. con empresa,empresa
+260602,Gabriel Contreras,gabriel.contreras@skic.com,17823312785,evangelist,lead,sinc. con empresa,empresa
+260601,Angelica Carolina,angelica.carolina@skic.com,17823312785,evangelist,lead,sinc. con empresa,empresa
+260351,Camila Santis,camila.santis@grupomok.com,9034660956,evangelist,lead,sinc. con empresa,empresa
+264451,Paulina Meza,paulina.meza@cencosud.cl,9826756469,50005795,50020180,sinc. con empresa,empresa
+262201,Ines Dubraska,ifebres@cosmoplas.com,17823265590,evangelist,lead,sinc. con empresa,empresa
+262751,Diego Varela,dmontenegro@valdiviesowines.com,17699980614,evangelist,lead,sinc. con empresa,empresa
+262301,Jorge Lagos,jlagos@promerco.cl,9827148595,50005795,lead,sinc. con empresa,empresa
+260552,Jorge Arevalo,jorge.sanchez@ey.com,22108420660,evangelist,lead,sinc. con empresa,empresa
+261102,Tiare Guzman,t.guzman@comercialk.cl,15149000217,lead,50020180,sinc. con empresa,empresa
+263401,Patricio Flores,pflores@lioi.cl,9826729763,50005795,lead,sinc. con empresa,empresa
+266501,Hernan Ulloa,hernan.ulloa@aes.com,18841225823,evangelist,50020180,sinc. con empresa,empresa
+265501,Eduardo Verdugo,eduardo.verdugo@aes.com,18841225823,evangelist,50020180,sinc. con empresa,empresa
+269101,Marcela Oyarzun,marcela.oyarzun@agunsa.com,9826921749,lead,50020180,sinc. con empresa,empresa
+266551,Gustavo Rivera,gbustamante@ambipar.cl,9826667695,50005795,lead,sinc. con empresa,empresa
+267101,Jorge Martin,sjorge@puertomejillones.cl,17955753775,evangelist,lead,sinc. con empresa,empresa
+266351,Shirley Gatica,sgatica@colbun.cl,9826667803,evangelist,50020180,sinc. con empresa,empresa
+268402,Mauricio Munoz,mauricio.munoz@ksb.com,17956071197,50005795,lead,sinc. con empresa,empresa
+265851,Gustavo Bopp,gustavo.bopp@aes.com,18841225823,evangelist,50020180,sinc. con empresa,empresa
+265602,Natalia Sagredo,natalia.sagredocorvalan@innomotics.com,18841225823,evangelist,50020180,sinc. con empresa,empresa
+267151,Emil Farid,emil.farid@hlag.com,17511077719,evangelist,lead,sinc. con empresa,empresa
+266401,Maria Paz Leon Arjona,maria.leon@aes.com,18841225823,evangelist,50020180,sinc. con empresa,empresa
+265401,Osvaldo Velasquez,osvaldo.velasquez@aes.com,18841225823,evangelist,50020180,sinc. con empresa,empresa
+264901,Ivan Diego,ivan.duronto@aes.com,35531731081,evangelist,lead,sinc. con empresa,empresa
+265951,Pablo Prieto,pablo.prieto@aes.com,18841225823,evangelist,50020180,sinc. con empresa,empresa
+265451,Jeannette Toro,jeannette.toro@aes.com,18841225823,evangelist,50020180,sinc. con empresa,empresa
+270902,Cristian Lavin,clavin@lucanorent.cl,16057701665,evangelist,lead,sinc. con empresa,empresa
+270751,Paola Munoz,paola.munozfernandez@verisure.com,16057701665,evangelist,lead,sinc. con empresa,empresa
+272302,David Andrade,dandrade@lucanorent.cl,18019571040,50005795,lead,sinc. con empresa,empresa
+272852,Silvana Bolivar,silvana.bolivar@jpmorgan.com,15258316705,evangelist,lead,sinc. con empresa,empresa
+274201,Maritza Perez,maritza.perez@engie.com,9827204899,50020180,lead,sinc. con empresa,empresa
+276551,Ramiro Usnayo,ramiro.zabaleta@janssen.cl,18128601695,evangelist,lead,sinc. con empresa,empresa
+276301,Pamela Gallardo,pamela.gallardo@oxzo.cl,18128652589,evangelist,lead,sinc. con empresa,empresa
+273251,Hugo Andrade Torres,hugo.torres@glencore.com,18075114330,evangelist,50020180,sinc. con empresa,empresa
+276701,Christian Andresen,christian.andresen@conpax.cl,9827101841,evangelist,lead,sinc. con empresa,empresa
+273901,Manuel De Pablos,mdepablos@mitta.cl,9166290003,lead,50020180,sinc. con empresa,empresa
+278551,David Flores,davidflores@watson-marlow.com,18128477455,evangelist,lead,sinc. con empresa,empresa
+278051,Maral Petricio,maralp@petricio.cl,18128527908,evangelist,lead,sinc. con empresa,empresa
+279401,Federico Mursell,fmursellsilva@swansonindustries.com,18128601695,evangelist,lead,sinc. con empresa,empresa
+274553,Marcela Herrera,mherrera@fabrimetal.cl,9826667833,evangelist,lead,sinc. con empresa,empresa
+277901,Gino Navia,gnaviacarvajal@termoequipos.cl,18128648598,evangelist,lead,sinc. con empresa,empresa
+277651,Horacio Santis,hsantis@astecindustries.com,18128737028,evangelist,lead,sinc. con empresa,empresa
+278951,Antonio Luca,acamus@etsa.cl,9826685995,evangelist,lead,sinc. con empresa,empresa
+277303,Edgar Silva,edgar.silva@conpax.cl,9827101841,evangelist,lead,sinc. con empresa,empresa
+275855,Domingo Di,domingo.digrigoli@bosch.com,18128678308,evangelist,lead,sinc. con empresa,empresa
+275152,Fernando Coll,fernando.coll@kaeser.com,22108460817,evangelist,lead,sinc. con empresa,empresa
+277502,Juan Ortuzar,jortuzar@fabrimetal.cl,9826667833,evangelist,lead,sinc. con empresa,empresa
+278802,Gustavo Salazar,gsalazar@chucaotech.com,22108304751,evangelist,lead,sinc. con empresa,empresa
+275010,Francisco Valles,francisco.valles@maquinariasparma.cl,18128682148,evangelist,lead,sinc. con empresa,empresa
+274807,Fabio Roscini,froscini@gamrentals.com,26252265023,evangelist,lead,sinc. con empresa,empresa
+280103,Francisco Sandoval,francisco_sandoval@irco.com,38980593969,evangelist,lead,sinc. con empresa,empresa
+280104,Alberto Bachmann,albertobachmann@dercomaq.cl,15259645771,evangelist,lead,sinc. con empresa,empresa
+274508,Jaime Deik,jaime.deik@cat.com,18128508724,evangelist,lead,sinc. con empresa,empresa
+281503,Maria Fuentes,mpfuentes@gamrentals.com,26252265016,evangelist,lead,sinc. con empresa,empresa
+276909,Oscar Plaza,oscar.salas@skc.cl,18128656312,evangelist,lead,sinc. con empresa,empresa
+286501,Alfonso Torres,avidaurre@emusa.com.gt,10105802312,50005795,lead,sinc. con empresa,empresa
+286754,Ramon Palma,rmartinez@nuestrosparques.cl,18194527409,evangelist,lead,sinc. con empresa,empresa
+286801,Valeria Gori,gori@prisma.io,18195000147,50005795,lead,sinc. con empresa,empresa
+286856,Cristian Yousef,cyousef@vivocorp.cl,18194975124,50005795,lead,sinc. con empresa,empresa
+286903,Jazmin Palma,jpalma@tinsa.cl,18194525245,50005795,lead,sinc. con empresa,empresa
+286653,Angela Del,acastillo@nuestrosparques.cl,18194527409,evangelist,lead,sinc. con empresa,empresa
+286654,Edgar Torrealba,edgar.torrealba@propital.com,18194584322,50005795,lead,sinc. con empresa,empresa
+286906,Francisco Reitter,freitter@santolaya.cl,18195032874,50005795,lead,sinc. con empresa,empresa
+285401,Vicente Bambach,vicente.bambach@redmc.com,17239422229,lead,50020180,sinc. con empresa,empresa
+286702,Victor Lezana,vlezana@espacioriesco.cl,9826815668,evangelist,lead,sinc. con empresa,empresa
+286705,Ariel Omar,aomarlopizzo@novotempo.cl,18195040604,50005795,lead,sinc. con empresa,empresa
+287255,Felipe Escalona,fescalona@carbonreal.com,18194570584,50005795,lead,sinc. con empresa,empresa
+287256,Guillermo Vargas,gvargas@levita.com,18194507156,50005795,lead,sinc. con empresa,empresa
+287003,Evi Galilea,egalilea@santolaya.cl,18195032874,50005795,lead,sinc. con empresa,empresa
+287259,Luis San,laraya@eurocorp.cl,10092162990,50005795,lead,sinc. con empresa,empresa
+286765,Florencia Rosini,frosini@northbaires.com,18194584322,50005795,lead,sinc. con empresa,empresa
+286766,Vanessa Gonzalez,vgonzalez@nuestrosparques.cl,18194527409,evangelist,lead,sinc. con empresa,empresa
+286768,Cristian Bascur,churtado@nuestrosparques.cl,18194527409,evangelist,lead,sinc. con empresa,empresa
+287055,Vicente Ponce,vponce@nuestrosparques.cl,18194527409,evangelist,lead,sinc. con empresa,empresa
+287306,Mario Contreras,mdelgado@ecrgroup.cl,9884740524,evangelist,lead,sinc. con empresa,empresa
+287056,Marcos Garcia,mgarcia@nuestrosparques.cl,18194527409,evangelist,lead,sinc. con empresa,empresa
+287105,Juan Carlos,juan.riedel@assetplan.cl,18194415660,50005795,lead,sinc. con empresa,empresa
+286907,Israel Vasquez,israel.vasquez@nuestrosparques.cl,18194527409,evangelist,lead,sinc. con empresa,empresa
+287204,Pablo Oyarzun,poyarzun@nuestrosparques.cl,18194527409,evangelist,lead,sinc. con empresa,empresa
+286957,Camila Perez,cperez@imagina.cl,18195000148,50005795,lead,sinc. con empresa,empresa
+286952,Sebastian Bejar,sbejar@santolaya.cl,18195032874,50005795,lead,sinc. con empresa,empresa
+286954,Katherin Antunes,katherin.antunesalvarado@cumplo.com,18195032874,50005795,lead,sinc. con empresa,empresa
+286960,Jonatan Rigby,jonatan.rigby@propital.com,18194584322,50005795,lead,sinc. con empresa,empresa
+287508,Alvaro Valderrama,alvaro.numhauservalderrama@adecco.com,18195066395,evangelist,50020180,sinc. con empresa,empresa
+287505,Patricio Arias,pperez@nuestrosparques.cl,18194527409,evangelist,lead,sinc. con empresa,empresa
+287507,Romannina Ardemagni,rardemagni@nuestrosparques.cl,18194527409,evangelist,lead,sinc. con empresa,empresa
+287011,Andres Senerman,andres@chargefix.com,18194557795,50005795,lead,sinc. con empresa,empresa
+287017,German Mackenney,german@propital.com,18194584322,50005795,lead,sinc. con empresa,empresa
+287018,Solange Vallejos,solange.vallejos@gespania.cl,18194570584,50005795,lead,sinc. con empresa,empresa
+287019,Rodrigo Riveros,rriveros@santolaya.cl,18195032874,evangelist,lead,sinc. con empresa,empresa
+286861,Linette Arriagada,larriagada@nuestrosparques.cl,18194527409,evangelist,lead,sinc. con empresa,empresa
+286862,Luis Chacin,lchacin@vistasantiago.cl,9826815668,evangelist,lead,sinc. con empresa,empresa
+288701,Álvaro de Solminihac,adesolminihac@conla.cl,18264290415,50005795,lead,sinc. con empresa,empresa
+287452,Macarena Quiroz,mquiroz@realecostate.com,18194570584,50005795,lead,sinc. con empresa,empresa
+286964,Francisca Duenas,fduenas@imagina.cl,18195000148,50005795,lead,sinc. con empresa,empresa
+286969,Felipe Arroyo,felipe.arroyo@houmpartners.com,18194584322,50020180,lead,sinc. con empresa,empresa
+288251,Mauricio Carmona,mauricio.carmona@broxel.com,18240062209,50005795,lead,sinc. con empresa,empresa
+151,Silvia Figueroa,,,,subscriber,Sin datos de contacto completos ni actividades registradas. Solo nombre disponible.,LLM
+603,Henry Hathaway,,,,other,"Contacto sin datos de email, cargo ni actividades registradas. Información insuficiente para clasificar.",LLM
+1052,Gonzalo Said,,,,subscriber,"Sin interacciones registradas, sin emails abiertos ni respuestas. Solo contacto básico.",LLM
+4251,Sin nombre,gechenique@misinversiones.cl,,evangelist,50005795,"Múltiples interacciones recientes (04-09), responde emails. Conversación activa sin señal de compra clara.",LLM
+4301,Axel Versluys,aversluys@misinversiones.cl,,evangelist,50005795,Conversaciones activas (INCOMING_EMAIL múltiples) pero sin señal de compra próxima clara.,LLM
+10701,Kyle Mack,kyle@middesk.com,,evangelist,50005795,Actividad reciente intensa (mayo 2024) pero sin señal de compra clara. Requiere nurturing.,LLM
+11101,Kenny Grimes,kenny@mercury.com,,evangelist,50005795,Conversaciones activas recientes (2024-2026) pero sin señal clara de compra próxima. Reclasificar de evangelist.,LLM
+11151,Susana Cappello,scappello@svb.com,,evangelist,50005795,"Conversaciones activas sin señal de compra. Última respuesta octubre 2025, múltiples interacciones pero sin avance comercial claro.",LLM
+11651,Marcelo Gobato,mgobato@monashees.com.br,,evangelist,50020180,Sin contacto desde julio 2022. Actividades recientes sin respuesta. Requiere reactivación.,LLM
+11701,Sin nombre,fquinzanos@monashees.com.br,,evangelist,50020180,Sin interacción desde 2022. Múltiples emails recientes sin respuesta indica abandono de contacto.,LLM
+13251,SVB Onboarding,svbclientonboarding@svb.com,,evangelist,50005795,Conversaciones activas recientes (04-2026) pero sin señal de compra próxima clara.,LLM
+16601,Lorena Sneed,lsneed@svb.com,,evangelist,50005795,Conversaciones activas recientes sin señal de compra próxima ni recomendación activa de Plutto.,LLM
+17701,Yin Wu,yin@pulley.com,,evangelist,50005795,"Actividad reciente (mayo 2024) con múltiples interacciones, pero sin señal de compra próxima clara.",LLM
+19151,Sin nombre,support@pulley.com,,evangelist,50005795,Conversaciones recientes sin señal de compra. Email respondido recientemente indica engagement activo.,LLM
+19201,Yung Choi,yung@pulley.com,,evangelist,50020180,Sin contacto desde agosto 2022. Más de 1.5 años sin respuesta. Inactivo prolongado.,LLM
+19301,Pamela Schwartz Davalos,onboarding@pulley.com,,evangelist,lead,"Email sin apertura ni respuesta, una nota registrada. Sin señal de evangelización activa.",LLM
+20601,Sin nombre,jkarmy@bullseye-abm.com,,evangelist,lead,"Email sin abrir ni responder, una nota registrada. Interacción mínima sin avance comercial claro.",LLM
+21951,Sin nombre,germangarciagerman34@outlook.es,,subscriber,50020180,Sin interacción real desde agosto 2022. No ha abierto emails ni respondido en +2 años.,LLM
+22301,Alejandra Moreno,mariale.moreno@aquanima.com,,evangelist,50005795,Actividad reciente (nov 2024) pero sin señal de compra. Requiere nurturing continuo.,LLM
+23001,Sin nombre,svbclientonboarding2@svb.com,,evangelist,50005795,Actividad reciente (abril 2026) pero sin señal de compra. Requiere nurturing continuo.,LLM
+30551,Neil Dave,ndave@svb.com,,evangelist,50005795,Múltiples interacciones recientes (abril 2026) con emails entrantes y salientes. Conversación activa sin señal de compra.,LLM
+31351,Carmen Fajardo,mdelfajardoc@svb.com,,evangelist,50005795,Conversaciones activas recientes (abril 2026) sin señal clara de compra próxima.,LLM
+32851,Startup Banking Support Team,startupbanking@svb.com,,evangelist,50005795,Conversaciones activas sin señal de compra. Última respuesta reciente (2025-10-07) indica engagement continuado.,LLM
+34701,Henry Woram,henry@palmdrive.vc,,lead,50005795,Conversaciones activas con múltiples intercambios de emails y respuestas recientes sin cierre comercial.,LLM
+34751,Abbey DeRossi,abbey@palmdrive.vc,,lead,50005795,Múltiples interacciones de correo sin señal de compra próxima. Requiere nurturing continuo.,LLM
+34801,Scheduling PD,scheduling@palmdrive.vc,,lead,50005795,Contacto con múltiples interacciones recientes (mayo 2024) y conversaciones bidireccionales activas.,LLM
+35201,Sin nombre,hendrick@palmdrive.vc,,lead,50005795,Múltiples interacciones recientes (mayo 2024) con emails entrantes. Conversación activa sin cierre comercial claro.,LLM
+35251,Sin nombre,seamon@palmdrive.vc,,lead,50005795,Múltiples interacciones recientes (mayo 2024) con emails bidireccionales. Conversación activa sin compra clara.,LLM
+35601,Catherine Cai,catherine@palmdrive.vc,,lead,50005795,"Múltiples interacciones recientes (mayo 2024), conversaciones activas sin señal de compra próxima.",LLM
+35651,Sin nombre,nick@palmdrive.vc,,lead,50005795,"Múltiples interacciones recientes (mayo 2024), conversación activa sin señal de compra próxima.",LLM
+35701,Sin nombre,nick_m@palmdrive.vc,,lead,50005795,Múltiples interacciones recientes (mayo 2024). Conversaciones activas sin señal de compra próxima clara.,LLM
+36001,Lanre Ogungbe,lanre@myidentitypass.com,,lead,50005795,"Actividad reciente (Nov 2024) con interacción bidireccional, pero sin señal de compra próxima.",LLM
+36501,Client Support,clientsupport@svb.com,,,50005795,Llamada completada recientemente indica conversación activa sin señal de compra próxima.,LLM
+57051,Rodrigo Eduardo Del Rio Santiago,segoes2@yahoo.com.ar,,lead,subscriber,"Solo tenemos email, sin interacción real ni actividad registrada.",LLM
+51971,Sin nombre,carlos.saez@tecnoandamio.cl,,evangelist,subscriber,"Solo email disponible, sin interacciones registradas ni evidencia de engagement.",LLM
+58501,Denis Malterre,carolina.burgos@sidel.com,,evangelist,subscriber,"Solo tenemos email, sin interacciones, notas ni conversiones registradas.",LLM
+55852,Andrés Morand,sicomaq@live.cl,,lead,subscriber,"Sin interacciones registradas. Solo tenemos email, sin apertura ni respuesta.",LLM
+57002,Claudio Alvarez,facture.cl@bayer.com,,evangelist,subscriber,"Solo tenemos correo, sin interacciones reales registradas ni evidencia de ser evangelist activo.",LLM
+58251,Alberto Oltra,lucy.sanchez@dhl.com,,evangelist,subscriber,"Solo tenemos email, sin interacciones registradas ni evidencia de compra o recomendación activa.",LLM
+53201,Sin nombre,matias.villagra@live.cl,,lead,subscriber,"Solo tenemos email, sin interacción registrada ni actividades documentadas.",LLM
+55352,Sin nombre,gabriel.villacofre@outlook.com,,lead,subscriber,"Solo tenemos email sin interacción real, aperturas o respuestas registradas.",LLM
+53354,Sin nombre,radic.c1@me.com,,lead,subscriber,"Solo tenemos email sin interacción real registrada. Ningún email abierto, respuesta o actividad documentada.",LLM
+55175,Italo Ozzano,mauricio.valderrama@gerdau.com,,evangelist,subscriber,"Solo tenemos email, sin interacciones, notas ni actividades registradas.",LLM
+59166,Sin nombre,gfparis@terra.cl,,lead,subscriber,"Solo tenemos email, sin interacción registrada ni actividad reciente documentada.",LLM
+54458,Sin nombre,rhelosa@terra.cl,,lead,subscriber,Solo tenemos email sin interacción real registrada. Sin aperturas ni respuestas confirmadas.,LLM
+56761,Sara Beiger,atlantic@terra.cl,,lead,subscriber,"Sin interacciones registradas. Solo tenemos email, sin evidencia de engagement o conversación previa.",LLM
+56653,Eduardo Pesce,fabrica12@live.cl,,lead,subscriber,"Solo tenemos email, sin interacción real registrada ni evidencia de engagement.",LLM
+56684,Sin nombre,ventasvulcano@terra.cl,,lead,subscriber,"Solo tenemos email, sin interacción registrada ni historial de actividad.",LLM
+56677,Sin nombre,rovegno@terra.cl,,lead,subscriber,"Solo tenemos email, sin interacción registrada ni evidencia de engagement previo.",LLM
+53952,Sin nombre,soc.alimenta@terra.cl,,lead,subscriber,"Solo tenemos email, sin interacción real ni actividades registradas.",LLM
+61446,Sin nombre,campinglaherradura@terra.cl,,lead,subscriber,Solo tenemos email sin interacción registrada. No hay evidencia de actividad o engagement.,LLM
+55553,Francisco Gonzalez,abaco.sa@terra.cl,,lead,subscriber,"Solo tenemos email, sin interacción real ni historial de actividades registradas.",LLM
+59596,Sin nombre,aeroinge@terra.cl,,lead,subscriber,"Solo tenemos email, sin interacción registrada ni historial de actividades.",LLM
+55306,Rolando Haddad,roloplast@terra.cl,,lead,subscriber,"Solo tenemos email, sin interacciones registradas ni evidencia de engagement.",LLM
+60100,Sin nombre,edicionesoccidente@terra.cl,,lead,subscriber,Solo tenemos email sin interacción real registrada ni historial de actividades.,LLM
+59220,Sin nombre,eugeniagarrido@live.cl,,lead,subscriber,"Solo tenemos email, sin interacciones registradas ni evidencia de engagement previo.",LLM
+55347,Sin nombre,servimanltda@terra.cl,,lead,subscriber,Solo tenemos email sin interacción real ni apertura de correos registrada.,LLM
+58190,Susana Chávez,susanapaola@icloud.com,,lead,subscriber,"Solo tenemos email, sin interacción real registrada ni actividades recientes.",LLM
+60070,Luis Delgado,luis.delgado@hlag.com,,evangelist,subscriber,"Sin interacciones registradas. Solo tenemos email, sin evidencia de engagement o recomendación activa.",LLM
+63462,Martín Foricher,foricherm@yahoo.com.ar,,lead,subscriber,"Solo tenemos correo, sin interacción registrada ni evidencia de engagement con Plutto.",LLM
+56784,Victor Andres,vsolis@live.cl,,lead,subscriber,"Solo tenemos email, sin interacciones registradas ni evidencia de engagement previo.",LLM
+57020,Marco,marco_araya@live.cl,,lead,subscriber,"Solo tenemos email, sin interacción registrada ni historial de actividades.",LLM
+64353,Manuel Francisco,cvd14c@googlegroups.com,,lead,subscriber,"Solo tenemos email, sin interacción real ni historial de actividades registradas.",LLM
+56073,Biarlis,biarlisflores@belcorp.biz,,evangelist,subscriber,"Solo tenemos email, sin interacciones registradas ni evidencia de recomendación activa de Plutto.",LLM
+56074,Rodrigo,rodrigo.carcamo@live.com,,evangelist,subscriber,"Sin interacciones registradas. Solo tenemos email, sin evidencia de engagement o recomendación activa.",LLM
+59944,Jorge Eliecer Rodriguez,jorge.rodriguez@gerdau.com,,evangelist,subscriber,"Solo tenemos email, sin interacciones registradas ni evidencia de engagement con Plutto.",LLM
+60212,Sergio,spicero@live.cl,,lead,subscriber,Solo tenemos email sin interacciones registradas ni señales de engagement previo.,LLM
+60215,Andrea,andreahernandez@belcorp.biz,,evangelist,subscriber,"Sin interacciones registradas, solo correo conocido. No hay evidencia de ser evangelist activo.",LLM
+55558,Bernardita,bcontreras@belcorp.biz,,evangelist,subscriber,"Sin actividades registradas, sin interacciones reales ni señal de compra. Solo tenemos email.",LLM
+58185,Jimy,jisoto@live.cl,,lead,subscriber,"Solo tenemos email, sin interacción registrada ni actividad en el historial.",LLM
+59899,Mauricio Andrés,mauricio.rojas.b@live.cl,,lead,subscriber,"Solo tenemos email, sin interacción registrada ni actividad de engagement.",LLM
+60228,Jorge,phewson@live.cl,,lead,subscriber,"Solo tenemos email, sin interacción registrada ni actividades.",LLM
+61016,Wolfgang,wbevensee@live.cl,,lead,subscriber,"Solo tenemos email, sin interacción real registrada ni actividades previas.",LLM
+54930,Felipe Javier,fmoraga@live.cl,,lead,subscriber,"Solo tenemos email, sin interacción registrada ni actividad de engagement.",LLM
+59534,María Cristina,maria.bravo@cl.pwc.com,,evangelist,subscriber,"Sin interacción registrada. Solo tenemos email, sin evidencia de engagement o recomendación activa.",LLM
+60517,Mane,manedonoso@live.cl,,lead,subscriber,"Solo tenemos email, sin interacción real registrada ni evidencia de engagement.",LLM
+62653,Angélica,angelicahess@terra.cl,,lead,subscriber,"Solo tenemos email, sin interacción registrada ni apertura de mensajes.",LLM
+59908,Camilo Garces,camilo.garces@empresas.copec.cl,,lead,subscriber,"Contacto sin interacciones registradas. Solo tenemos email, sin evidencia de engagement con Plutto.",LLM
+63432,Juan Swett,juan.swett@empresas.copec.cl,,lead,subscriber,"Solo tenemos email, sin interacción real registrada ni evidencia de engagement.",LLM
+61294,Roberto Angelini,roberto.angelini@empresas.copec.cl,,lead,subscriber,"Solo tenemos email, sin interacción real registrada ni historial de actividades.",LLM
+55340,Joel Muñoz,joel.munoz@cl.pwc.com,,evangelist,subscriber,"Solo tenemos email, sin interacciones registradas ni señal de engagement con Plutto.",LLM
+60268,Vinko Aguero,vinko.aguero@empresas.copec.cl,,lead,subscriber,"Solo tenemos email, sin interacción registrada ni evidencia de engagement con Plutto.",LLM
+56099,Arthuro Natho,arthuro.natho@empresas.copec.cl,,lead,subscriber,"Solo tenemos email, sin interacción real ni actividad registrada.",LLM
+61806,Alberto Ferrand,alberto.ferrand@empresas.copec.cl,,lead,subscriber,"Solo tenemos email, sin interacción registrada ni evidencia de engagement con Plutto.",LLM
+59502,Alejandro Pino,alejandro.pino@empresas.copec.cl,,lead,subscriber,"Solo tenemos correo, sin interacciones registradas ni señales de engagement.",LLM
+59560,Juan Galvez,juan.galvez@cl.pwc.com,,evangelist,subscriber,"Sin interacciones registradas. Solo tenemos email, sin evidencia de engagement o recomendación activa.",LLM
+62303,Lorena Oliver,lorena.oliver@empresas.copec.cl,,lead,subscriber,"Solo tenemos email, sin interacción, apertura de emails ni respuestas registradas.",LLM
+51995,Lucia Alvarez,lucia.fernanda.alvarez@pwc.com,,evangelist,subscriber,"Solo tenemos email, sin interacciones reales registradas ni evidencia de actividad.",LLM
+64002,Leonardo Ljubetic,leonardo.ljubetic@empresas.copec.cl,,lead,subscriber,"Contacto sin interacciones registradas: sin emails abiertos, respuestas ni notas.",LLM
+60331,Nicolas Aceituno,nicolas.aceituno@cl.pwc.com,,evangelist,subscriber,"Solo tenemos email, sin interacciones registradas ni evidencia de actividad con Plutto.",LLM
+61253,Juan Diuana,juan.diuana@empresas.copec.cl,,lead,subscriber,"Solo tenemos email, sin interacción registrada, aperturas o respuestas de mensajes.",LLM
+63359,Francisco León,francisco.leon@empresas.copec.cl,,lead,subscriber,"Solo tenemos email, sin interacción registrada ni actividad previa documentada.",LLM
+60443,Eduardo Navarro,eduardo.navarro@empresas.copec.cl,,lead,subscriber,"Solo tenemos email, sin interacción real ni actividades registradas.",LLM
+60292,Manuel Bezanilla,manuel.bezanilla@empresas.copec.cl,,lead,subscriber,"Solo tenemos email, sin interacciones registradas ni señales de engagement.",LLM
+60556,Jorge Bunster,jorge.bunster@empresas.copec.cl,,lead,subscriber,"Solo tenemos email, sin interacción real registrada ni actividades documentadas.",LLM
+59956,Carlo Ingham,carlo.ingham@empresas.copec.cl,,lead,subscriber,"Solo tenemos email, sin interacción real registrada ni evidencia de engagement.",LLM
+59883,Patricio Araya,patricio.e.araya@bhpbilliton.com,,evangelist,subscriber,"Solo tenemos email, sin interacciones registradas ni señal de engagement con Plutto.",LLM
+59992,José Marcelo,marcelo.gonzalez@clariant.com,,evangelist,subscriber,"Sin interacciones registradas, solo tenemos email. No hay evidencia de ser evangelist activo.",LLM
+55350,Ronaldo Pellicer,ronaldo.pellicer@arcadis.com,,evangelist,subscriber,"Sin interacciones registradas, solo tenemos email. No hay evidencia de engagement ni recomendación activa.",LLM
+61281,Jaime Varas,jaime.varas@orange.com,,evangelist,subscriber,"Solo tenemos email, sin interacción real, actividad ni evidencia de recomendación activa.",LLM
+60334,Alberto Oltra,alberto.oltra@dhl.com,,evangelist,subscriber,"Sin interacciones registradas, solo tenemos email. No hay evidencia de ser evangelist activo.",LLM
+60373,Diego Vial,diego.vial@sunchemical.com,,evangelist,subscriber,"Sin interacciones registradas. Solo tenemos email, sin evidencia de engagement con Plutto.",LLM
+63227,Carlos Ferreira,viplasticchile@terra.cl,,lead,subscriber,Solo tenemos email sin interacción real registrada. Sin aperturas ni respuestas.,LLM
+59523,Eduardo Abeleida,comerfun@terra.cl,,lead,subscriber,"Solo tenemos email, sin interacción real registrada ni actividades documentadas.",LLM
+62707,Cedric Babec,cedric.babec@liebherr.com,,evangelist,lead,"Gerente General con nota registrada, sin interacción real (emails no abiertos ni respondidos).",LLM
+63507,Susan Lara,h8924-gm@accor.com,,evangelist,subscriber,"Sin interacciones registradas. Solo tenemos email, sin evidencia de engagement o recomendación activa.",LLM
+61422,Arturo De La Rosa,arturo_rosa@gilead.com,,evangelist,subscriber,"Sin interacciones registradas, solo correo disponible. No hay evidencia de ser evangelist activo.",LLM
+64265,Gioselina Cordano,gerenciamontecarlo@terra.cl,,lead,subscriber,"Sin interacciones registradas, solo contacto básico sin evidencia de engagement.",LLM
+60004,Claudio Briceño,claudio.briceno@merck.com,,evangelist,subscriber,"Solo tenemos email, sin interacción real ni evidencia de recomendación activa de Plutto.",LLM
+63607,Bruno Indelli,bruno.indelli@merck.com,,evangelist,subscriber,"Solo tenemos email, sin interacción, actividad ni conversión registrada.",LLM
+59423,Jaime Dacaret,jaime.dacaret@dhl.com,,evangelist,subscriber,"Sin interacciones registradas, solo tenemos email. No hay evidencia de ser evangelist activo.",LLM
+63309,Roy Biebuyck,rbiebuyck@puratos.com,,evangelist,subscriber,"Solo tenemos correo, sin interacciones reales ni evidencia de recomendación activa de Plutto.",LLM
+61683,Ricardo Abogabir,rabog@terra.cl,,lead,subscriber,"Solo tenemos email, sin interacción real ni actividad registrada.",LLM
+62001,Aaron Puna,aaron.puna@angloamerican.com,,evangelist,subscriber,"Solo tenemos email, sin interacción registrada ni evidencia de recomendación activa de Plutto.",LLM
+62819,Gustavo Alcazar,gustavo.alcazar@molycop.cl,,evangelist,subscriber,"Solo tenemos email, sin interacciones registradas ni evidencia de ser evangelist activo.",LLM
+60307,Luis Chadwick,luis@regattatropicals.com,,evangelist,subscriber,"Solo tenemos email, sin interacciones registradas ni evidencia de ser evangelist activo.",LLM
+60429,Italo,italo.ozzano@gerdau.com,,evangelist,subscriber,"Sin interacción registrada. Solo tenemos email, sin evidencia de engagement o recomendación activa de Plutto.",LLM
+55597,Luis Pedro,luis@nokia.com,,evangelist,subscriber,"Solo tenemos email, sin interacción real ni evidencia de recomendación activa de Plutto.",LLM
+56593,Eduardo,e.fredes@ste-energy.com,,evangelist,subscriber,"Gerente General sin interacción registrada. Solo tenemos email, sin actividad ni evidencia de recomendación activa.",LLM
+61642,José Luis,jlvasquez242@live.com,,lead,subscriber,"Solo tenemos email, sin interacciones registradas ni evidencia de engagement con Plutto.",LLM
+62373,Sin nombre,dellinger.chile@live.cl,,lead,subscriber,Solo tenemos email sin interacción real registrada ni engagement detectable.,LLM
+62344,Sin nombre,bantattersall@tattersall.cl,,lead,subscriber,"Solo tenemos email, sin interacción real registrada ni historial de actividades.",LLM
+63205,Sin nombre,larural@live.cl,,lead,subscriber,"Solo tenemos email, sin interacción registrada ni historial de actividades.",LLM
+62568,Guido Vallejos,gabvallejos@terra.cl,,lead,subscriber,"Solo tenemos correo, sin interacción real ni actividad registrada.",LLM
+63860,Sin nombre,labmonari@terra.cl,,lead,50005795,Gerente General con interacción reciente (email y task completada). Requiere nurturing activo.,LLM
+64003,Alejandro Narea,antel@terra.cl,,lead,50005795,Gerente General con interacción reciente (email + task completado). Requiere nurturing activo.,LLM
+55573,Freddy Putz,gacetatraiguen@mixmail.com,,lead,50005795,Múltiples intentos de contacto recientes sin respuesta. Requiere nurturing activo.,LLM
+61751,Jorge Herrera,jtherrera@live.cl,,lead,50005795,Múltiples intentos de contacto recientes con tareas completadas. Hay interacción pero sin señal de compra.,LLM
+64259,Sin nombre,mitsuyograu@yahoo.co.jp,,lead,subscriber,"Solo tenemos email, sin interacciones registradas ni evidencia de engagement con Plutto.",LLM
+66051,Florencia Cood,fcoodm@gmail.com,,lead,50020180,Sin contacto desde octubre 2022. Inactividad prolongada (>18 meses) sin respuesta reciente.,LLM
+68851,Evan Frondorf,evan.frondorf@gmail.com,,lead,50005795,"Múltiples interacciones recientes (mayo 2024) con respuestas, muestra engagement activo sin compra clara.",LLM
+70751,Arturo Bulnes Ruiz,arturobulnesr@gmail.com,,lead,50005795,Contacto con conversaciones activas recientes (agosto 2025) sin señal clara de compra próxima.,LLM
+70901,Parinaz Firozi,parinaz@stripe.com,,evangelist,subscriber,Email de Stripe sin interacción real confirmada. No hay evidencia de recomendación activa de Plutto.,LLM
+71951,Mariana Bianchi,mariana.bianchi@basf.com,,evangelist,50020180,"Sin contacto desde 2023. Último engagement octubre 2023, sin respuestas registradas.",LLM
+72101,Yasira Thomas,yasira.thomas@novartis.com,,evangelist,50020180,Sin contacto desde 2023. Tasks completadas en 2026 pero sin respuestas de Yasira registradas.,LLM
+72301,Maria José Vega,,,lead,subscriber,"Sin interacciones registradas, sin emails abiertos ni respuestas. Solo contacto básico sin engagement real.",LLM
+72701,Priscila Flores,priscila.flores@bureauveritas.com,,evangelist,50005795,Conversaciones registradas sin señal de compra próxima. Clasificación actual de evangelist no justificada.,LLM
+73801,Victor Venegas,victor.venegas@flsmidth.com,,evangelist,subscriber,"Solo tenemos email, sin interacciones ni señales de engagement registradas.",LLM
+73851,Sin nombre,nmc-adquisiciones@liebherr.com,,evangelist,subscriber,"Solo tenemos email, sin interacciones registradas ni evidencia de ser evangelist activo.",LLM
+74601,Gonzalo Urenda,gonzalourendav@gmail.com,,lead,subscriber,"Solo tenemos email, sin interacción registrada ni historial de actividades.",LLM
+75701,June Su-McClory,jsumcclory@clocktowergroup.com,,evangelist,50005795,Actividad reciente (mayo 2024) con múltiples emails. Conversaciones activas sin cierre comercial claro.,LLM
+76001,Sin nombre,ctvopsdeals@clocktowergroup.com,,evangelist,50005795,Múltiples interacciones recientes (mayo 2024) sin señal de compra próxima. Requiere nurturing.,LLM
+77001,Sin nombre,cacuna@vspt.cl,,evangelist,lead,"Contacto con interacciones básicas (2 emails), sin respuesta ni apertura confirmada. Sin evidencia de recomendación activa.",LLM
+77101,Juan Antonio Karmy,juan.karmy@microsoft.com,,evangelist,50005795,Actividad reciente en 2024 sin señal de compra. Requiere nurturing continuo.,LLM
+77801,Diego Stevens Ibañez,diego.stevensi@hotmail.com,,,subscriber,Solo tenemos email sin interacción real ni actividad registrada.,LLM
+79601,Kevin Henriquez,kevinkonrad.henriquez@gmail.com,,lead,50020180,Sin contacto desde diciembre 2022. Más de 18 meses sin respuesta. Requiere reactivación.,LLM
+81201,Arvind Ludhiarich,aludhiarich@seidor.com,,lead,subscriber,"Solo tenemos email, sin interacción real registrada ni evidencia de engagement.",LLM
+81751,Emilio Segreste,emiliosegrestev@gmail.com,,lead,50005795,"Múltiples interacciones y reuniones recientes (2024), conversaciones activas sin cierre comercial.",LLM
+81901,Ana Silva,ana.silvab93@gmail.com,,lead,50005795,Conversaciones activas recientes (mayo 2024) sin señal clara de compra próxima. Requiere nurturing.,LLM
+82451,Francisca López,franciscaalopez.o@gmail.com,,lead,50005795,"Múltiples interacciones recientes (emails, reuniones). Conversación activa sin señal de compra próxima.",LLM
+82751,Juan Pablo Berríos Silva,jpberrios866@gmail.com,,lead,50020180,"9 notas sin respuesta desde 2023. Sin engagement real, sin emails abiertos ni respuestas.",LLM
+84001,Sin nombre,mawidadventures@gmail.com,,lead,subscriber,"Solo tenemos email sin interacción real confirmada. Sin nombre, cargo ni respuestas de email.",LLM
+84401,Julia Arguiñano Larraza,juliaarguinano@gmail.com,,lead,50005795,Múltiples interacciones y reuniones recientes (nov 2024). Conversaciones activas sin cierre comercial claro.,LLM
+86801,Testi2 Test 3,takuto.okamoto@genesys.com,,evangelist,subscriber,"Solo tenemos email, sin interacciones, actividades ni evidencia de engagement real.",LLM
+87201,Josefa Villanueva,jovillanueva27@gmail.com,,lead,50005795,"Múltiples interacciones recientes (emails, reunión), conversación activa sin cierre comercial claro.",LLM
+87401,Sin nombre,mjosenoguerae@gmail.com,,lead,50005795,Múltiples reuniones recientes y email respondido. Conversaciones activas sin cierre comercial claro.,LLM
+87601,Sergii Zhuk,sergey.public@gmail.com,,lead,50005795,Conversaciones activas recientes (05/2024) sin señal clara de compra próxima. Requiere nurturing.,LLM
+87751,Federico Soria,fedesoria@gmail.com,,lead,50005795,Múltiples emails recientes (mayo 2024) e incoming email indican conversación activa en curso.,LLM
+88601,Abdullahi Fahm,mabdullahifahm@gmail.com,,lead,50005795,Múltiples interacciones recientes (mayo 2024) pero sin señales de compra inmediata. Requiere nurturing.,LLM
+91451,Luis Saenz,luisarturosaenz@gmail.com,,lead,50005795,Tuvo reunión reciente (mayo 2024). Hay conversación pero sin señal de compra próxima.,LLM
+92501,Manuel Gutierrez,manuel.gutierrez1@equifax.com,,evangelist,lead,error LLM: Connection error.,LLM
+93401,Allegra Antimarino,aantimarino@kpmg.com,,evangelist,lead,error LLM: Connection error.,LLM
+95151,Matthew Reiswig,mreiswig@svb.com,,evangelist,lead,error LLM: Connection error.,LLM
+98001,Pablo Castets,pablo.castets@chubb.com,,evangelist,lead,error LLM: Connection error.,LLM
+98051,Fabio Parra Salazar,fabio.parra@chubb.com,,evangelist,lead,error LLM: Connection error.,LLM
+98301,Catalina Cevallos Becker,,,evangelist,lead,error LLM: Connection error.,LLM
+111651,Karina Araya,karina.araya@chubb.com,,evangelist,lead,error LLM: Connection error.,LLM
+111701,Vivianne Sarniguet,vivianne.sarniguet@chubb.com,,evangelist,lead,error LLM: Connection error.,LLM
+116651,Sin nombre,silvia.vilches@cl.ey.com,,evangelist,lead,error LLM: Connection error.,LLM
+116701,Nicol Valdivia,nicol.valdivia@cl.ey.com,,evangelist,lead,error LLM: Connection error.,LLM
+116751,Andrea Pinto Caro,andrea.e.pinto.caro@cl.ey.com,,evangelist,lead,error LLM: Connection error.,LLM
+120901,Sin nombre,yc@mercury.com,,evangelist,lead,error LLM: Connection error.,LLM
+120951,Andrew Cadienhead,andrew@mercury.com,,evangelist,lead,error LLM: Connection error.,LLM
+124451,Sin nombre,vidaltadiar@kpmg.com,,evangelist,lead,error LLM: Connection error.,LLM
+124501,Sin nombre,fgomez@misinversiones.cl,,evangelist,lead,error LLM: Connection error.,LLM
+124551,Sin nombre,support@svb.com,,evangelist,lead,error LLM: Connection error.,LLM
+124751,Pedro Rodriguez,,,evangelist,lead,error LLM: Connection error.,LLM
+124801,María Pilar Fuentes,,,evangelist,lead,error LLM: Connection error.,LLM
+124851,Francisco Gonzalez,,,evangelist,lead,error LLM: Connection error.,LLM
+125851,Hannah Maguire,hannahm@mercury.com,,evangelist,lead,error LLM: Connection error.,LLM
+131451,Steve Drobny,stevedrobny@clocktowergroup.com,,evangelist,lead,error LLM: Connection error.,LLM
+133351,Sin nombre,support@mercury.com,,evangelist,lead,error LLM: Connection error.,LLM
+133401,Sin nombre,help@mercury.com,,evangelist,lead,error LLM: Connection error.,LLM
+134001,Melanie Fuentes,mfuentes@svb.com,,evangelist,lead,error LLM: Connection error.,LLM
+134051,Sin nombre,taxoperations@svb.com,,evangelist,lead,error LLM: Connection error.,LLM
+135501,Jose Kleinkauf,jose.kleinkauf@sap.com,,evangelist,lead,error LLM: Connection error.,LLM
+137101,Miró Studio,contacto.mirostudio@gmail.com,,other,lead,error LLM: Connection error.,LLM
+137651,Sin nombre,victorwright.uihoudini@gmail.com,,other,lead,error LLM: Connection error.,LLM
+140251,Sin nombre,sofiaremonsellez@gmail.com,,other,lead,error LLM: Connection error.,LLM
+141101,Francisco Bulnes,fbulnes93@gmail.com,,other,lead,error LLM: Connection error.,LLM
+155651,Denisse Acuña,,,evangelist,lead,error LLM: Connection error.,LLM
+156301,Benjamin Marroquin,benjamin.marroquin@equifax.com,,other,lead,error LLM: Connection error.,LLM
+156351,Sin nombre,reminder@superhuman.com,,other,lead,error LLM: Connection error.,LLM
+158451,Javiera Belmar,jbelmarberrocal@gmail.com,,other,lead,error LLM: Connection error.,LLM
+158851,Sin nombre,caribanezb@gmail.com,,other,lead,error LLM: Connection error.,LLM
+159651,Gillian O'Brien,gillian.r.obrien@gmail.com,,other,lead,error LLM: Connection error.,LLM
+170901,Kevin Gasca,kevin.gasca@docusign.com,,evangelist,lead,error LLM: Connection error.,LLM
+171201,Luis Ortiz,luiseoz@amazon.com,,evangelist,lead,error LLM: Connection error.,LLM
+171251,Andrew Rossow,andrew.rossow@angellist.com,,evangelist,lead,error LLM: Connection error.,LLM
+172952,Paulina San Martin,pablo.martin@mogroup.com,,evangelist,lead,error LLM: Connection error.,LLM
+176001,Luis Campos,luis.campos@docusign.com,,evangelist,lead,error LLM: Connection error.,LLM
+177601,Sin nombre,collections@docusign.com,,evangelist,lead,error LLM: Connection error.,LLM
+177602,Derik Leite,derik.leite@oracle.com,,evangelist,lead,error LLM: Connection error.,LLM

@@ -234,7 +234,13 @@ def decidir_etapa_llm(contacto: dict, actividades: list[dict]) -> tuple[str, str
     if actividades:
         lineas = []
         for a in actividades:
-            fecha = a["date"][:10] if len(a["date"]) >= 10 else a["date"]
+            raw = a["date"]
+            if isinstance(raw, (int, float)) and raw > 0:
+                from datetime import timezone
+                fecha = datetime.fromtimestamp(raw / 1000, tz=timezone.utc).strftime("%Y-%m-%d")
+            else:
+                raw = str(raw)
+                fecha = raw[:10] if len(raw) >= 10 else raw
             lineas.append(
                 f"  [{a['type']}] {fecha}  asunto: {a['subject'][:60]}  "
                 f"estado: {a['status']}  cuerpo: {a['body'][:100]}"
