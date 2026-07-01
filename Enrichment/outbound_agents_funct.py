@@ -1,8 +1,9 @@
 import json
+import os
 from openai import OpenAI
 
 LITELLM_BASE_URL = "https://hydra-portal-dev.fly.dev"
-LITELLM_API_KEY  = "sk-VOoWAq-wV6TDvr6ZsSuBOQ"
+LITELLM_API_KEY  = os.getenv("LITELLM_API_KEY", "")
 
 client = OpenAI(
     base_url=f"{LITELLM_BASE_URL}/v1",
