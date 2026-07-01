@@ -19,3 +19,10 @@ __pycache__/
 .env
 *.env
 Holding_asker/composicion_sociedades.csv
+
+# Archivos grandes SII (>100MB)
+Sii folder/PUB_EMPRESAS_PJ_2024.txt
+Sii folder/PUB_NOM_ACTECOS.txt
+Sii folder/df_empresas.csv
+Sii folder/df_final.csv
+Holding_asker/padre_hijo.csv
