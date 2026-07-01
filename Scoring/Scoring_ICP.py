@@ -1,10 +1,21 @@
 import json
 import re
+import sys
 import requests
 from bs4 import BeautifulSoup
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from urllib.parse import quote_plus
 from openai import OpenAI
+
+# Holding_Asker — carga una sola vez al importar el módulo
+_HOLDING_PATH = "/Users/juanpablozepeda/Proyecto Plutto /Holding_asker"
+if _HOLDING_PATH not in sys.path:
+    sys.path.insert(0, _HOLDING_PATH)
+try:
+    from Holding_Asker import get_hijos as _HA_get_hijos, get_padres as _HA_get_padres  # type: ignore
+except Exception:
+    _HA_get_hijos = None  # type: ignore
+    _HA_get_padres = None  # type: ignore
 
 LITELLM_BASE_URL = "https://hydra-portal-dev.fly.dev"
 LITELLM_API_KEY  = "sk-VOoWAq-wV6TDvr6ZsSuBOQ"
@@ -310,6 +321,9 @@ def score_lead_adj2(
 
     vertical_detectado = _normalizar_vertical(giro)
 
+    # Segmento base: calculado desde el vertical que viene de la BD (antes del LLM)
+    segmento_pts_base = _puntaje_segmento(vertical_detectado) if vertical_detectado else 0
+
     if vertical_detectado is not None:
         vertical_instruccion = f"""
 El giro ya viene clasificado en un vertical válido.
@@ -334,20 +348,25 @@ Usa el nombre de la empresa y el giro para inferirlo.
 
     prompt = f"""
 Eres un analista de ICP para Plutto, plataforma de compliance y KYB B2B en Chile.
-
-Plutto ayuda a empresas a evaluar proveedores, clientes y colaboradores mediante debida diligencia y detección de riesgos.
+Siempre responde con el JSON solicitado, incluso si los datos son escasos o incompletos.
+Si no tienes información suficiente, infiere lo que puedas y usa puntajes conservadores (0).
 
 Datos disponibles de la empresa:
-- Razón social: {company_name}
+- Razón social: {company_name or "(sin nombre)"}
 - RUT: {rut}
-- Giro: {giro}
+- Giro: {giro or "(desconocido)"}
 - Tramo SII: {tramo}
 - Región: {region}
 - Cantidad de empresas hijas: {num_hijos}
 - Cantidad de empresas padres: {num_padres}
 - Número de trabajadores: {num_trabajadores}
-- Tamaño empresa ya calculado en Python: {tamaño_label} = {tamaño_pts} puntos
 - Señal externa (si aplica): {signal}
+
+Puntajes ya calculados en Python (no los estimes, úsalos tal cual):
+- Tamaño:      {tamaño_label} → {tamaño_pts} pts
+- Holding:     {num_hijos} empresas hijas → {holding_pts} pts
+- Trabajadores:{num_trabajadores} trabajadores → {trabajadores_pts} pts
+- Segmento:    {vertical_detectado or "sin clasificar"} → {segmento_pts_base} pts
 
 {vertical_instruccion}
 
@@ -364,15 +383,30 @@ Con esta información, estima SOLO los siguientes campos:
   - Otro
 
 2. Regulación:
-Determina si la empresa probablemente está regulada por alguna entidad externa relevante como:
-- CMF
-- Sernageomin
-- SEC
-- CNE
+¿Esta empresa está regulada por alguno de los siguientes organismos chilenos?
+Lee el GIRO con cuidado. Asigna regulador SOLO si el giro lo describe de forma explícita o muy directa.
+
+Reguladores válidos y su alcance EXACTO:
+- CMF        → bancos, corredoras de bolsa, seguros, AFP, isapres (como negocio), fintech CMF, factoring supervisado
+- Sernageomin → minería, extracción de minerales, explosivos, faenas mineras
+- SEC         → distribuidoras de electricidad, distribución de gas natural/GLP, combustibles (NO generación eléctrica)
+- CNE         → generadoras y transmisoras eléctricas (NO distribución, NO infraestructura vial ni construcción)
+- SISS        → empresas sanitarias: agua potable y alcantarillado
+- SUBTEL      → telecomunicaciones: telefonía fija/móvil, internet, TV cable/satelital
+- Supersal    → isapres, clínicas, prestadores de salud privados
+- Ninguno     → construcción, ingeniería civil, manufactura, retail, logística, TI, servicios, consultoría, transporte
+
+Reglas de desempate:
+- Giro con "construcción", "obra civil" o "ingeniería" → siempre Ninguno (aunque sean para proyectos energéticos)
+- Giro con "electricidad" sin especificar generación/transmisión → SEC (distribución es más frecuente)
+- Si hay duda entre dos reguladores → Ninguno
+- No inventes: si el giro no lo indica claramente, es Ninguno
 
 Puntaje:
-- Si sí: 15
-- Si no: 0
+- CMF, Sernageomin, SEC, CNE, SISS, SUBTEL, Supersal → 15
+- Ninguno → 0
+
+En el campo "reasoning" menciona cuál regulador identificaste (o que es Ninguno) y por qué.
 
 3. Cantidad aproximada de proveedores:
 Estima la cantidad de proveedores que probablemente maneja la empresa.
@@ -391,10 +425,40 @@ Puntaje:
 - Sin señal o N/A: 0
 
 5. pain_point:
-Un dolor potencial en español que Plutto podría resolver.
+Con todos los datos de esta empresa, sintetiza el panorama completo de por qué
+evaluar y gestionar contrapartes es un problema real para ellos. Considera todo
+lo que aplique:
+
+- Volumen: ¿cuántos proveedores, contratistas o contrapartes manejan?
+- Regulación: ¿hay obligación externa que exige compliance formal?
+- Complejidad operativa: ¿múltiples áreas involucradas, documentación variada,
+  renovaciones periódicas?
+- Riesgo financiero o legal: ¿deuda tributaria, poderes vencidos, cuentas bancarias
+  no validadas?
+- Monitoreo: ¿qué pasa después de aprobar un proveedor, hay seguimiento?
+- Conflictos de interés: ¿holdings, estructuras societarias complejas, vínculos
+  con nómina interna?
+
+Escríbelo como una descripción del escenario completo que vive esta empresa hoy,
+no como una solución. Que suene como algo que el buyer reconocería como su realidad.
+Máximo 50 palabras. Sin mencionar Plutto. Sin pitch.
 
 6. reasoning:
-Explicación breve en español de por qué asignaste esos puntos.
+Sigue EXACTAMENTE este formato de dos oraciones:
+
+Oración 1 — componentes Python (solo los valores, sin explicación):
+"{tamaño_label} ({tamaño_pts} pts), {num_hijos} empresas hijas ({holding_pts} pts), {num_trabajadores} trabajadores ({trabajadores_pts} pts), segmento ({segmento_pts_base} pts)."
+
+Oración 2 — componentes LLM (explica brevemente cada uno):
+- Si regulación = Ninguno: empieza con "Sin regulación (0 pts)."
+- Si regulación tiene valor: "[Regulador] ([15 pts])."
+- Luego: estimación de proveedores con razón breve y puntos.
+- Luego: señal con puntos. Si es N/A: "Sin señal (0 pts)."
+
+PROHIBIDO:
+- Explicar por qué no hay regulación
+- Usar prefijos "Regulación:", "Proveedores:", "Señal:", "Tamaño:", etc.
+- Mencionar el vertical
 
 Responde SOLO con este JSON:
 {{
@@ -519,7 +583,8 @@ Señal (si aplica): {signal}
 
 TAREA: Clasifica la empresa en un segmento y asigna los puntos de los criterios restantes. 
 Si el segmento ya viene NO lo calcules, si el segmento no es Financiero, Mining/Energía, Utilities/Infraestructura, Manofactura Retail. Dejalo como otro. 
-NO calcules tamaño (ya está calculado) No calcules el score total.
+NO calcules tamaño (ya está calculado) No calcules el score total
+NO infieras que tiene un regulador si no estás seguro.
 
 CRITERIOS POR SEGMENTO:
 
@@ -1035,16 +1100,36 @@ def _charon_fetch(rut: str, retries: int = 3) -> dict | None:
     return None
 
 
+def _holding_fetch(rut: str) -> tuple[int, int]:
+    """
+    Obtiene num_hijos y num_padres desde Holding_Asker (CSV local).
+    Retorna (0, 0) si falla o no se encuentra el RUT.
+    """
+    if _HA_get_hijos is None or _HA_get_padres is None:
+        return 0, 0
+    try:
+        # Holding_Asker espera formato "XXXXXXXX-X"
+        rut_dash = rut if "-" in rut else (rut[:-1] + "-" + rut[-1])
+        hijos  = _HA_get_hijos(rut_dash)["count"]
+        padres = _HA_get_padres(rut_dash)["count"]
+        return int(hijos), int(padres)
+    except Exception:
+        return 0, 0
+
+
 def score_rut(rut: str, signal: str = "N/A") -> dict:
     """
     Dado un RUT, obtiene datos desde Charon y retorna el scoring completo.
-    Si Charon no tiene el RUT, produce un score de mejor esfuerzo con los
-    datos disponibles (score calculable, pero sin tramo/giro/región reales).
+    Holdings (num_hijos / num_padres) se obtienen siempre desde Holding_Asker
+    porque Charon no devuelve ese campo.
 
     Parámetros opcionales:
     - signal: señal externa de la empresa (ej: "licitación adjudicada")
     """
     biz = _charon_fetch(rut)
+
+    # Holdings desde CSV local (Charon no los entrega)
+    num_hijos_int, num_padres_int = _holding_fetch(rut)
 
     if biz:
         nombre           = biz.get("name") or ""
@@ -1052,8 +1137,8 @@ def score_rut(rut: str, signal: str = "N/A") -> dict:
         tramo            = str(biz.get("sales_segment") or "0")
         region           = biz.get("region") or ""
         num_trabajadores = str(biz.get("direct_employees") or 0)
-        num_hijos        = str(len(biz.get("subsidiaries") or []))
-        num_padres       = str(len(biz.get("parents") or []))
+        num_hijos        = str(num_hijos_int)
+        num_padres       = str(num_padres_int)
         charon_ok        = True
     else:
         # Degradación elegante: score parcial con datos vacíos
@@ -1062,8 +1147,8 @@ def score_rut(rut: str, signal: str = "N/A") -> dict:
         tramo            = "0"
         region           = ""
         num_trabajadores = "0"
-        num_hijos        = "0"
-        num_padres       = "0"
+        num_hijos        = str(num_hijos_int)
+        num_padres       = str(num_padres_int)
         charon_ok        = False
 
     resultado = score_lead_adj2(
@@ -1236,7 +1321,7 @@ if __name__ == "__main__":
     # print_score(score_lead_lookup("Esbbio"), "Esbbio")
 
     print("── score_rut (solo RUT) ────────────────────────────")
-    resultado = score_rut("76788050-2")
+    resultado = score_rut("76418976-0")
     print_score(resultado, company_name=resultado["company_name"])
 
     # # ── Test lookup_empresa ──────────────────────────────────────────────────
