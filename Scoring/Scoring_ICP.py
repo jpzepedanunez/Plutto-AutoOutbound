@@ -1,4 +1,5 @@
 import json
+import os
 import re
 import sys
 import requests
@@ -18,7 +19,7 @@ except Exception:
     _HA_get_padres = None  # type: ignore
 
 LITELLM_BASE_URL = "https://hydra-portal-dev.fly.dev"
-LITELLM_API_KEY  = "sk-VOoWAq-wV6TDvr6ZsSuBOQ"
+LITELLM_API_KEY  = os.getenv("LITELLM_API_KEY", "")
 
 client = OpenAI(
     base_url=f"{LITELLM_BASE_URL}/v1",
